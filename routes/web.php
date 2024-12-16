@@ -3,6 +3,8 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
+
+
 // Test Routes for the template
 Route::get('/Home', function () {
     return view('AquaVist.pages.testHome');

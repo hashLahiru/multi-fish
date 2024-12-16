@@ -149,6 +149,9 @@
     <link rel='stylesheet' id='wp-block-library-css'
         href='{{ asset('AquaVist/wp-includes/css/dist/block-library/style.minaec2.css?ver=6.4.1') }}' media='all' />
     <style id='classic-theme-styles-inline-css'>
+
+
+
         /*! This file is auto-generated */
         .wp-block-button__link {
             color: #fff;
@@ -166,6 +169,7 @@
             text-decoration: none
         }
     </style>
+    
     <style id='global-styles-inline-css'>
         body {
             --wp--preset--color--black: #000000;
@@ -209,6 +213,14 @@
             --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
             --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
         }
+
+
+        .elementor-section.elementor-top-section {
+    max-width: 100%; /* Adjust this value as needed */
+    width: 100%; /* Allows it to be responsive */
+   
+    box-sizing: border-box; /* Ensures padding doesn't overflow the width */
+}
 
         :where(.is-layout-flex) {
             gap: 0.5em;
