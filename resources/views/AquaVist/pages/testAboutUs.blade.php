@@ -220,6 +220,9 @@
         </header>
 
         <div data-elementor-type="wp-page" data-elementor-id="788" class="elementor elementor-788">
+        
+        
+            {{-- section1 --}}
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-f27f176 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="f27f176" data-element_type="section"
@@ -243,23 +246,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="elementor-element elementor-element-59ea01a elementor-align-left elementor-icon-list--layout-inline elementor-mobile-align-left elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                data-id="59ea01a" data-element_type="widget" data-widget_type="icon-list.default">
-                                <div class="elementor-widget-container">
-                                    <ul class="elementor-icon-list-items elementor-inline-items">
-                                        <li class="elementor-icon-list-item elementor-inline-item">
-                                            <span class="elementor-icon-list-text">Home</span>
-                                        </li>
-                                        <li class="elementor-icon-list-item elementor-inline-item">
-                                            <span class="elementor-icon-list-icon">
-                                                <i aria-hidden="true" class="jki jki-angle-double-right-solid"></i>
-                                            </span>
-                                            <span class="elementor-icon-list-text">About</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                     </div>
                     </div>
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e4afbde"
                         data-id="e4afbde" data-element_type="column">
@@ -268,6 +255,8 @@
                     </div>
                 </div>
             </section>
+
+             {{-- section 2 --}}
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-a42b3aa elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="a42b3aa" data-element_type="section">
@@ -455,6 +444,10 @@
                     </div>
                 </div>
             </section>
+
+
+
+
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-30831bf elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="30831bf" data-element_type="section">

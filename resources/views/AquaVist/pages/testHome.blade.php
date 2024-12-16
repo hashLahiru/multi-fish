@@ -3,13 +3,40 @@
 @section('title', 'Home Page')
 
 @section('content')
+    <style>
+        .elementor-20 .elementor-element.elementor-element-cf2085b:not(.elementor-motion-effects-element-type-background), .elementor-20 .elementor-element.elementor-element-cf2085b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+            background-image: url("AquaVist/wp-content/uploads/sites/videos/9NaCZn.gif") !important;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          
+        }
+
+
+
+
+
+.Alltext{
+    position: absolute; 
+    top: 120px; 
+    left: 20px; 
+
+}
+
+
+
+
+
+
+    </style> 
+
     <div id="page" class="hfeed site">
         <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
             <p class="main-title bhf-hidden" itemprop="headline"><a href="https://templatekit.jegtheme.com/aquavist"
                     title="Aquavist" rel="home">Aquavist</a></p>
             <div data-elementor-type="wp-post" data-elementor-id="761" class="elementor elementor-761">
                 <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-4e05a2e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                  class="elementor-section elementor-top-section elementor-element elementor-element-4e05a2e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                     data-id="4e05a2e" data-element_type="section">
                     <div class="elementor-container elementor-column-gap-default">
                         <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b3787d9 elementor-hidden-tablet elementor-hidden-phone"
@@ -224,6 +251,7 @@
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-cf2085b elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="cf2085b" data-element_type="section"
+                
                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                 <div class="elementor-background-overlay"></div>
                 <div class="elementor-container elementor-column-gap-default">
@@ -248,7 +276,7 @@
                                 data-id="0c687f4" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <h1 class="elementor-heading-title elementor-size-default">The Most Beautiful
-                                        Aquarium In The World</h1>
+                                        Aquarium Fish</h1>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-343402b elementor-widget elementor-widget-text-editor"
@@ -264,7 +292,7 @@
                                 <div class="elementor-widget-container">
                                     <div
                                         class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_20_3_675926d95562a">
-                                        <a href="#" class="jkit-button-wrapper">Get Started</a>
+                                        <a href="#" class="jkit-button-wrapper" >Get Started</a>
                                     </div>
                                 </div>
                             </div>
@@ -286,12 +314,14 @@
                     </div>
                 </div>
             </section>
+
+            {{-- secion 2-------------------------------- --}}
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-a141fb4 elementor-section-full_width elementor-reverse-tablet elementor-reverse-mobile elementor-section-height-default elementor-section-height-default"
                 data-id="a141fb4" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3a7bb39 elementor-hidden-tablet elementor-hidden-phone"
-                        data-id="3a7bb39" data-element_type="column">
+                        data-id="3a7bb39" data-element_type="column" width="100px">
                         <div class="elementor-widget-wrap">
                         </div>
                     </div>
@@ -302,45 +332,20 @@
                                 class="elementor-section elementor-inner-section elementor-element elementor-element-9a47b26 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                 data-id="9a47b26" data-element_type="section">
                                 <div class="elementor-container elementor-column-gap-default">
-                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b1e2c37"
-                                        data-id="b1e2c37" data-element_type="column"
-                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-36c0355 elementor-widget elementor-widget-heading"
-                                                data-id="36c0355" data-element_type="widget"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Aquarium
-                                                        Design</h2>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-e42969f elementor-widget elementor-widget-text-editor"
-                                                data-id="e42969f" data-element_type="widget"
-                                                data-widget_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <p>Lorem ipsum dolor sit amet deliar consectetur adipiscing.</p>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-77803b1 elementor-widget__width-auto elementor-widget elementor-widget-jkit_button"
-                                                data-id="77803b1" data-element_type="widget"
-                                                data-widget_type="jkit_button.default">
-                                                <div class="elementor-widget-container">
-                                                    <div
-                                                        class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_20_5_675926d958d80">
-                                                        <a href="#" class="jkit-button-wrapper">Learn More</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
+                                    
+                          
+
                                     <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-ffc483d"
                                         data-id="ffc483d" data-element_type="column"
+                                            style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto1.jpg') }}'); 
+                                           background-size: cover; background-position:left center; width: 1550px; height: 250px; margin-top:110px"
                                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class ="Alltext" >
                                             <div class="elementor-element elementor-element-add2a54 elementor-widget elementor-widget-heading"
                                                 data-id="add2a54" data-element_type="widget"
                                                 data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
+                                                <div class="elementor-widget-container" >
                                                     <h2 class="elementor-heading-title elementor-size-default">Complete
                                                         Fishes</h2>
                                                 </div>
@@ -349,7 +354,7 @@
                                                 data-id="faef70b" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>Lorem ipsum dolor sit amet deliar consectetur adipiscing.</p>
+                                                    <p  style="transform: translateY(-10px);  font-size: 14px; width: 200px;">Lorem ipsum dolor sit amet deliar consectetur adipiscing.</p>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-09b8cd0 elementor-widget__width-auto elementor-widget elementor-widget-jkit_button"
@@ -362,23 +367,82 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                     
+                                    </div>
+
+                                    </div>
+
+
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-ffc483d"
+                                    data-id="ffc483d" data-element_type="column"
+                                     style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo6.jpg') }}'); 
+                                       background-size: cover; background-position:left; width: 1550px; height: 250px; margin-top:110px"
+                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class ="Alltext" >
+                                        <div class="elementor-element elementor-element-add2a54 elementor-widget elementor-widget-heading"
+                                            data-id="add2a54" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container" >
+                                                <h2 class="elementor-heading-title elementor-size-default" >Complete
+                                                    Fishes</h2>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-faef70b elementor-widget elementor-widget-text-editor"
+                                            data-id="faef70b" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <p style="transform: translateY(-10px);  font-size: 14px; width: 200px;">Lorem ipsum dolor sit amet deliar consectetur adipiscing.</p>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-77803b1 elementor-widget__width-auto elementor-widget elementor-widget-jkit_button"
+                                        data-id="77803b1" data-element_type="widget"
+                                        data-widget_type="jkit_button.default">
+                                        <div class="elementor-widget-container">
+                                            <div
+                                                class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_20_5_675926d958d80">
+                                                <a href="#" class="jkit-button-wrapper">Learn More</a>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9efd87d"
-                                        data-id="9efd87d" data-element_type="column"
-                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-3f652d8 elementor-widget elementor-widget-spacer"
-                                                data-id="3f652d8" data-element_type="widget"
-                                                data-widget_type="spacer.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-spacer">
-                                                        <div class="elementor-spacer-inner"></div>
-                                                    </div>
+                                    </div>
+                                </div>
+                           
+
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b1e2c37"
+                                    data-id="b1e2c37" data-element_type="column"
+                                     style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemo.jpg') }}'); 
+                                           background-size: cover; background-position: left; width: 1550px; height: 250px; margin-top:110px"
+                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class ="Alltext" >
+                                        <div class="elementor-element elementor-element-36c0355 elementor-widget elementor-widget-heading"
+                                            data-id="36c0355" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">Aquarium
+                                                    Design</h2>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-e42969f elementor-widget elementor-widget-text-editor"
+                                            data-id="e42969f" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <p style="transform: translateY(-10px);  font-size: 14px; width: 200px;">Lorem ipsum dolor sit amet deliar consectetur adipiscing.</p>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-77803b1 elementor-widget__width-auto elementor-widget elementor-widget-jkit_button"
+                                            data-id="77803b1" data-element_type="widget"
+                                            data-widget_type="jkit_button.default">
+                                            <div class="elementor-widget-container">
+                                                <div
+                                                    class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_20_5_675926d958d80">
+                                                    <a href="#" class="jkit-button-wrapper">Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+
+
                                 </div>
                             </section>
                         </div>
@@ -410,7 +474,7 @@
                                         data-mute="0" data-start="0" data-end="0"><a
                                             href="https://www.youtube.com/watch?v=MLpWrANjFbI"
                                             class="jkit-video-popup-btn glow-enable"><span class="icon-position-before"><i
-                                                    aria-hidden="true" class="jki jki-play-button-light"></i></span></a>
+                                                    aria-hidden="true" class="jki jki-play-button-light"  style="display: inline-block; transform: translateY(23px);"  ></i></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -580,6 +644,8 @@
                     </div>
                 </div>
             </section>
+        
+        
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-6fb470e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="6fb470e" data-element_type="section">
@@ -587,6 +653,9 @@
                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f8ebbbc"
                         data-id="f8ebbbc" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
+                            
+                            
+                            
                             <section
                                 class="elementor-section elementor-inner-section elementor-element elementor-element-0f05573 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                 data-id="0f05573" data-element_type="section">
@@ -598,7 +667,7 @@
                                                 data-id="ce635bd" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    <div
+                                                    {{-- <div
                                                         class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_13_675926d96a146">
                                                         <div class="jkit-icon-box-wrapper hover-from-left">
                                                             <div class="icon-box icon-box-header elementor-animation-">
@@ -611,7 +680,7 @@
                                                             </div>
 
                                                         </div>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -623,7 +692,7 @@
                                                 data-id="1a8e032" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    <div
+                                                    {{-- <div
                                                         class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_14_675926d96be9a">
                                                         <div class="jkit-icon-box-wrapper hover-from-left">
                                                             <div class="icon-box icon-box-header elementor-animation-">
@@ -636,7 +705,7 @@
                                                             </div>
 
                                                         </div>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -648,7 +717,7 @@
                                                 data-id="9e0c2cd" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    <div
+                                                    {{-- <div
                                                         class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_15_675926d96da89">
                                                         <div class="jkit-icon-box-wrapper hover-from-left">
                                                             <div class="icon-box icon-box-header elementor-animation-">
@@ -661,7 +730,7 @@
                                                             </div>
 
                                                         </div>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -673,7 +742,7 @@
                                                 data-id="423e4c0" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    <div
+                                                    {{-- <div
                                                         class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_16_675926d96f652">
                                                         <div class="jkit-icon-box-wrapper hover-from-left">
                                                             <div class="icon-box icon-box-header elementor-animation-">
@@ -686,7 +755,7 @@
                                                             </div>
 
                                                         </div>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -698,7 +767,7 @@
                                                 data-id="eb3531b" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    <div
+                                                    {{-- <div
                                                         class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_17_675926d971643">
                                                         <div class="jkit-icon-box-wrapper hover-from-left">
                                                             <div class="icon-box icon-box-header elementor-animation-">
@@ -711,7 +780,7 @@
                                                             </div>
 
                                                         </div>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -723,7 +792,7 @@
                                                 data-id="5398f95" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    <div
+                                                    {{-- <div
                                                         class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_18_675926d972e29">
                                                         <div class="jkit-icon-box-wrapper hover-from-left">
                                                             <div class="icon-box icon-box-header elementor-animation-">
@@ -736,13 +805,15 @@
                                                             </div>
 
                                                         </div>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </section>
+
+
                             <section
                                 class="elementor-section elementor-inner-section elementor-element elementor-element-637382c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                 data-id="637382c" data-element_type="section">
@@ -754,7 +825,7 @@
                                                 data-id="58d3e74" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    <div
+                                                    {{-- <div
                                                         class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_19_675926d9752d8">
                                                         <div class="jkit-icon-box-wrapper hover-from-left">
                                                             <div class="icon-box icon-box-header elementor-animation-">
@@ -767,7 +838,7 @@
                                                             </div>
 
                                                         </div>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -779,7 +850,7 @@
                                                 data-id="718453b" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    <div
+                                                    {{-- <div
                                                         class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_20_675926d976dcc">
                                                         <div class="jkit-icon-box-wrapper hover-from-left">
                                                             <div class="icon-box icon-box-header elementor-animation-">
@@ -792,7 +863,7 @@
                                                             </div>
 
                                                         </div>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -804,7 +875,7 @@
                                                 data-id="4598af2" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    <div
+                                                    {{-- <div
                                                         class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_21_675926d97936b">
                                                         <div class="jkit-icon-box-wrapper hover-from-left">
                                                             <div class="icon-box icon-box-header elementor-animation-">
@@ -817,7 +888,7 @@
                                                             </div>
 
                                                         </div>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -829,7 +900,7 @@
                                                 data-id="c99936f" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    <div
+                                                    {{-- <div
                                                         class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_22_675926d97b680">
                                                         <div class="jkit-icon-box-wrapper hover-from-left">
                                                             <div class="icon-box icon-box-header elementor-animation-">
@@ -842,7 +913,7 @@
                                                             </div>
 
                                                         </div>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -854,7 +925,7 @@
                                                 data-id="a16ce98" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    <div
+                                                    {{-- <div
                                                         class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_23_675926d97dc24">
                                                         <div class="jkit-icon-box-wrapper hover-from-left">
                                                             <div class="icon-box icon-box-header elementor-animation-">
@@ -867,7 +938,7 @@
                                                             </div>
 
                                                         </div>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -879,7 +950,7 @@
                                                 data-id="5c70667" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    <div
+                                                    {{-- <div
                                                         class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_24_675926d97f829">
                                                         <div class="jkit-icon-box-wrapper hover-from-left">
                                                             <div class="icon-box icon-box-header elementor-animation-">
@@ -892,17 +963,21 @@
                                                             </div>
 
                                                         </div>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </section>
+
+                            
                         </div>
                     </div>
                 </div>
             </section>
+
+
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-1f4cbce elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                 data-id="1f4cbce" data-element_type="section">
@@ -1065,6 +1140,146 @@
                     </div>
                 </div>
             </section>
+
+            <section>
+            </br>
+            </section>
+
+
+            {{-- map section --}}
+            <style>
+
+.map img {
+  display: block;
+  margin: 0 auto; 
+  margin-top: 5%;
+  margin-left: 15%;
+  max-width: 100%;
+  height: auto; 
+}
+
+
+.textglobel{
+ 
+  padding-top: 5%;
+    font-size: 20px; 
+  font-weight: bold; 
+  color:#19cbe4; 
+  margin-left: 20px; 
+
+
+
+}
+.map{
+    background-color:  #1d252b;
+    position: relative;
+}
+
+.map img{
+    opacity: .4;
+    background-color:  #1d252b;
+
+}
+
+.map span{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    top: 50%;
+    left: 20%;
+    background-color:#e20808;  /*  #2c3e50 */
+
+
+     /* create animation part */
+        
+  animation: highlight 1.5s linear infinite;
+}
+
+@keyframes highlight{
+   100%{
+    transform: scale(5);
+    opacity: 0;
+
+} 
+}
+
+.map .marker2{
+    position: absolute; 
+    margin-left: 15%; 
+    top: 90%; 
+    animation-delay: 0.7s; 
+}
+
+.map .marker3{
+    position: absolute; 
+    margin-left: 50%;
+    top: 70%;
+    animation-delay: 0.5s;
+}
+   
+
+.map .marker4{
+    position: absolute; 
+    margin-left:30%;
+    top: 30%;
+    animation-delay: .1s;
+}
+    
+
+.para{
+    width:350px; 
+    margin-left:5%;
+    position: relative; 
+    transform: translateY(-20px);
+    font-size: 20px; 
+    font-weight: bold; 
+    color:#ffffff; 
+
+}
+
+.container{
+    background-color:  #1d252b;
+
+}
+
+        </style>
+
+    <section>
+
+    <div class = "container"> 
+        <h2 class="textglobel" 
+      style= " font-size: 50px; 
+      font-weight: bold; 
+      color: rgb(4, 192, 255); 
+       margin-left: 5%; 
+     ">Globel Clients</h2>   
+           
+      <div class = "map">
+        <img 
+        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/globalmap.png') }}" 
+        alt="World Map" 
+      >
+            
+         
+            <span class = "marker2" style="color:#ffffff; font-size: 12px; ">Sri Lanka</span>
+            <span class = "marker3" style="color:#ffffff; font-size: 12px;">Indonesian</span>
+            <span class = "marker4" style="color:#ffffff; font-size: 12px;">Malayasian</span>
+          
+        </div>
+             
+
+        <p class="para" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed vel ipsum auctor, iaculis arcu quis. sit amet, consectetur adipiscing elit.
+            Sed vel ipsum auctor, iaculis arcu quis.</p>
+                
+        </div>      
+               
+               
+      
+    </section>
+
+
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-39c1eb7 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="39c1eb7" data-element_type="section">
@@ -2154,6 +2369,9 @@
                     </div>
                 </div>
             </section>
+
+
+            {{-- news and article------------------------------------ --}}
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-f14b0ad elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="f14b0ad" data-element_type="section">
@@ -2331,7 +2549,7 @@
                                                                             src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/salt-water-aquarium-1024x768.jpg') }}"
                                                                             class="attachment-large size-large wp-post-image"
                                                                             alt="Salt Water Aquarium"
-                                                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/salt-water-aquarium-1024x768.jpg') }} 1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/salt-water-aquarium-300x225.jpg') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/salt-water-aquarium-768x576.jpg') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/salt-water-aquarium-1536x1152.jpg') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/salt-water-aquarium-800x600.jpg') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/salt-water-aquarium-e1628655024510.jpg') }} 1440w"
+                                                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank2.jpg') }} 1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank2.jpg') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank2.jpg') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank2.jpg') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank2.jpg') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank2.jpg') }} 1440w"
                                                                             sizes="(max-width: 800px) 100vw, 800px" />
                                                                         <div class="jkit-postlist-content"><span
                                                                                 class="jkit-postlist-title">Lifespan
@@ -2352,7 +2570,7 @@
                                                                             src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-sea-fish-in-aquarium-1024x682.jpg') }}"
                                                                             class="attachment-large size-large wp-post-image"
                                                                             alt="Colorful sea fish in aquarium"
-                                                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-sea-fish-in-aquarium-1024x682.jpg') }} 1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-sea-fish-in-aquarium-300x200.jpg') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-sea-fish-in-aquarium-768x512.jpg') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-sea-fish-in-aquarium-1536x1024.jpg') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-sea-fish-in-aquarium-800x533.jpg') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-sea-fish-in-aquarium-e1628655011829.jpg') }} 1920w"
+                                                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/redfishnew1.jpg') }} 1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/redfishnew1.jpg') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/redfishnew1.jpg') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/redfishnew1.jpg') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/redfishnew1.jpg') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/redfishnew1.jpg') }} 1920w"
                                                                             sizes="(max-width: 800px) 100vw, 800px" />
                                                                         <div class="jkit-postlist-content"><span
                                                                                 class="jkit-postlist-title">Aquarium
@@ -2373,7 +2591,7 @@
                                                                             src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-1-1024x768.jpg') }}"
                                                                             class="attachment-large size-large wp-post-image"
                                                                             alt="Aquarium"
-                                                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-1-1024x768.jpg') }} 1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-1-300x225.jpg') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-1-768x576.jpg') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-1-1536x1152.jpg') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-1-800x600.jpg') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-1-e1628654993767.jpg') }} 1440w"
+                                                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo.jpg') }} 1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo.jpg') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo.jpg') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo.jpg') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo.jpg') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo.jpg') }} 1440w"
                                                                             sizes="(max-width: 800px) 100vw, 800px" />
                                                                         <div class="jkit-postlist-content"><span
                                                                                 class="jkit-postlist-title">Guide To
@@ -2394,7 +2612,7 @@
                                                                             src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/exotic-fish-in-a-collector-s-aquarium-1024x682.jpg') }}"
                                                                             class="attachment-large size-large wp-post-image"
                                                                             alt="Exotic fish in a collector&#039;s aquarium"
-                                                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/exotic-fish-in-a-collector-s-aquarium-1024x682.jpg') }} 1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/exotic-fish-in-a-collector-s-aquarium-300x200.jpg') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/exotic-fish-in-a-collector-s-aquarium-768x512.jpg') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/exotic-fish-in-a-collector-s-aquarium-1536x1024.jpg') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/exotic-fish-in-a-collector-s-aquarium-800x533.jpg') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/exotic-fish-in-a-collector-s-aquarium-e1628654984548.jpg') }} 1920w"
+                                                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank4.jpg') }} 1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank4.jpg') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank4.jpg') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank4.jpg') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank4.jpg') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank4.jpg') }} 1920w"
                                                                             sizes="(max-width: 800px) 100vw, 800px" />
                                                                         <div class="jkit-postlist-content"><span
                                                                                 class="jkit-postlist-title">How To
