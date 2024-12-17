@@ -3,6 +3,46 @@
 @section('title', 'Home Page')
 
 @section('content')
+
+    <style>
+        .elementor-section1 {
+            width: 110%;
+            margin-top: 5%;
+            margin-left: 14%;
+            margin-right: 10%;
+            text-align: justify;
+        }
+
+        .elementor-widget-container1 {
+            margin-top: 3%;
+        }
+
+
+        .elementor *,
+        .elementor :after,
+        .elementor :before {
+            box-sizing: none;
+        }
+
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(2, auto);
+            gap: 10px;
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border: none;
+        }
+    </style>
+
+
+
+
     <div id="page" class="hfeed site">
         <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
             <p class="main-title bhf-hidden" itemprop="headline"><a href="https://templatekit.jegtheme.com/aquavist"
@@ -220,8 +260,8 @@
         </header>
 
         <div data-elementor-type="wp-page" data-elementor-id="788" class="elementor elementor-788">
-        
-        
+
+
             {{-- section1 --}}
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-f27f176 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -246,7 +286,7 @@
                                     </div>
                                 </div>
                             </div>
-                     </div>
+                        </div>
                     </div>
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e4afbde"
                         data-id="e4afbde" data-element_type="column">
@@ -256,12 +296,12 @@
                 </div>
             </section>
 
-             {{-- section 2 --}}
+            {{-- section 2 --}}
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-a42b3aa elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="a42b3aa" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
-                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-b2df78f"
+                    <div class="elementsor-column elementor-col-66 elementor-top-column elementor-element elementor-element-b2df78f"
                         data-id="b2df78f" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-baf8c1f elementor-widget elementor-widget-jkit_heading"
@@ -270,7 +310,7 @@
                                     <div
                                         class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_788_3_6759274bcfbc0">
                                         <div class="heading-section-title  display-inline-block">
-                                            <h2 class="heading-title">About Aquavist</h2>
+                                            <h2 class="heading-title">About Multifish Lanka</h2>
                                         </div>
                                         <div class="heading-section-separator">
                                             <div class="separator-wrapper style-solid"></div>
@@ -443,12 +483,71 @@
                         </div>
                     </div>
                 </div>
+                <section class="elementor-section1 elementor-top-section " data-id="a42b3aa" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementsor-column  elementor-element elementor-element-b2df78f" data-id="b2df78f"
+                            data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div
+                                    class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_788_3_6759274bcfbc0">
+                                    <div class="elementor-element elementor-element-9716da2 elementor-widget elementor-widget-heading"
+                                        data-id="9716da2" data-element_type="widget" data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <h2 class="elementor-heading-title elementor-size-default">Our Story</h2>
+                                            <div class="heading-section-separator">
+                                                <div class="separator-wrapper style-solid"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element " data-id="e669a8c" data-element_type="widget"
+                                    data-widget_type="text-editor.default" style="width:100%;">
+                                    <div class="elementor-widget-container1">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud
+                                            exercitation ullamco laboris nisi ut aliquip dolore magna aliqua enim ad minim
+                                            veniam, quis nostrud.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud
+                                            exercitation ullamco laboris nisi ut aliquip dolore magna aliqua enim ad minim
+                                            veniam, quis nostrud.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud
+                                            exercitation ullamco laboris nisi ut aliquip dolore magna aliqua enim ad minim
+                                            veniam, quis nostrud.
+                                            </br>
+                                        <p>
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud
+                                            exercitation ullamco laboris nisi ut aliquip dolore magna aliqua enim ad minim
+                                            veniam, quis nostrud.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud
+                                            exercitation ullamco laboris nisi ut aliquip dolore magna aliqua enim ad minim
+                                            veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                            nostrud
+                                        </p>
+
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div style="text-align: center;  margin-left: 30%;  margin-top: 5%;">
+                                    <hr style="width: 500px; height: 4px; background-color: black; border: none;">
+                                </div>
+                </section>
+
             </section>
 
 
 
-
-            <section
+            {{-- <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-30831bf elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="30831bf" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
@@ -636,7 +735,9 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
+
+
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-34c5559 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="34c5559" data-element_type="section"
@@ -652,20 +753,20 @@
                                     <div
                                         class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile-center jeg_module_788_12_6759274bdfe81">
                                         <div class="heading-section-title  display-inline-block">
-                                            <h2 class="heading-title">Aquavist Experiences</h2>
+                                            <h2 class="heading-title" style="font-size: 50px;">Our Commitment</h2>
                                         </div>
-                                        <div class="heading-section-separator">
+                                        {{-- <div class="heading-section-separator"> 
                                             <div class="separator-wrapper style-solid"></div>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-5b30122 elementor-widget elementor-widget-heading"
                                 data-id="5b30122" data-element_type="widget" data-widget_type="heading.default">
-                                <div class="elementor-widget-container">
-                                    <h2 class="elementor-heading-title elementor-size-default">Our Skills & Experience
+                                {{-- <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">Our Commitment
                                     </h2>
-                                </div>
+                                </div> --}}
                             </div>
                             <section
                                 class="elementor-section elementor-inner-section elementor-element elementor-element-ffaadc7 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -959,7 +1060,422 @@
                     </div>
                 </div>
             </section>
-            <section
+
+
+
+
+            {{-- section4 --}}
+
+
+            <section class="elementor-section1 elementor-top-section " data-id="a42b3aa" data-element_type="section"
+                style="margin-top: 15%;">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementsor-column  elementor-element elementor-element-b2df78f" data-id="b2df78f"
+                        data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div
+                                class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_788_3_6759274bcfbc0">
+                                <div class="elementor-element elementor-element-9716da2 elementor-widget elementor-widget-heading"
+                                    data-id="9716da2" data-element_type="widget" data-widget_type="heading.default">
+                                    <div class="elementor-widget-container">
+                                        <h2 class="elementor-heading-title elementor-size-default">Certifications and
+                                            Achievements</h2>
+                                        <div class="heading-section-separator">
+                                            <div class="separator-wrapper style-solid"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+
+
+                                <section
+                                    class="elementor-section elementor-top-section elementor-element elementor-element-6fb470e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                    style="margin-left:5%;" data-id="6fb470e" data-element_type="section">
+                                    <div class="elementor-container elementor-column-gap-default">
+                                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f8ebbbc"
+                                            data-id="f8ebbbc" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+
+
+
+                                                <section
+                                                    class="elementor-section elementor-inner-section elementor-element elementor-element-637382c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                    data-id="637382c" data-element_type="section">
+                                                    <div class="elementor-container ">
+                                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-a1747e4"
+                                                            data-id="a1747e4" data-element_type="column">
+                                                            <div class="elementor-widget-wrap elementor-element-populated"
+                                                                style="display: flex; justify-content: center; align-items: center; height: 100%; width: 130px; gap: 20px;">
+                                                                <div class="elementor-element elementor-element-4598af2 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
+                                                                    data-id="4598af2" data-element_type="widget"
+                                                                    data-widget_type="jkit_icon_box.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div
+                                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_21_675926d97936b">
+                                                                            <div class=" hover-from-left"
+                                                                                style="margin:55px; width:120px;">
+                                                                                <div
+                                                                                    class="icon-box icon-box-header elementor-animation-">
+                                                                                    <div class="icon style-color"><img
+                                                                                            decoding="async"
+                                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/award1.png') }}"
+                                                                                            alt="Molidae"></div>
+                                                                                </div>
+                                                                                <div class="icon-box icon-box-body">
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-a1747e4"
+                                                            data-id="a1747e4" data-element_type="column">
+                                                            <div class="elementor-widget-wrap elementor-element-populated"
+                                                                style="display: flex; justify-content: center; align-items: center; height: 100%; width: 130px; gap: 20px;">
+                                                                <div class="elementor-element elementor-element-4598af2 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
+                                                                    data-id="4598af2" data-element_type="widget"
+                                                                    data-widget_type="jkit_icon_box.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div
+                                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_21_675926d97936b">
+                                                                            <div class=" hover-from-left"
+                                                                                style="margin:55px; width:120px;">
+                                                                                <div
+                                                                                    class="icon-box icon-box-header elementor-animation-">
+                                                                                    <div class="icon style-color"><img
+                                                                                            decoding="async"
+                                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/award2.png') }}"
+                                                                                            alt="Molidae"></div>
+                                                                                </div>
+                                                                                <div class="icon-box icon-box-body">
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-a1747e4"
+                                                            data-id="a1747e4" data-element_type="column">
+                                                            <div class="elementor-widget-wrap elementor-element-populated"
+                                                                style="display: flex; justify-content: center; align-items: center; height: 100%; width: 130px; gap: 20px;">
+                                                                <div class="elementor-element elementor-element-4598af2 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
+                                                                    data-id="4598af2" data-element_type="widget"
+                                                                    data-widget_type="jkit_icon_box.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div
+                                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_21_675926d97936b">
+                                                                            <div class=" hover-from-left"
+                                                                                style="margin:55px; width:120px;">
+                                                                                <div
+                                                                                    class="icon-box icon-box-header elementor-animation-">
+                                                                                    <div class="icon style-color"><img
+                                                                                            decoding="async"
+                                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/award3.png') }}"
+                                                                                            alt="Molidae"></div>
+                                                                                </div>
+                                                                                <div class="icon-box icon-box-body">
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-f041f22"
+                                                            data-id="f041f22" data-element_type="column">
+                                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                                <div class="elementor-element elementor-element-c99936f jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
+                                                                    data-id="c99936f" data-element_type="widget"
+                                                                    data-widget_type="jkit_icon_box.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div
+                                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_22_675926d97b680">
+                                                                            <div class=" hover-from-left"
+                                                                                style="margin:55px; width:120px;">
+                                                                                <div
+                                                                                    class="icon-box icon-box-header elementor-animation-">
+                                                                                    <div class="icon style-color"><img
+                                                                                            decoding="async"
+                                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/award4.jpg') }}"
+                                                                                            alt="Blow Fish"></div>
+                                                                                </div>
+                                                                                <div class="icon-box icon-box-body">
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-aed09d2"
+                                                            data-id="aed09d2" data-element_type="column">
+                                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                                <div class="elementor-element elementor-element-a16ce98 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
+                                                                    data-id="a16ce98" data-element_type="widget"
+                                                                    data-widget_type="jkit_icon_box.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div
+                                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_23_675926d97dc24">
+                                                                            <div class=" hover-from-left"
+                                                                                style="margin:55px; width:120px;">
+                                                                                <div
+                                                                                    class="icon-box icon-box-header elementor-animation-">
+                                                                                    <div class="icon style-color"><img
+                                                                                            decoding="async"
+                                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/award5.png') }}"
+                                                                                            alt="Coral"></div>
+                                                                                </div>
+                                                                                <div class="icon-box icon-box-body">
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-inner-column elementor-element elementor-element-c04a8f9"
+                                                            data-id="c04a8f9" data-element_type="column">
+                                                            <div class="elementor-widget-wrap elementor-element-populated"
+                                                                style="display: flex; justify-content: center; align-items: center; height: 100%; width: 130px;">
+                                                                <div class="elementor-element elementor-element-5c70667 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
+                                                                    data-id="5c70667" data-element_type="widget"
+                                                                    data-widget_type="jkit_icon_box.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div
+                                                                            class="jeg-elementor-kit jkit-icon-box icon-position-elementor-animation- jeg_module_20_24_675926d97f829">
+                                                                            <div class=" hover-from-left"
+                                                                                style="margin:55px; width:120px;">
+                                                                                <div
+                                                                                    class="icon-box icon-box-header elementor-animation-">
+                                                                                    <div class="icon style-color"><img
+                                                                                            decoding="async"
+                                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/award6.jpg') }}"
+                                                                                            alt="Angler Fish">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="icon-box icon-box-body">
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+
+
+
+                                                <section
+                                                    class="elementor-section elementor-inner-section elementor-element elementor-element-637382c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                    data-id="637382c" data-element_type="section">
+                                                    <div class="elementor-container ">
+                                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-a1747e4"
+                                                            data-id="a1747e4" data-element_type="column">
+                                                            <div class="elementor-widget-wrap elementor-element-populated"
+                                                                style="display: flex; justify-content: center; align-items: center; height: 100%; width: 130px; gap: 20px;">
+                                                                <div class="elementor-element elementor-element-4598af2 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
+                                                                    data-id="4598af2" data-element_type="widget"
+                                                                    data-widget_type="jkit_icon_box.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div
+                                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_21_675926d97936b">
+                                                                            <div class=" hover-from-left"
+                                                                                style="margin:55px; width:120px;">
+                                                                                <div
+                                                                                    class="icon-box icon-box-header elementor-animation-">
+                                                                                    <div class="icon style-color"><img
+                                                                                            decoding="async"
+                                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/award3.png') }}"
+                                                                                            alt="Molidae"></div>
+                                                                                </div>
+                                                                                <div class="icon-box icon-box-body">
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-a1747e4"
+                                                            data-id="a1747e4" data-element_type="column">
+                                                            <div class="elementor-widget-wrap elementor-element-populated"
+                                                                style="display: flex; justify-content: center; align-items: center; height: 100%; width: 130px; gap: 20px;">
+                                                                <div class="elementor-element elementor-element-4598af2 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
+                                                                    data-id="4598af2" data-element_type="widget"
+                                                                    data-widget_type="jkit_icon_box.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div
+                                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_21_675926d97936b">
+                                                                            <div class=" hover-from-left"
+                                                                                style="margin:55px; width:120px;">
+                                                                                <div
+                                                                                    class="icon-box icon-box-header elementor-animation-">
+                                                                                    <div class="icon style-color"><img
+                                                                                            decoding="async"
+                                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/award1.png') }}"
+                                                                                            alt="Molidae"></div>
+                                                                                </div>
+                                                                                <div class="icon-box icon-box-body">
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-a1747e4"
+                                                            data-id="a1747e4" data-element_type="column">
+                                                            <div class="elementor-widget-wrap elementor-element-populated"
+                                                                style="display: flex; justify-content: center; align-items: center; height: 100%; width: 130px; gap: 20px;">
+                                                                <div class="elementor-element elementor-element-4598af2 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
+                                                                    data-id="4598af2" data-element_type="widget"
+                                                                    data-widget_type="jkit_icon_box.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div
+                                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_21_675926d97936b">
+                                                                            <div class=" hover-from-left"
+                                                                                style="margin:55px; width:120px;">
+                                                                                <div
+                                                                                    class="icon-box icon-box-header elementor-animation-">
+                                                                                    <div class="icon style-color"><img
+                                                                                            decoding="async"
+                                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/award4.jpg') }}"
+                                                                                            alt="Molidae"></div>
+                                                                                </div>
+                                                                                <div class="icon-box icon-box-body">
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-f041f22"
+                                                            data-id="f041f22" data-element_type="column">
+                                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                                <div class="elementor-element elementor-element-c99936f jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
+                                                                    data-id="c99936f" data-element_type="widget"
+                                                                    data-widget_type="jkit_icon_box.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div
+                                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_22_675926d97b680">
+                                                                            <div class=" hover-from-left"
+                                                                                style="margin:55px; width:120px;">
+                                                                                <div
+                                                                                    class="icon-box icon-box-header elementor-animation-">
+                                                                                    <div class="icon style-color"><img
+                                                                                            decoding="async"
+                                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/award2.png') }}"
+                                                                                            alt="Blow Fish"></div>
+                                                                                </div>
+                                                                                <div class="icon-box icon-box-body">
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-aed09d2"
+                                                            data-id="aed09d2" data-element_type="column">
+                                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                                <div class="elementor-element elementor-element-a16ce98 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
+                                                                    data-id="a16ce98" data-element_type="widget"
+                                                                    data-widget_type="jkit_icon_box.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div
+                                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_23_675926d97dc24">
+                                                                            <div class=" hover-from-left"
+                                                                                style="margin:55px; width:120px;">
+                                                                                <div
+                                                                                    class="icon-box icon-box-header elementor-animation-">
+                                                                                    <div class="icon style-color"><img
+                                                                                            decoding="async"
+                                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/award6.jpg') }}"
+                                                                                            alt="Coral"></div>
+                                                                                </div>
+                                                                                <div class="icon-box icon-box-body">
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-inner-column elementor-element elementor-element-c04a8f9"
+                                                            data-id="c04a8f9" data-element_type="column">
+                                                            <div class="elementor-widget-wrap elementor-element-populated"
+                                                                style="display: flex; justify-content: center; align-items: center; height: 100%; width: 130px;">
+                                                                <div class="elementor-element elementor-element-5c70667 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
+                                                                    data-id="5c70667" data-element_type="widget"
+                                                                    data-widget_type="jkit_icon_box.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div
+                                                                            class="jeg-elementor-kit jkit-icon-box icon-position-elementor-animation- jeg_module_20_24_675926d97f829">
+                                                                            <div class=" hover-from-left"
+                                                                                style="margin:55px; width:120px;">
+                                                                                <div
+                                                                                    class="icon-box icon-box-header elementor-animation-">
+                                                                                    <div class="icon style-color"><img
+                                                                                            decoding="async"
+                                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/award5.png') }}"
+                                                                                            alt="Angler Fish">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="icon-box icon-box-body">
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                            </div>
+                            <div style="text-align: center;  margin-left: 40%; margin-top: 3px; margin-bottom: 4%;">
+                                <hr style="width: 250px; height: 4px; background-color: black; border: none;">
+                            </div>
+            </section>
+
+
+
+
+
+            {{-- <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-acab34a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="acab34a" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
@@ -1202,7 +1718,11 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
+
+
+
+
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-d7c9f3f elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                 data-id="d7c9f3f" data-element_type="section">
@@ -1227,11 +1747,9 @@
                                                     <div
                                                         class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_788_28_6759274c065ba">
                                                         <div class="heading-section-title  display-inline-block">
-                                                            <h2 class="heading-title">Main Event</h2>
+
                                                         </div>
-                                                        <div class="heading-section-separator">
-                                                            <div class="separator-wrapper style-solid"></div>
-                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -1239,7 +1757,8 @@
                                                 data-id="759f519" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Floral Coral
+                                                    <h2 class="elementor-heading-title elementor-size-default">Our
+                                                        facilities
                                                     </h2>
                                                 </div>
                                             </div>
@@ -1297,27 +1816,77 @@
                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-background-overlay"></div>
-                            <div class="elementor-element elementor-element-0ed0d9b elementor-widget elementor-widget-jkit_heading"
-                                data-id="0ed0d9b" data-element_type="widget" data-widget_type="jkit_heading.default">
-                                <div class="elementor-widget-container">
-                                    <div
-                                        class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_788_31_6759274c0ac24">
-                                        <div class="heading-section-title  display-inline-block">
-                                            <h2 class="heading-title">Aquavist Events</h2>
+
+
+                            <section
+                                class="elementor-section elementor-inner-section elementor-element elementor-element-1ccc153 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                data-id="1ccc153" data-element_type="section"
+                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                <div class="elementor-container elementor-column-gap-no">
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-ebe6601"
+                                        data-id="ebe6601" data-element_type="column"
+                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-94a40ac elementor-widget elementor-widget-spacer"
+                                                data-id="94a40ac" data-element_type="widget"
+                                                data-widget_type="spacer.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-spacer">
+                                                        <div class="elementor-spacer-inner"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="heading-section-separator">
-                                            <div class="separator-wrapper style-solid"></div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-301fce9"
+                                        data-id="301fce9" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-83c4b24 elementor-widget elementor-widget-jkit_heading"
+                                                data-id="83c4b24" data-element_type="widget"
+                                                data-widget_type="jkit_heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_788_34_6759274c104fa">
+                                                        <div class="heading-section-title  display-inline-block">
+                                                            <h2 class="heading-title">Fun Aquarium</h2>
+                                                        </div>
+                                                        <div class="heading-section-description">
+                                                            <p>26 Sept, 2021</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-7ee18b9 elementor-widget elementor-widget-heading"
+                                                data-id="7ee18b9" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">$27/Ticket
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-bab22a8"
+                                        data-id="bab22a8" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-45ee414 elementor-widget__width-auto elementor-widget elementor-widget-jkit_button"
+                                                data-id="45ee414" data-element_type="widget"
+                                                data-widget_type="jkit_button.default">
+                                                <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_788_35_6759274c11c3f">
+                                                        <a href="#" class="jkit-button-wrapper">Book Now</a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="elementor-element elementor-element-fcf0f3e elementor-widget elementor-widget-heading"
-                                data-id="fcf0f3e" data-element_type="widget" data-widget_type="heading.default">
-                                <div class="elementor-widget-container">
-                                    <h2 class="elementor-heading-title elementor-size-default">Upcoming Events At Aquavist
-                                        Aquarium</h2>
-                                </div>
-                            </div>
+                            </section>
+
+
+
+
                             <section
                                 class="elementor-section elementor-inner-section elementor-element elementor-element-9928ac5 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                 data-id="9928ac5" data-element_type="section"
