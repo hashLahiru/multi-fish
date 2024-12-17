@@ -4,31 +4,26 @@
 
 @section('content')
     <style>
-        .elementor-20 .elementor-element.elementor-element-cf2085b:not(.elementor-motion-effects-element-type-background), .elementor-20 .elementor-element.elementor-element-cf2085b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        .elementor-20 .elementor-element.elementor-element-cf2085b:not(.elementor-motion-effects-element-type-background),
+        .elementor-20 .elementor-element.elementor-element-cf2085b>.elementor-motion-effects-container>.elementor-motion-effects-layer {
             background-image: url("AquaVist/wp-content/uploads/sites/videos/9NaCZn.gif") !important;
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-          
+
         }
 
 
 
 
 
-.Alltext{
-    position: absolute; 
-    top: 120px; 
-    left: 20px; 
+        .Alltext {
+            position: absolute;
+            top: 120px;
+            left: 20px;
 
-}
-
-
-
-
-
-
-    </style> 
+        }
+    </style>
 
     <div id="page" class="hfeed site">
         <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
@@ -36,7 +31,7 @@
                     title="Aquavist" rel="home">Aquavist</a></p>
             <div data-elementor-type="wp-post" data-elementor-id="761" class="elementor elementor-761">
                 <section
-                  class="elementor-section elementor-top-section elementor-element elementor-element-4e05a2e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    class="elementor-section elementor-top-section elementor-element elementor-element-4e05a2e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                     data-id="4e05a2e" data-element_type="section">
                     <div class="elementor-container elementor-column-gap-default">
                         <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b3787d9 elementor-hidden-tablet elementor-hidden-phone"
@@ -251,7 +246,6 @@
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-cf2085b elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="cf2085b" data-element_type="section"
-                
                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                 <div class="elementor-background-overlay"></div>
                 <div class="elementor-container elementor-column-gap-default">
@@ -292,7 +286,7 @@
                                 <div class="elementor-widget-container">
                                     <div
                                         class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_20_3_675926d95562a">
-                                        <a href="#" class="jkit-button-wrapper" >Get Started</a>
+                                        <a href="#" class="jkit-button-wrapper">Get Started</a>
                                     </div>
                                 </div>
                             </div>
@@ -332,20 +326,20 @@
                                 class="elementor-section elementor-inner-section elementor-element elementor-element-9a47b26 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                 data-id="9a47b26" data-element_type="section">
                                 <div class="elementor-container elementor-column-gap-default">
-                                    
-                                    
-                          
+
+
+
 
                                     <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-ffc483d"
                                         data-id="ffc483d" data-element_type="column"
-                                            style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto1.jpg') }}'); 
+                                        style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto1.jpg') }}'); 
                                            background-size: cover; background-position:left center; width: 1550px; height: 250px; margin-top:110px"
                                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class ="Alltext" >
+                                        <div class ="Alltext">
                                             <div class="elementor-element elementor-element-add2a54 elementor-widget elementor-widget-heading"
                                                 data-id="add2a54" data-element_type="widget"
                                                 data-widget_type="heading.default">
-                                                <div class="elementor-widget-container" >
+                                                <div class="elementor-widget-container">
                                                     <h2 class="elementor-heading-title elementor-size-default">Complete
                                                         Fishes</h2>
                                                 </div>
@@ -354,7 +348,9 @@
                                                 data-id="faef70b" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p  style="transform: translateY(-10px);  font-size: 14px; width: 200px;">Lorem ipsum dolor sit amet deliar consectetur adipiscing.</p>
+                                                    <p
+                                                        style="transform: translateY(-10px);  font-size: 14px; width: 200px;">
+                                                        Lorem ipsum dolor sit amet deliar consectetur adipiscing.</p>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-09b8cd0 elementor-widget__width-auto elementor-widget elementor-widget-jkit_button"
@@ -367,80 +363,84 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                     
-                                    </div>
+
+                                        </div>
 
                                     </div>
 
 
                                     <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-ffc483d"
-                                    data-id="ffc483d" data-element_type="column"
-                                     style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo6.jpg') }}'); 
+                                        data-id="ffc483d" data-element_type="column"
+                                        style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo6.jpg') }}'); 
                                        background-size: cover; background-position:left; width: 1550px; height: 250px; margin-top:110px"
-                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class ="Alltext" >
-                                        <div class="elementor-element elementor-element-add2a54 elementor-widget elementor-widget-heading"
-                                            data-id="add2a54" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container" >
-                                                <h2 class="elementor-heading-title elementor-size-default" >Complete
-                                                    Fishes</h2>
+                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class ="Alltext">
+                                            <div class="elementor-element elementor-element-add2a54 elementor-widget elementor-widget-heading"
+                                                data-id="add2a54" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Complete
+                                                        Fishes</h2>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-faef70b elementor-widget elementor-widget-text-editor"
-                                            data-id="faef70b" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p style="transform: translateY(-10px);  font-size: 14px; width: 200px;">Lorem ipsum dolor sit amet deliar consectetur adipiscing.</p>
+                                            <div class="elementor-element elementor-element-faef70b elementor-widget elementor-widget-text-editor"
+                                                data-id="faef70b" data-element_type="widget"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p
+                                                        style="transform: translateY(-10px);  font-size: 14px; width: 200px;">
+                                                        Lorem ipsum dolor sit amet deliar consectetur adipiscing.</p>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-77803b1 elementor-widget__width-auto elementor-widget elementor-widget-jkit_button"
-                                        data-id="77803b1" data-element_type="widget"
-                                        data-widget_type="jkit_button.default">
-                                        <div class="elementor-widget-container">
-                                            <div
-                                                class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_20_5_675926d958d80">
-                                                <a href="#" class="jkit-button-wrapper">Learn More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
-                           
-
-                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b1e2c37"
-                                    data-id="b1e2c37" data-element_type="column"
-                                     style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemo.jpg') }}'); 
-                                           background-size: cover; background-position: left; width: 1550px; height: 250px; margin-top:110px"
-                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class ="Alltext" >
-                                        <div class="elementor-element elementor-element-36c0355 elementor-widget elementor-widget-heading"
-                                            data-id="36c0355" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h2 class="elementor-heading-title elementor-size-default">Aquarium
-                                                    Design</h2>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-e42969f elementor-widget elementor-widget-text-editor"
-                                            data-id="e42969f" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p style="transform: translateY(-10px);  font-size: 14px; width: 200px;">Lorem ipsum dolor sit amet deliar consectetur adipiscing.</p>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-77803b1 elementor-widget__width-auto elementor-widget elementor-widget-jkit_button"
-                                            data-id="77803b1" data-element_type="widget"
-                                            data-widget_type="jkit_button.default">
-                                            <div class="elementor-widget-container">
-                                                <div
-                                                    class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_20_5_675926d958d80">
-                                                    <a href="#" class="jkit-button-wrapper">Learn More</a>
+                                            <div class="elementor-element elementor-element-77803b1 elementor-widget__width-auto elementor-widget elementor-widget-jkit_button"
+                                                data-id="77803b1" data-element_type="widget"
+                                                data-widget_type="jkit_button.default">
+                                                <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_20_5_675926d958d80">
+                                                        <a href="#" class="jkit-button-wrapper">Learn More</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+
+
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b1e2c37"
+                                        data-id="b1e2c37" data-element_type="column"
+                                        style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemo.jpg') }}'); 
+                                           background-size: cover; background-position: left; width: 1550px; height: 250px; margin-top:110px"
+                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class ="Alltext">
+                                            <div class="elementor-element elementor-element-36c0355 elementor-widget elementor-widget-heading"
+                                                data-id="36c0355" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Aquarium
+                                                        Design</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-e42969f elementor-widget elementor-widget-text-editor"
+                                                data-id="e42969f" data-element_type="widget"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p
+                                                        style="transform: translateY(-10px);  font-size: 14px; width: 200px;">
+                                                        Lorem ipsum dolor sit amet deliar consectetur adipiscing.</p>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-77803b1 elementor-widget__width-auto elementor-widget elementor-widget-jkit_button"
+                                                data-id="77803b1" data-element_type="widget"
+                                                data-widget_type="jkit_button.default">
+                                                <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_20_5_675926d958d80">
+                                                        <a href="#" class="jkit-button-wrapper">Learn More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
 
                                 </div>
@@ -474,7 +474,8 @@
                                         data-mute="0" data-start="0" data-end="0"><a
                                             href="https://www.youtube.com/watch?v=MLpWrANjFbI"
                                             class="jkit-video-popup-btn glow-enable"><span class="icon-position-before"><i
-                                                    aria-hidden="true" class="jki jki-play-button-light"  style="display: inline-block; transform: translateY(23px);"  ></i></span></a>
+                                                    aria-hidden="true" class="jki jki-play-button-light"
+                                                    style="display: inline-block; transform: translateY(23px);"></i></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -644,8 +645,8 @@
                     </div>
                 </div>
             </section>
-        
-        
+
+
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-6fb470e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="6fb470e" data-element_type="section">
@@ -653,9 +654,9 @@
                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f8ebbbc"
                         data-id="f8ebbbc" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
-                            
-                            
-                            
+
+
+
                             <section
                                 class="elementor-section elementor-inner-section elementor-element elementor-element-0f05573 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                 data-id="0f05573" data-element_type="section">
@@ -971,7 +972,7 @@
                                 </div>
                             </section>
 
-                            
+
                         </div>
                     </div>
                 </div>
@@ -1142,142 +1143,141 @@
             </section>
 
             <section>
-            </br>
+                </br>
             </section>
 
 
             {{-- map section --}}
             <style>
-
-.map img {
-  display: block;
-  margin: 0 auto; 
-  margin-top: 5%;
-  margin-left: 15%;
-  max-width: 100%;
-  height: auto; 
-}
-
-
-.textglobel{
- 
-  padding-top: 5%;
-    font-size: 20px; 
-  font-weight: bold; 
-  color:#19cbe4; 
-  margin-left: 20px; 
+                .map img {
+                    display: block;
+                    margin: 0 auto;
+                    margin-top: 5%;
+                    margin-left: 15%;
+                    max-width: 100%;
+                    height: auto;
+                }
 
 
+                .textglobel {
 
-}
-.map{
-    background-color:  #1d252b;
-    position: relative;
-}
-
-.map img{
-    opacity: .4;
-    background-color:  #1d252b;
-
-}
-
-.map span{
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    border-radius: 50px;
-    top: 50%;
-    left: 20%;
-    background-color:#e20808;  /*  #2c3e50 */
+                    padding-top: 5%;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #19cbe4;
+                    margin-left: 20px;
 
 
-     /* create animation part */
-        
-  animation: highlight 1.5s linear infinite;
-}
 
-@keyframes highlight{
-   100%{
-    transform: scale(5);
-    opacity: 0;
+                }
 
-} 
-}
+                .map {
+                    background-color: #1d252b;
+                    position: relative;
+                }
 
-.map .marker2{
-    position: absolute; 
-    margin-left: 15%; 
-    top: 90%; 
-    animation-delay: 0.7s; 
-}
+                .map img {
+                    opacity: .4;
+                    background-color: #1d252b;
 
-.map .marker3{
-    position: absolute; 
-    margin-left: 50%;
-    top: 70%;
-    animation-delay: 0.5s;
-}
-   
+                }
 
-.map .marker4{
-    position: absolute; 
-    margin-left:30%;
-    top: 30%;
-    animation-delay: .1s;
-}
-    
+                .map span {
+                    position: absolute;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50px;
+                    top: 50%;
+                    left: 20%;
+                    background-color: #e20808;
+                    /*  #2c3e50 */
 
-.para{
-    width:350px; 
-    margin-left:5%;
-    position: relative; 
-    transform: translateY(-20px);
-    font-size: 20px; 
-    font-weight: bold; 
-    color:#ffffff; 
 
-}
+                    /* create animation part */
 
-.container{
-    background-color:  #1d252b;
+                    animation: highlight 1.5s linear infinite;
+                }
 
-}
+                @keyframes highlight {
+                    100% {
+                        transform: scale(5);
+                        opacity: 0;
 
-        </style>
+                    }
+                }
 
-    <section>
+                .map .marker2 {
+                    position: absolute;
+                    margin-left: 15%;
+                    top: 90%;
+                    animation-delay: 0.7s;
+                }
 
-    <div class = "container"> 
-        <h2 class="textglobel" 
-      style= " font-size: 50px; 
-      font-weight: bold; 
-      color: rgb(4, 192, 255); 
-       margin-left: 5%; 
-     ">Globel Clients</h2>   
-           
-      <div class = "map">
-        <img 
-        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/globalmap.png') }}" 
-        alt="World Map" 
-      >
-            
-         
-            <span class = "marker2" style="color:#ffffff; font-size: 12px; ">Sri Lanka</span>
-            <span class = "marker3" style="color:#ffffff; font-size: 12px;">Indonesian</span>
-            <span class = "marker4" style="color:#ffffff; font-size: 12px;">Malayasian</span>
-          
-        </div>
-             
+                .map .marker3 {
+                    position: absolute;
+                    margin-left: 50%;
+                    top: 70%;
+                    animation-delay: 0.5s;
+                }
 
-        <p class="para" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Sed vel ipsum auctor, iaculis arcu quis. sit amet, consectetur adipiscing elit.
-            Sed vel ipsum auctor, iaculis arcu quis.</p>
-                
-        </div>      
-               
-               
-      
-    </section>
+
+                .map .marker4 {
+                    position: absolute;
+                    margin-left: 30%;
+                    top: 30%;
+                    animation-delay: .1s;
+                }
+
+
+                .para {
+                    width: 350px;
+                    margin-left: 5%;
+                    position: relative;
+                    transform: translateY(-20px);
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #ffffff;
+
+                }
+
+                .container {
+                    background-color: #1d252b;
+
+                }
+            </style>
+
+            <section>
+
+                <div class = "container">
+                    <h2 class="textglobel"
+                        style= " font-size: 50px; 
+                        font-weight: bold; 
+                        color: rgb(59, 206, 255); 
+                        margin-left: 5%; 
+                         ">
+                        Globel Clients</h2>
+
+                    <div class = "map">
+                        <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/globalmap.png') }}"
+                            alt="World Map">
+
+
+                        <span class = "marker2" style="color:#ffffff; font-size: 12px; ">Sri Lanka</span>
+                        <span class = "marker3" style="color:#ffffff; font-size: 12px;">Indonesian</span>
+                        <span class = "marker4" style="color:#ffffff; font-size: 12px;">Malayasian</span>
+
+                    </div>
+
+
+                    <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed vel ipsum auctor, iaculis arcu quis. sit amet, consectetur adipiscing elit.
+                        Sed vel ipsum auctor, iaculis arcu quis.</p>
+
+                </div>
+
+
+
+            </section>
 
 
             <section
