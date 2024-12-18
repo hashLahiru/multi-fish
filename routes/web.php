@@ -3,7 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/Product', function () {
+Route::get('/testProduct', function () {
     return view('AquaVist.pages.testProducts');
 });
 
