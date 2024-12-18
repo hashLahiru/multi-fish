@@ -6,7 +6,7 @@
     <style>
         .elementor-20 .elementor-element.elementor-element-cf2085b:not(.elementor-motion-effects-element-type-background),
         .elementor-20 .elementor-element.elementor-element-cf2085b>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-            background-image: url("AquaVist/wp-content/uploads/sites/videos/9NaCZn.gif") !important;
+            background-image: url("AquaVist/wp-content/uploads/sites/videos/78il.gif") !important;
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
