@@ -6,10 +6,6 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProductCategoryController;
 
-
-
-
-
 // Routes for Landing Page
 Route::get('/Home', function () {
     return view('AquaVist.pages.testHome');
