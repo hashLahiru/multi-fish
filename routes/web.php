@@ -2,14 +2,13 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-
-Route::get('/testContact', function () {
-    return view('AquaVist.pages.testContact');
-});
-
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProductCategoryController;
+
+
+
+
 
 // Routes for Landing Page
 Route::get('/Home', function () {
@@ -22,6 +21,10 @@ Route::get('/About', function () {
 
 Route::get('/Product', function () {
     return view('AquaVist.pages.testProducts');
+});
+
+Route::get('/ContactUs', function () {
+    return view('AquaVist.pages.testContact');
 });
 
 Route::post('/Contact', [ContactController::class, 'store'])->name('contact.store');
