@@ -12,7 +12,7 @@ Route::get('/Home', function () {
     return view('AquaVist.pages.testHome');
 });
 
-Route::get('/testAbout', function () {
+Route::get('/About', function () {
     return view('AquaVist.pages.testAboutUs');
 });
 
@@ -20,7 +20,7 @@ Route::get('/Product', function () {
     return view('AquaVist.pages.testProducts');
 });
 
-Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
+Route::post('/Contact', [ContactController::class, 'store'])->name('contact.store');
 
 
 // Routes for Admin Dashboard 

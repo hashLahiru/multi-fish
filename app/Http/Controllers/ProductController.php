@@ -4,12 +4,14 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Products;
+use App\Models\ProductCategories;
 
 class ProductController extends Controller
 {
     public function create()
     {
-        $categories = ProductCategory::where('status', 'active')->get();
+        $categories = ProductCategories::where('status', 'active')->get();
         return view('admin.product-form', compact('categories'));
     }
 
@@ -51,18 +53,18 @@ class ProductController extends Controller
 
     public function getProducts()
     {
-        $products = Product::with('category')
+        $products = Products::with('category')
             ->where('status', '!=', 'delete')
             ->get();
 
         $data = $products->map(function ($product, $index) {
             return [
                 'id' => $index + 1,
-                'prod_name' => $product->prod_name,
-                'price' => $product->price,
-                'category_id' => $product->category ? $product->category->id,
-                'category' => $product->category ? $product->category->cat_name : 'N/A',
-                'is_popular' => $product->is_popular ? 'Yes' : 'No',
+                'category_id' => $product->category ? $product->category->id : null,
+                'pro_name' => $product->pro_name,
+                'pro_description' => $product->pro_description,
+                'unit_price' => $product->unit_price,
+                'discount' => $product->discount,
                 'status' => $product->status ?? 'N/A',
                 'images' => array_filter([$product->img1_url, $product->img2_url, $product->img3_url]),
             ];
