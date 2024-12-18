@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap4.min.css" />
     <link href="{{ asset('/admin/css/plugins/dataTables/datatables.min.css') }}" rel="stylesheet" />
+
+    {{-- CSRF Token --}}
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 
 <body>
@@ -52,8 +55,6 @@
     {{-- Functions build for the dashboard by Introps IT --}}
     {{-- ----------------------------------------------- --}}
     {{-- ----------------------------------------------- --}}
-
-
 
     <!-- DataTables Bootstrap Integration -->
     <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap4.min.js"></script>
