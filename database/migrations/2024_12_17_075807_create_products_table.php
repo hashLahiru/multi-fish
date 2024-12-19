@@ -21,6 +21,9 @@ return new class extends Migration
             $table->string('img1_url')->nullable();
             $table->string('img2_url')->nullable();
             $table->string('img3_url')->nullable();
+            $table->boolean('isSriLanka')->default(0);
+            $table->boolean('isIndonesia')->default(0);
+            $table->boolean('isMalaysia')->default(0);
             $table->string('status')->default('active');
             $table->timestamps();
 

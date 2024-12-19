@@ -34,6 +34,7 @@ class ContactController extends Controller
         $validated = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
+            'phone' => 'nullable|string|max:20', // Validate phone number
             'subject' => 'required|string|max:255',
             'message' => 'required|string',
         ]);
@@ -42,6 +43,7 @@ class ContactController extends Controller
         $message = Message::create([
             'name' => $validated['name'],
             'email' => $validated['email'],
+            'phone' => $validated['phone'],
             'subject' => $validated['subject'],
             'message' => $validated['message'],
             'status' => 'unseen',
@@ -51,6 +53,7 @@ class ContactController extends Controller
         $emailData = [
             'name' => $validated['name'],
             'email' => $validated['email'],
+            'phone' => $validated['phone'],
             'subject' => $validated['subject'],
             'message' => $validated['message'],
             'siteName' => 'Multi Fish Lanka',

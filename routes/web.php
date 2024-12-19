@@ -6,7 +6,10 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProductCategoryController;
 
-// Routes for Landing Page
+// --------------------------------------------------------------------------------------------------------
+// -------------------------------------------- Public Routes ---------------------------------------------
+// --------------------------------------------------------------------------------------------------------
+
 Route::get('/Home', function () {
     return view('AquaVist.pages.testHome');
 });
@@ -29,11 +32,15 @@ Route::get('/ContactUs', function () {
 
 Route::post('/Contact', [ContactController::class, 'store'])->name('contact.store');
 
+// --------------------------------------------------------------------------------------------------------
+// --------------------------------------------- Admin Routes ---------------------------------------------
+// --------------------------------------------------------------------------------------------------------
 
 // Routes for Admin Dashboard 
 Route::get('/dashboard', function () {
     return view('admin.dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+
 
 // Routes for Products
 Route::get('/product-list', function () {
@@ -43,7 +50,9 @@ Route::get('/product-list', function () {
 Route::get('/admin/products', [ProductController::class, 'getProducts'])->name('product.get');
 Route::get('/product/create', [ProductController::class, 'create'])->name('product.create');
 Route::post('/products', [ProductController::class, 'store'])->name('product.store');
-Route::post('/product/delete', [ProductController::class, 'delete'])->name('product.delete');
+Route::post('/product/delete/{id}', [ProductController::class, 'delete'])->name('product.delete');
+Route::get('/product/edit/{id}', [ProductController::class, 'edit'])->name('product.edit');
+Route::put('/product/update/{id}', [ProductController::class, 'update'])->name('product.update');
 
 
 // Routes for Product Categories

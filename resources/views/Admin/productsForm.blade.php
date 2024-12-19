@@ -46,24 +46,36 @@
                     <div class="form-group row">
                         <label class="col-lg-2 col-form-label">Images:</label>
                         <div class="col-lg-10">
-                            <input type="file" name="img1" class="form-control mb-2"
-                                onchange="previewImage(this, 'img1-preview')" />
-                            <input type="file" name="img2" class="form-control mb-2"
-                                onchange="previewImage(this, 'img2-preview')" />
-                            <input type="file" name="img3" class="form-control"
-                                onchange="previewImage(this, 'img3-preview')" />
+                            <input type="file" name="img1" class="form-control mb-2" id="img1"
+                                onchange="previewImage(event, 'img1Preview')" />
+                            <div id="img1PreviewContainer">
+                                <img id="img1Preview" src="#" alt="Image 1 Preview"
+                                    style="width: 150px; height: auto; display: none; margin-top: 10px;" />
+                            </div>
+                            <input type="file" name="img2" class="form-control mb-2" id="img2"
+                                onchange="previewImage(event, 'img2Preview')" />
+                            <div id="img2PreviewContainer">
+                                <img id="img2Preview" src="#" alt="Image 2 Preview"
+                                    style="width: 150px; height: auto; display: none; margin-top: 10px;" />
+                            </div>
+                            <input type="file" name="img3" class="form-control" id="img3"
+                                onchange="previewImage(event, 'img3Preview')" />
+                            <div id="img3PreviewContainer">
+                                <img id="img3Preview" src="#" alt="Image 3 Preview"
+                                    style="width: 150px; height: auto; display: none; margin-top: 10px;" />
+                            </div>
                         </div>
                     </div>
-
-                    <div class="form-group row" id="img1-preview" class="image-preview"></div>
-                    <div class="form-group row" id="img2-preview" class="image-preview"></div>
-                    <div class="form-group row" id="img3-preview" class="image-preview"></div>
 
                     <div class="form-group row">
-                        <div class="col-lg-offset-2 col-lg-10">
-                            <label><input type="checkbox" name="is_popular" /> Mark as Popular Product</label>
+                        <label class="col-lg-2 col-form-label">Available Countries:</label>
+                        <div class="col-lg-10">
+                            <label><input type="checkbox" name="isSriLanka" value="1" /> Sri Lanka</label><br>
+                            <label><input type="checkbox" name="isIndonesia" value="1" /> Indonesia</label><br>
+                            <label><input type="checkbox" name="isMalasiya" value="1" /> Malaysia</label>
                         </div>
                     </div>
+
                     <div class="form-group row">
                         <div class="col-lg-offset-2 col-lg-10">
                             <button type="submit" class="btn btn-primary">Save</button>
@@ -71,34 +83,28 @@
                         </div>
                     </div>
                 </form>
+
             </div>
         </div>
     </div>
 </div>
 
 <script>
-    // Image preview function
-        function previewImage(input, previewId) {
-            const previewContainer = document.getElementById(previewId);
-            const file = input.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    previewContainer.innerHTML = `
-                        <div class="col-md-3">
-                            <img src="${e.target.result}" class="img-thumbnail" width="100">
-                            <button type="button" class="btn btn-danger" onclick="removeImage('${previewId}')">Remove</button>
-                        </div>
-                    `;
-                };
-                reader.readAsDataURL(file);
-            }
-        }
+    // Function to show image preview
+    function previewImage(event, previewId) {
+        const file = event.target.files[0];
+        const reader = new FileReader();
 
-        // Remove the image preview
-        function removeImage(previewId) {
-            document.getElementById(previewId).innerHTML = '';
-            document.querySelector(`input[name='${previewId.split('-')[0]}']`).value = ''; // Clear file input
+        reader.onload = function(e) {
+            // Set the preview image source to the uploaded file
+            const preview = document.getElementById(previewId);
+            preview.src = e.target.result;
+            preview.style.display = 'block'; // Display the image
+        };
+
+        if (file) {
+            reader.readAsDataURL(file);
         }
+    }
 </script>
 @endsection
