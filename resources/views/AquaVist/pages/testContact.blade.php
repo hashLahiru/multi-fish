@@ -526,10 +526,10 @@
 
 
                                                 <!-----------------------------
-                            * controls_data : find the the props passed indie of data attribute
-                            * props.SubmitResponseMarkup : contains the markup of error or success message
-                            * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-                        --------------------------- -->
+                                * controls_data : find the the props passed indie of data attribute
+                                * props.SubmitResponseMarkup : contains the markup of error or success message
+                                * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+                            --------------------------- -->
 
                                                 <script type="text/mf" class="mf-template">
         function controls_data (value){
@@ -802,10 +802,10 @@
 
 
                                                 <!-----------------------------
-                            * controls_data : find the the props passed indie of data attribute
-                            * props.SubmitResponseMarkup : contains the markup of error or success message
-                            * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-                        --------------------------- -->
+                                * controls_data : find the the props passed indie of data attribute
+                                * props.SubmitResponseMarkup : contains the markup of error or success message
+                                * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+                            --------------------------- -->
 
                                                 <script type="text/mf" class="mf-template">
         function controls_data (value){

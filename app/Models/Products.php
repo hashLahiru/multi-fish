@@ -20,6 +20,9 @@ class Products extends Model
         'img1_url',
         'img2_url',
         'img3_url',
+        'isSriLanka',
+        'isIndonesia',
+        'isMalaysia',
         'status',
     ];
 
