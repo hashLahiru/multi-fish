@@ -19,6 +19,10 @@ Route::get('/Product', function () {
     return view('AquaVist.pages.testProducts');
 });
 
+Route::get('/Gallery', function () {
+    return view('AquaVist.pages.testGallery');
+});
+
 Route::get('/ContactUs', function () {
     return view('AquaVist.pages.testContact');
 });
