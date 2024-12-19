@@ -43,7 +43,7 @@ class ContactController extends Controller
         $message = Message::create([
             'name' => $validated['name'],
             'email' => $validated['email'],
-            'phone' => $validated['phone'], // Save phone number
+            'phone' => $validated['phone'],
             'subject' => $validated['subject'],
             'message' => $validated['message'],
             'status' => 'unseen',
@@ -53,7 +53,7 @@ class ContactController extends Controller
         $emailData = [
             'name' => $validated['name'],
             'email' => $validated['email'],
-            'phone' => $validated['phone'], // Include phone number
+            'phone' => $validated['phone'],
             'subject' => $validated['subject'],
             'message' => $validated['message'],
             'siteName' => 'Multi Fish Lanka',
@@ -67,5 +67,4 @@ class ContactController extends Controller
 
         return redirect()->back()->with('success', 'Message sent successfully!');
     }
-
 }
