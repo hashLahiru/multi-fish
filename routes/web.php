@@ -35,7 +35,7 @@ Route::get('/Viewblog', function () {
     return view('AquaVist.pages.testViewblog');
 });
 
-Route::get('/ContactUs', function () {
+Route::get('/Contact-Us', function () {
     return view('AquaVist.pages.testContact');
 });
 
