@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProductCategoryController;
-
+use App\Http\Controllers\BlogController;
 // --------------------------------------------------------------------------------------------------------
 // -------------------------------------------- Public Routes ---------------------------------------------
 // --------------------------------------------------------------------------------------------------------
@@ -81,6 +81,17 @@ Route::post('/categories/store', [ProductCategoryController::class, 'store'])->n
 Route::post('/categories/delete/{id}', [ProductCategoryController::class, 'delete'])->name('categories.delete');
 Route::get('/categories/edit/{id}', [ProductCategoryController::class, 'edit'])->name('categories.edit');
 Route::post('/categories/update/{id}', [ProductCategoryController::class, 'update'])->name('categories.update');
+
+// Routes for Blogs
+Route::resource('blogs', BlogController::class);
+Route::get('/blogsAdmin', [BlogController::class, 'index'])->name('blogs.index');
+Route::get('/blogAdmin/create', [BlogController::class, 'create'])->name('blogs.create');
+Route::post('/blogAdmin/store', [BlogController::class, 'store'])->name('blog.store');
+Route::post('blogs/toggle-status/{id}', [BlogController::class, 'toggleStatus'])->name('blogs.toggleStatus');
+Route::post('blogs/delete/{id}', [BlogController::class, 'delete'])->name('blogs.delete');
+Route::get('blogs/edit/{id}', [BlogController::class, 'edit'])->name('blogs.edit');
+Route::put('blogs/update/{id}', [BlogController::class, 'update'])->name('blogs.update');
+
 
 
 // Middlewares
