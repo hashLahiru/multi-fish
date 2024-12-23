@@ -22,6 +22,7 @@ Route::get('/Product', function () {
     return view('AquaVist.pages.testProducts');
 });
 
+
 Route::get('/Gallery', function () {
     return view('AquaVist.pages.testGallery');
 });
@@ -37,6 +38,15 @@ Route::get('/Viewblog', function () {
 
 Route::get('/ContactUs', function () {
     return view('AquaVist.pages.testContact');
+});
+
+
+Route::get('/Malaysian', function () {
+    return view('AquaVist.pages.testMalaysian');
+});
+
+Route::get('/Indonesian', function () {
+    return view('AquaVist.pages.testIndonesian');
 });
 
 Route::post('/Contact', [ContactController::class, 'store'])->name('contact.store');
