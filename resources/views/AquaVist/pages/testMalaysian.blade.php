@@ -143,15 +143,6 @@
             margin-top: 20px;
             overflow: hidden;
         }
-
-
-        .btn :hover {
-            text-decoration: underline;
-        }
-
-        .btn :active {
-            text-decoration: underline;
-        }
     </style>
 
     <div id="page" class="hfeed site">
