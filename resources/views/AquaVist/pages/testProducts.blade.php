@@ -146,7 +146,6 @@
     </style>
 
     <div id="page" class="hfeed site">
-
         <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
             <p class="main-title bhf-hidden" itemprop="headline"><a href="https://templatekit.jegtheme.com/aquavist"
                     title="Aquavist" rel="home">Aquavist</a></p>
@@ -421,12 +420,6 @@
                     </div>
                 </div>
             </section>
-
-
-
-
-
-
             <section>
                 <div style="margin-top: 3%; margin-left:7%;">
 
@@ -467,7 +460,6 @@
                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f8ebbbc"
                             data-id="f8ebbbc" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
-
                                 <div
                                     class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_788_3_6759274bcfbc0">
                                     <div class="elementor-element elementor-element-9716da2 elementor-widget elementor-widget-heading"
@@ -482,362 +474,44 @@
                                         </div>
                                     </div>
                                 </div>
-
-
-
-                                <section
+                                {{-- <section
                                     class="elementor-section elementor-inner-section elementor-element elementor-element-0f05573 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                     style=" width:100%;" data-id="0f05573" data-element_type="section">
                                     <div class="elementor-container elementor-column-gap-no">
-                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-2927d7b"
-                                            data-id="2927d7b" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-ce635bd jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                                                    data-id="ce635bd" data-element_type="widget"
-                                                    data-widget_type="jkit_icon_box.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div
-                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_13_675926d96a146">
-                                                            <div class=" hover-from-left1"
-                                                                style="  background-size: cover; background-position: center; margin:35px;   object-fit:contain; background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/pikefishnew1.jpg') }}');">
-                                                                <div class="icon-box icon-box-header elementor-animation-">
-                                                                    {{-- <div class="icon style-color"><img decoding="async"
-                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/pikefish.jpg') }}"
-                                                                            alt="Pike Fish" style="border-radius: 10px;">
-                                                                    </div> --}}
-                                                                </div>
-                                                                <div class="icon-box icon-box-body">
-                                                                    <h3 class="title"
-                                                                        style="color:white; margin-top:80%; font-weight: bold;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-                                                                        Pike Fish</h3>
-                                                                </div>
 
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-45dde34"
-                                            data-id="45dde34" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-1a8e032 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                                                    data-id="1a8e032" data-element_type="widget"
-                                                    data-widget_type="jkit_icon_box.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div
-                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_14_675926d96be9a">
-                                                            <div class=" hover-from-left1"
-                                                                style="  background-size: cover; background-position: center;margin:35px;  object-fit:contain; background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/malinfish.jpg') }}');">
-                                                                <div class="icon-box icon-box-header elementor-animation-">
-                                                                    {{-- <div class="icon style-color"><img decoding="async"
-                                                                            src="{{ asset('') }}"
-                                                                            alt="Marline Fish"></div> --}}
-                                                                </div>
-                                                                <div class="icon-box icon-box-body">
-                                                                    <h3 class="title"
-                                                                        style="color:white; margin-top:80%; font-weight: bold;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-                                                                        Marline Fish
-                                                                    </h3>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-eb84df6"
-                                            data-id="eb84df6" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-9e0c2cd jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                                                    data-id="9e0c2cd" data-element_type="widget"
-                                                    data-widget_type="jkit_icon_box.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div
-                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_15_675926d96da89">
-                                                            <div class=" hover-from-left1"
-                                                                style="  background-size: cover; background-position: center;margin:35px;  object-fit:contain; background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/boarnew.jpg') }}');">
-                                                                <div class="icon-box icon-box-header elementor-animation-">
-                                                                    {{-- <div class="icon style-color"><img decoding="async"
-                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset3-T6M9WU6.png') }}"
-                                                                            alt="Boar Fish"></div> --}}
-                                                                </div>
-                                                                <div class="icon-box icon-box-body">
-                                                                    <h3 class="title"
-                                                                        style="color:white; margin-top:80%; font-weight: bold;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-                                                                        Boar Fish</h3>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-df3c415"
-                                            data-id="df3c415" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-423e4c0 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                                                    data-id="423e4c0" data-element_type="widget"
-                                                    data-widget_type="jkit_icon_box.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div
-                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_16_675926d96f652">
-                                                            <div class=" hover-from-left1"
-                                                                style="  background-size: cover; background-position: center;margin:35px;  object-fit:contain; background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/seahourse.jpg') }}');">
-                                                                <div class="icon-box icon-box-header elementor-animation-">
-                                                                    {{-- <div class="icon style-color"><img decoding="async"
-                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset4-T6M9WU6.png') }}"
-                                                                            alt="Seahorse"></div> --}}
-                                                                </div>
-                                                                <div class="icon-box icon-box-body">
-                                                                    <h3 class="title"
-                                                                        style="color:white; margin-top:80%; font-weight: bold;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-                                                                        Seahorse</h3>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-76bc33d"
-                                            data-id="76bc33d" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-eb3531b jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                                                    data-id="eb3531b" data-element_type="widget"
-                                                    data-widget_type="jkit_icon_box.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div
-                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_17_675926d971643">
-                                                            <div class=" hover-from-left1"
-                                                                style="  background-size: cover; background-position:right; margin:35px;   object-fit:contain; background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imageshog.jpeg') }}');">
-                                                                <div class="icon-box icon-box-header elementor-animation-">
-                                                                    {{-- <div class="icon style-color"><img decoding="async"
-                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset5-T6M9WU6.png') }}"
-                                                                            alt="Hog Fish"></div> --}}
-                                                                </div>
-                                                                <div class="icon-box icon-box-body">
-                                                                    <h3 class="title"
-                                                                        style="color:white; margin-top:80%; font-weight: bold;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-                                                                        Hog Fish</h3>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-11f0eb1"
-                                            data-id="11f0eb1" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-5398f95 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                                                    data-id="5398f95" data-element_type="widget"
-                                                    data-widget_type="jkit_icon_box.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div
-                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_18_675926d972e29">
-                                                            <div class=" hover-from-left1"
-                                                                style="  background-size: cover; background-position:center; margin:35px;  object-fit:cover; background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/Threadfin.jpeg') }}');">
-                                                                <div class="icon-box icon-box-header elementor-animation-">
-                                                                    {{-- <div class="icon style-color"><img decoding="async"
-                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset6-T6M9WU6.png') }}"
-                                                                            alt="Threadfin"></div> --}}
-                                                                </div>
-                                                                <div class="icon-box icon-box-body">
-                                                                    <h3 class="title"
-                                                                        style="color:white; margin-top:80%; font-weight: bold;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-                                                                        Threadfin</h3>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
-                                </section>
-
-
+                                </section> --}}
                                 <section
                                     class="elementor-section elementor-inner-section elementor-element elementor-element-0f05573 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                     style=" width:100%;" data-id="0f05573" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-no">
-                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-2927d7b"
-                                            data-id="2927d7b" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-ce635bd jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                                                    data-id="ce635bd" data-element_type="widget"
-                                                    data-widget_type="jkit_icon_box.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div
-                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_13_675926d96a146">
-                                                            <div class=" hover-from-left1"
-                                                                style="  background-size: cover; background-position: center; margin:35px;   object-fit:contain; background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/clown.jpeg') }}');">
-                                                                <div class="icon-box icon-box-header elementor-animation-">
-                                                                    {{-- <div class="icon style-color"><img decoding="async"
-                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/pikefish.jpg') }}"
-                                                                            alt="Pike Fish" style="border-radius: 10px;">
-                                                                    </div> --}}
+                                    <div class="row">
+                                        @foreach ($categories as $category)
+                                            <div class="col-md-2" data-id="2927d7b" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div
+                                                        class="elementor-element jkit-equal-height-disable elementor-widget jkit-icon-box">
+                                                        <div class="elementor-widget-container">
+                                                            <div
+                                                                class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation-">
+                                                                <div class="hover-from-left1"
+                                                                    style="background-size:cover; background-position: center; margin: 35px; object-fit: contain; background-image: url('{{ asset($category->img_url) }}');">
+                                                                    <div
+                                                                        class="icon-box icon-box-header elementor-animation-">
+                                                                    </div>
+                                                                    <div class="icon-box icon-box-body">
+                                                                        <h3 class="title"
+                                                                            style="color: white; margin-top: 80%; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+                                                                            {{ $category->cat_name }}
+                                                                        </h3>
+                                                                    </div>
                                                                 </div>
-                                                                <div class="icon-box icon-box-body">
-                                                                    <h3 class="title"
-                                                                        style="color:white; margin-top:80%; font-weight: bold;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-                                                                        Clown Fish
-                                                                    </h3>
-                                                                </div>
-
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-45dde34"
-                                            data-id="45dde34" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-1a8e032 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                                                    data-id="1a8e032" data-element_type="widget"
-                                                    data-widget_type="jkit_icon_box.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div
-                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_14_675926d96be9a">
-                                                            <div class=" hover-from-left1"
-                                                                style="  background-size: cover; background-position: center;margin:35px;  object-fit:contain; background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/swo.jpg') }}');">
-                                                                <div class="icon-box icon-box-header elementor-animation-">
-                                                                    {{-- <div class="icon style-color"><img decoding="async"
-                                                                            src="{{ asset('') }}"
-                                                                            alt="Marline Fish"></div> --}}
-                                                                </div>
-                                                                <div class="icon-box icon-box-body">
-                                                                    <h3 class="title"
-                                                                        style="color:white; margin-top:80%; font-weight: bold;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-                                                                        Sword Fish
-                                                                    </h3>
-                                                                </div>
+                                        @endforeach
 
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-eb84df6"
-                                            data-id="eb84df6" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-9e0c2cd jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                                                    data-id="9e0c2cd" data-element_type="widget"
-                                                    data-widget_type="jkit_icon_box.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div
-                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_15_675926d96da89">
-                                                            <div class=" hover-from-left1"
-                                                                style="  background-size: cover; background-position: center;margin:35px;  object-fit:contain; background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/molidea.jpeg') }}');">
-                                                                <div class="icon-box icon-box-header elementor-animation-">
-                                                                    {{-- <div class="icon style-color"><img decoding="async"
-                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset3-T6M9WU6.png') }}"
-                                                                            alt="Boar Fish"></div> --}}
-                                                                </div>
-                                                                <div class="icon-box icon-box-body">
-                                                                    <h3 class="title"
-                                                                        style="color:white; margin-top:80%; font-weight: bold;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-                                                                        Molidae</h3>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-df3c415"
-                                            data-id="df3c415" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-423e4c0 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                                                    data-id="423e4c0" data-element_type="widget"
-                                                    data-widget_type="jkit_icon_box.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div
-                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_16_675926d96f652">
-                                                            <div class=" hover-from-left1"
-                                                                style="  background-size: cover; background-position: center;margin:35px;  object-fit:contain; background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blow1.jpg') }}');">
-                                                                <div class="icon-box icon-box-header elementor-animation-">
-                                                                    {{-- <div class="icon style-color"><img decoding="async"
-                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset4-T6M9WU6.png') }}"
-                                                                            alt="Seahorse"></div> --}}
-                                                                </div>
-                                                                <div class="icon-box icon-box-body">
-                                                                    <h3 class="title"
-                                                                        style="color:white; margin-top:80%; font-weight: bold;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-                                                                        Blow Fish</h3>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-76bc33d"
-                                            data-id="76bc33d" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-eb3531b jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                                                    data-id="eb3531b" data-element_type="widget"
-                                                    data-widget_type="jkit_icon_box.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div
-                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_17_675926d971643">
-                                                            <div class=" hover-from-left1"
-                                                                style="  background-size: cover; background-position:right; margin:35px;   object-fit:contain; background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/coralnew.jpg') }}');">
-                                                                <div class="icon-box icon-box-header elementor-animation-">
-                                                                    {{-- <div class="icon style-color"><img decoding="async"
-                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset5-T6M9WU6.png') }}"
-                                                                            alt="Hog Fish"></div> --}}
-                                                                </div>
-                                                                <div class="icon-box icon-box-body">
-                                                                    <h3 class="title"
-                                                                        style="color:white; margin-top:80%; font-weight: bold;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-                                                                        Coral</h3>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-11f0eb1"
-                                            data-id="11f0eb1" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-5398f95 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                                                    data-id="5398f95" data-element_type="widget"
-                                                    data-widget_type="jkit_icon_box.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div
-                                                            class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_18_675926d972e29">
-                                                            <div class=" hover-from-left1"
-                                                                style="  background-size: cover; background-position:left; margin:35px;  object-fit:cover; background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/angler.jpeg') }}');">
-                                                                <div class="icon-box icon-box-header elementor-animation-">
-                                                                    {{-- <div class="icon style-color"><img decoding="async"
-                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset6-T6M9WU6.png') }}"
-                                                                            alt="Threadfin"></div> --}}
-                                                                </div>
-                                                                <div class="icon-box icon-box-body">
-                                                                    <h3 class="title"
-                                                                        style="color:white; margin-top:80%; font-weight: bold;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-                                                                        Angler Fish</h3>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </section>
 
@@ -1113,200 +787,6 @@
                                     <span class="current-price">$35.00</span>
                                 </div>
                                 <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-
-                            <div class="filterDiv marine">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                        </div>
-
-
-                        <div class="product-grid">
-
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-
-
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-
-                            <div class="filterDiv marine">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                        </div>
-
-                        <div class="product-grid">
-
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-
-
-                            <div class="filterDiv marine">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-
-                            <div class="filterDiv marine">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                        </div>
-
-
-                        <div class="product-grid">
-
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-
-
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%;  padding: 10px 32px;">Buy</button>
                             </div>
 
@@ -1354,6 +834,149 @@
 
 
             </section> {{-- end of section 3 --}}
+
+
+
+            {{-- 
+            <section>
+
+                <div id="dynamic-container-wrapper">
+                    <div class="container">
+                        <div class="row" id="category-rows">
+                            @foreach ($categories as $category)
+                                <div class="col-md-2 filterDiv marine">
+                                    <img src="{{ asset($category->img_url) }}" alt="{{ $category->cat_name }}"
+                                        class="product-image">
+                                    <div class="product-name">{{ $category->cat_name }}</div>
+                                    <div class="product-price">
+                                        <span class="previous-price">$50.00</span>
+                                        <span class="current-price">$35.00</span>
+                                    </div>
+                                    <button class="sale-button"
+                                        style="border-radius: 5px; margin-top: 10%; padding: 10px 32px;">Buy</button>
+                                </div>
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    const containerWrapper = document.getElementById('category-rows');
+
+                    async function fetchNewCategories() {
+                        try {
+                            // Ensure the route is defined in `web.php`
+                            const categories = await response.json();
+
+                            containerWrapper.innerHTML = ''; // Clear the current categories
+
+                            categories.forEach((category, index) => {
+                                // Create a new row for every 5 items
+                                if (index % 5 === 0) {
+                                    const newRow = document.createElement('div');
+                                    newRow.classList.add('row');
+                                    containerWrapper.appendChild(newRow);
+                                }
+
+                                const newDiv = document.createElement('div');
+                                newDiv.classList.add('col-md-2', 'filterDiv', 'marine');
+                                newDiv.innerHTML = `
+                                    <img src="${category.img_url}" alt="${category.cat_name}" class="product-image">
+                                    <div class="product-name">${category.cat_name}</div>
+                                    <div class="product-price">
+                                        <span class="previous-price">$50.00</span>
+                                        <span class="current-price">$35.00</span>
+                                    </div>
+                                    <button class="sale-button" style="border-radius: 5px; margin-top: 10%; padding: 10px 32px;">Buy</button>
+                                `;
+                                containerWrapper.appendChild(newDiv);
+                            });
+                        } catch (error) {
+                            console.error('Error fetching categories:', error);
+                        }
+                    }
+
+                    // Periodically fetch new categories
+                    setInterval(fetchNewCategories, 5000); // Fetch new data every 5 seconds
+                </script>
+
+            </section> --}}
+
+
+            <section>
+                {{-- <div id="category-rows" class="row">
+                            @foreach ($categories as $category)
+                                <div class="col-md-2" data-id="2927d7b" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div
+                                            class="elementor-element jkit-equal-height-disable elementor-widget jkit-icon-box">
+                                            <div class="elementor-widget-container">
+                                                <div
+                                                    class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation-">
+                                                    <div class="hover-from-left1"
+                                                        style="background-size: cover; background-position: center; margin: 35px; object-fit: contain; background-image: url('{{ asset($category->img_url) }}');">
+                                                        <div class="icon-box icon-box-header elementor-animation-"></div>
+                                                        <div class="icon-box icon-box-body">
+                                                            <h3 class="title"
+                                                                style="color: white; margin-top: 80%; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+                                                                {{ $category->cat_name }}
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            @endforeach
+                        </div> --}}
+
+                {{-- <script>
+                    const containerWrapper = document.getElementById('category-rows');
+
+                    async function fetchNewCategories() {
+                        try {
+                            // Ensure the route is defined in `web.php`
+                            const response = await fetch('/categories');
+                            const categories = await response.json();
+
+                            containerWrapper.innerHTML = ''; // Clear the current categories
+
+                            categories.forEach(category => {
+                                const newColumn = document.createElement('div');
+                                newColumn.classList.add('elementor-column', 'elementor-col-16', 'elementor-inner-column');
+                                newColumn.innerHTML = `
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element jkit-equal-height-disable elementor-widget jkit-icon-box">
+                                            <div class="elementor-widget-container">
+                                                <div class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation-">
+                                                    <div class="hover-from-left1"
+                                                        style="background-size: cover; background-position: center; margin: 35px; object-fit: contain; background-image: url('${category.img_url}');">
+                                                        <div class="icon-box icon-box-header elementor-animation-"></div>
+                                                        <div class="icon-box icon-box-body">
+                                                            <h3 class="title"
+                                                                style="color: white; margin-top: 80%; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+                                                                ${category.cat_name}
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                `;
+                                containerWrapper.appendChild(newColumn);
+                            });
+                        } catch (error) {
+                            console.error('Error fetching categories:', error);
+                        }
+                    }
+
+                    // Periodically fetch new categories
+                    setInterval(fetchNewCategories, 5000); // Fetch new data every 5 seconds
+                </script> --}}
+            </section>
+
 
             <script>
                 filterSelection("all")
@@ -3044,8 +2667,7 @@
                                         </div>
                                     </section>
                                     <div class="elementor-element elementor-element-9d2dc2c elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                        data-id="9d2dc2c" data-element_type="widget"
-                                        data-widget_type="divider.default">
+                                        data-id="9d2dc2c" data-element_type="widget" data-widget_type="divider.default">
                                         <div class="elementor-widget-container">
                                             <div class="elementor-divider">
                                                 <span class="elementor-divider-separator">
@@ -3333,8 +2955,7 @@
                                         </div>
                                     </section>
                                     <div class="elementor-element elementor-element-186209e elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                        data-id="186209e" data-element_type="widget"
-                                        data-widget_type="divider.default">
+                                        data-id="186209e" data-element_type="widget" data-widget_type="divider.default">
                                         <div class="elementor-widget-container">
                                             <div class="elementor-divider">
                                                 <span class="elementor-divider-separator">

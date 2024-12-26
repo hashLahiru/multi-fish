@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProductCategoryController;
+use App\Http\Controllers\testProductController;
 
 // --------------------------------------------------------------------------------------------------------
 // -------------------------------------------- Public Routes ---------------------------------------------
@@ -83,6 +84,10 @@ Route::get('/categories/edit/{id}', [ProductCategoryController::class, 'edit'])-
 Route::post('/categories/update/{id}', [ProductCategoryController::class, 'update'])->name('categories.update');
 
 
+//testproductcontorller
+Route::get('/product-categories', [testProductController::class, 'index'])->name('product.index');
+
+
 // Middlewares
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -95,3 +100,11 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__ . '/auth.php';
+
+
+
+
+
+
+
+
