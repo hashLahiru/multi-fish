@@ -8,6 +8,8 @@ use Illuminate\Http\Request;
 
 class ProductCategoryController extends Controller
 {
+
+    
     // Display a listing of active categories
     public function index()
     {

@@ -12,7 +12,7 @@ return new class extends Migration
             $table->id();
             $table->string('cat_name');
             $table->unsignedBigInteger('super_category_id');
-            $table->text('img_url');
+            $table->text('img_url')->nullable();
             $table->enum('status', ['active', 'pause', 'delete'])->default('active');
             $table->timestamps();
 
