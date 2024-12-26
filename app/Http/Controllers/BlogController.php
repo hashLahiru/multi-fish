@@ -38,7 +38,6 @@ class BlogController extends Controller
             'blog_img' => 'required|image|mimes:jpeg,png,jpg|max:2048',
         ]);
 
-        // Save images in specific folders
         $headerImgPath = $request->file('header_img')->store('blogs/headerImgs', 'public');
         $thumbImgPath = $request->file('thumbnail_img')->store('blogs/thumbImgs', 'public');
         $blogImgPath = $request->file('blog_img')->store('blogs/blogImgs', 'public');
@@ -85,7 +84,7 @@ class BlogController extends Controller
     public function edit($id)
     {
         $blog = Blog::findOrFail($id);
-        $categories = BlogCategory::all(); // Replace with your actual categories retrieval logic
+        $categories = BlogCategory::all();
         return view('admin.blogForm', compact('blog', 'categories'));
     }
 
@@ -102,20 +101,25 @@ class BlogController extends Controller
             'blog_img' => 'nullable|image|mimes:jpeg,png,jpg|max:2048',
         ]);
 
-        // Update image paths if new files are uploaded
         if ($request->hasFile('header_img')) {
-            $headerImgPath = $request->file('header_img')->store('blogs/headerImgs', 'public');
-            $blog->header_img_url = $headerImgPath;
+            $headerImg = $request->file('header_img');
+            $headerImgName = time() . '_header_' . $headerImg->getClientOriginalName();
+            $headerImg->move(public_path('blogs/headerImgs'), $headerImgName);
+            $blog->header_img_url = '/blogs/headerImgs/' . $headerImgName;
         }
 
         if ($request->hasFile('thumbnail_img')) {
-            $thumbImgPath = $request->file('thumbnail_img')->store('blogs/thumbImgs', 'public');
-            $blog->thumb_img_url = $thumbImgPath;
+            $thumbImg = $request->file('thumbnail_img');
+            $thumbImgName = time() . '_thumb_' . $thumbImg->getClientOriginalName();
+            $thumbImg->move(public_path('blogs/thumbImgs'), $thumbImgName);
+            $blog->thumb_img_url = '/blogs/thumbImgs/' . $thumbImgName;
         }
 
         if ($request->hasFile('blog_img')) {
-            $blogImgPath = $request->file('blog_img')->store('blogs/blogImgs', 'public');
-            $blog->blog_img_url = $blogImgPath;
+            $blogImg = $request->file('blog_img');
+            $blogImgName = time() . '_blog_' . $blogImg->getClientOriginalName();
+            $blogImg->move(public_path('blogs/blogImgs'), $blogImgName);
+            $blog->blog_img_url = '/blogs/blogImgs/' . $blogImgName;
         }
 
         $blog->update([
@@ -125,5 +129,25 @@ class BlogController extends Controller
         ]);
 
         return redirect()->route('blogs.index')->with('success', 'Blog updated successfully!');
+    }
+
+
+    public function blogList()
+    {
+        $blogs = Blog::join('blog_categories', 'blogs.category_id', '=', 'blog_categories.id')
+            ->select('blogs.*', 'blog_categories.name as cat_name')
+            ->where('blogs.status', 'active')
+            ->orderBy('blogs.published_at', 'desc')
+            ->get();
+
+        return view('AquaVist.pages.testBlog', compact('blogs'));
+    }
+
+    public function show($blog_url)
+    {
+        $blog = Blog::with('category')
+            ->where('blog_url', $blog_url)->firstOrFail();
+
+        return view('AquaVist.pages.testViewblog', compact('blog'));
     }
 }

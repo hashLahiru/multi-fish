@@ -3,10 +3,7 @@
 @section('title', 'Home Page')
 
 @section('content')
-
-
     <div id="page" class="hfeed site">
-
         <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
             <p class="main-title bhf-hidden" itemprop="headline"><a href="https://templatekit.jegtheme.com/aquavist"
                     title="Aquavist" rel="home">Aquavist</a></p>
@@ -95,9 +92,9 @@
                                     data-id="df5b3d7" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
                                         <img width="800" height="279"
-                                            src="../../../../wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png"
+                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}"
                                             class="attachment-large size-large wp-image-662" alt="" decoding="async"
-                                            srcset="https://templatekit.jegtheme.com/aquavist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png 1024w, https://templatekit.jegtheme.com/aquavist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-300x105.png 300w, https://templatekit.jegtheme.com/aquavist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-768x268.png 768w, https://templatekit.jegtheme.com/aquavist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1536x536.png 1536w, https://templatekit.jegtheme.com/aquavist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-2048x714.png 2048w, https://templatekit.jegtheme.com/aquavist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-800x279.png 800w, https://templatekit.jegtheme.com/aquavist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-e1628655153433.png 1000w"
+                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }} 1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-300x105.png') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-768x268.png') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1536x536.png') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-2048x714.png') }} 2048w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-800x279.png') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-e1628655153433.png') }} 1000w"
                                             sizes="(max-width: 800px) 100vw, 800px" />
                                     </div>
                                 </div>
@@ -246,7 +243,7 @@
                                 data-id="4cfff215" data-element_type="widget" data-widget_type="jkit_post_title.default">
                                 <div class="elementor-widget-container">
                                     <div class="jeg-elementor-kit jkit-post-title jeg_module_546_2_6759404079660">
-                                        <h2 class="post-title style-color ">How To Acclimate Tropical Fish Tank</h2>
+                                        <h2 class="post-title style-color ">{{ $blog->title }}</h2>
                                     </div>
                                 </div>
                             </div>
@@ -259,43 +256,6 @@
                                     </div>
                                 </div>
                             </div>
-                            {{-- <div class="elementor-element elementor-element-26579587 elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon"
-                                data-id="26579587" data-element_type="widget" data-widget_type="icon.default">
-                                <div class="elementor-widget-container">
-                                    <div class="elementor-icon-wrapper">
-                                        <div class="elementor-icon">
-                                            <i aria-hidden="true" class="jki jki-user-light"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> --}}
-                            {{-- <div class="elementor-element elementor-element-234da4ad elementor-widget__width-auto elementor-widget elementor-widget-jkit_post_author"
-                                data-id="234da4ad" data-element_type="widget"
-                                data-widget_type="jkit_post_author.default">
-                                <div class="elementor-widget-container">
-                                    <div class="jeg-elementor-kit jkit-post-author jeg_module_546_3_675940407bbdc">
-                                        <p class="post-author ">John Doe</p>
-                                    </div>
-                                </div>
-                            </div> --}}
-                            {{-- <div class="elementor-element elementor-element-6f309896 elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon"
-                                data-id="6f309896" data-element_type="widget" data-widget_type="icon.default">
-                                <div class="elementor-widget-container">
-                                    <div class="elementor-icon-wrapper">
-                                        <div class="elementor-icon">
-                                            <i aria-hidden="true" class="jki jki-clock2-light"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> --}}
-                            {{-- <div class="elementor-element elementor-element-2ab8bb90 elementor-widget__width-auto elementor-widget elementor-widget-jkit_post_date"
-                                data-id="2ab8bb90" data-element_type="widget" data-widget_type="jkit_post_date.default">
-                                <div class="elementor-widget-container">
-                                    <div class="jeg-elementor-kit jkit-post-date jeg_module_546_4_675940407d03a">
-                                        <p class="post-date ">August 7, 2021</p>
-                                    </div>
-                                </div>
-                            </div> --}}
                         </div>
                     </div>
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5b19ca48"

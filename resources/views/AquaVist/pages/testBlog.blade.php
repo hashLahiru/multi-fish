@@ -137,48 +137,7 @@
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
                                                             <a href="../services/index.html">Blog</a>
                                                         </li>
-                                                        {{-- <li id="menu-item-8"
-                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8">
-                                                        <a href="#">Pages</a>
-                                                        <ul class="sub-menu">
-                                                            <li id="menu-item-1435"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1435">
-                                                                <a href="../pricing/index.html">Pricing</a>
-                                                            </li>
-                                                            <li id="menu-item-1434"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1434">
-                                                                <a href="../gallery/index.html">Gallery</a>
-                                                            </li>
-                                                            <li id="menu-item-1433"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1433">
-                                                                <a href="../events/index.html">Events</a>
-                                                            </li>
-                                                            <li id="menu-item-1432"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1432">
-                                                                <a href="../faq/index.html">FAQ</a>
-                                                            </li>
-                                                            <li id="menu-item-1431"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1431">
-                                                                <a href="../404-page/index.html">404 Page</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li> --}}
-                                                        {{-- <li id="menu-item-1427"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1427">
-                                                        <a href="../blog/index.html">Blog</a>
-                                                        <ul class="sub-menu">
-                                                            <li id="menu-item-1425"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
-                                                                <a href="../blog/index.html">Blog</a>
-                                                            </li>
-                                                            <li id="menu-item-1428"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1428">
-                                                                <a
-                                                                    href="../2021/08/07/different-aquariums-for-different-ideas/index.html">Single
-                                                                    Post</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li> --}}
+
                                                         <li id="menu-item-1426"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1291 current_page_item menu-item-1426">
                                                             <a href="index.html" aria-current="page">Contact</a>
@@ -254,22 +213,6 @@
                                     </div>
                                 </div>
                             </div>
-                            {{-- <div class="elementor-element elementor-element-bfd174b elementor-align-left elementor-icon-list--layout-inline elementor-mobile-align-left elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                data-id="bfd174b" data-element_type="widget" data-widget_type="icon-list.default">
-                                <div class="elementor-widget-container">
-                                    <ul class="elementor-icon-list-items elementor-inline-items">
-                                        <li class="elementor-icon-list-item elementor-inline-item">
-                                            <span class="elementor-icon-list-text">Home</span>
-                                        </li>
-                                        <li class="elementor-icon-list-item elementor-inline-item">
-                                            <span class="elementor-icon-list-icon">
-                                                <i aria-hidden="true" class="jki jki-angle-double-right-solid"></i>
-                                            </span>
-                                            <span class="elementor-icon-list-text">Blog</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div> --}}
                         </div>
                     </div>
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6d78aae"
@@ -280,25 +223,14 @@
                 </div>
             </section>
             <section
-                class="elementor-section elementor-top-section elementor-element elementor-element-d4078ee elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="d4078ee" data-element_type="section">
+                class="elementor-section elementor-top-section elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="d4078ee" data-element_type="section" style="padding-top:20px;">
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-365b69e"
                         data-id="365b69e" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-8d1360d elementor-widget elementor-widget-jkit_heading"
                                 data-id="8d1360d" data-element_type="widget" data-widget_type="jkit_heading.default">
-                                {{-- <div class="elementor-widget-container">
-                                    <div
-                                        class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_1344_3_67592874e07ef">
-                                        <div class="heading-section-title  display-inline-block">
-                                            <h2 class="heading-title">Our News</h2>
-                                        </div>
-                                        <div class="heading-section-separator">
-                                            <div class="separator-wrapper style-solid"></div>
-                                        </div>
-                                    </div>
-                                </div> --}}
                             </div>
                             <div class="elementor-element elementor-element-841c767 elementor-widget elementor-widget-heading"
                                 data-id="841c767" data-element_type="widget" data-widget_type="heading.default">
@@ -330,191 +262,42 @@
                                                         data-settings="{&quot;post_type&quot;:&quot;post&quot;,&quot;number_post&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:6,&quot;sizes&quot;:[]},&quot;post_offset&quot;:0,&quot;unique_content&quot;:&quot;disable&quot;,&quot;include_post&quot;:&quot;&quot;,&quot;exclude_post&quot;:&quot;&quot;,&quot;include_category&quot;:&quot;&quot;,&quot;exclude_category&quot;:&quot;&quot;,&quot;include_author&quot;:&quot;&quot;,&quot;include_tag&quot;:&quot;&quot;,&quot;exclude_tag&quot;:&quot;&quot;,&quot;sort_by&quot;:&quot;latest&quot;,&quot;pagination_mode&quot;:&quot;disable&quot;,&quot;pagination_loadmore_text&quot;:&quot;Load More&quot;,&quot;pagination_loading_text&quot;:&quot;Loading...&quot;,&quot;pagination_number_post&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:3,&quot;sizes&quot;:[]},&quot;pagination_scroll_limit&quot;:0,&quot;pagination_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;pagination_icon_position&quot;:&quot;before&quot;,&quot;st_category_position&quot;:&quot;center&quot;,&quot;sg_content_postblock_type&quot;:&quot;type-5&quot;,&quot;sg_content_element_order&quot;:&quot;title,meta,excerpt,read&quot;,&quot;sg_content_breakpoint&quot;:&quot;tablet&quot;,&quot;sg_content_title_html_tag&quot;:&quot;h3&quot;,&quot;sg_content_category_enable&quot;:&quot;yes&quot;,&quot;sg_content_excerpt_enable&quot;:&quot;yes&quot;,&quot;sg_content_excerpt_length&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:9,&quot;sizes&quot;:[]},&quot;sg_content_excerpt_more&quot;:&quot;...&quot;,&quot;sg_content_readmore_enable&quot;:&quot;&quot;,&quot;sg_content_readmore_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;sg_content_readmore_icon_position&quot;:&quot;after&quot;,&quot;sg_content_readmore_text&quot;:&quot;Read More&quot;,&quot;sg_content_comment_enable&quot;:&quot;&quot;,&quot;sg_content_comment_icon&quot;:{&quot;value&quot;:&quot;fas fa-comment&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;sg_content_comment_icon_position&quot;:&quot;before&quot;,&quot;sg_content_meta_enable&quot;:&quot;&quot;,&quot;sg_content_meta_author_enable&quot;:&quot;yes&quot;,&quot;sg_content_meta_author_by_text&quot;:&quot;by&quot;,&quot;sg_content_meta_author_icon&quot;:{&quot;value&quot;:&quot;fas fa-user&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;sg_content_meta_author_icon_position&quot;:&quot;before&quot;,&quot;sg_content_meta_date_enable&quot;:&quot;yes&quot;,&quot;sg_content_meta_date_type&quot;:&quot;published&quot;,&quot;sg_content_meta_date_format&quot;:&quot;default&quot;,&quot;sg_content_meta_date_format_custom&quot;:&quot;F j, Y&quot;,&quot;sg_content_meta_date_icon&quot;:{&quot;value&quot;:&quot;fas fa-clock&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;sg_content_meta_date_icon_position&quot;:&quot;before&quot;,&quot;sg_content_image_size_imagesize_size&quot;:&quot;full&quot;,&quot;paged&quot;:1,&quot;class&quot;:&quot;jkit_post_block&quot;}">
                                                         <div class="jkit-block-container">
                                                             <div class="jkit-posts jkit-ajax-flag">
-                                                                <article
-                                                                    class="jkit-post post-550 post type-post status-publish format-standard has-post-thumbnail hentry category-saltwater tag-advice">
-                                                                    <div class="jkit-thumb"><a
-                                                                            href="../2021/08/07/different-aquariums-for-different-ideas/index.html">
-                                                                            <div class="thumbnail-container ">
-                                                                                <img decoding="async" width="1440"
-                                                                                    height="961"
-                                                                                    src='{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-fish-from-the-spieces-symphysodon-discus-in-aquarium--e1628655050154.jpg ') }}'
-                                                                                    class="attachment-full size-full wp-post-image"
-                                                                                    alt="Colorful fish from the spieces Symphysodon discus in aquarium." />
+                                                                @foreach ($blogs as $blog)
+                                                                    <article
+                                                                        class="jkit-post post-550 post type-post status-publish format-standard has-post-thumbnail hentry category-saltwater tag-advice">
+                                                                        <div class="jkit-thumb"><a
+                                                                                href="../2021/08/07/different-aquariums-for-different-ideas/index.html">
+                                                                                <div class="thumbnail-container ">
+                                                                                    <img decoding="async" width="1440"
+                                                                                        height="961"
+                                                                                        src="{{ asset($blog->blog_img_url) }}"
+                                                                                        class="attachment-full size-full wp-post-image"
+                                                                                        alt="Colorful fish from the species Symphysodon discus in aquarium." />
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="jkit-postblock-content">
+                                                                            <div class="jkit-post-category "><span><a
+                                                                                        href="../category/saltwater/index.html"
+                                                                                        class="category-saltwater">{{ $blog->cat_name }}</a></span>
                                                                             </div>
-                                                                        </a></div>
-                                                                    <div class="jkit-postblock-content">
-                                                                        <div class="jkit-post-category "><span><a
-                                                                                    href="../category/saltwater/index.html"
-                                                                                    class="category-saltwater">Saltwater</a></span>
-                                                                        </div>
-                                                                        <h3 class="jkit-post-title">
-                                                                            <a
-                                                                                href="../2021/08/07/different-aquariums-for-different-ideas/index.html">Different
-                                                                                Aquariums For Different Ideas</a>
-                                                                        </h3>
-                                                                        <div class="jkit-post-excerpt">
-                                                                            <p>Lorem ipsum dolor sit amet, consectetur
-                                                                                adipiscing elit, sed...</p>
-                                                                        </div>
-                                                                        <div class="jkit-post-meta-bottom">
+                                                                            <h3 class="jkit-post-title">
+                                                                                <a
+                                                                                    href="{{ url('blogs/' . $blog->blog_url) }}">
+                                                                                    {{ $blog->title ? Str::limit($blog->title, 25, '...') : 'N/A' }}
+                                                                                </a>
+                                                                            </h3>
 
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                                <article
-                                                                    class="jkit-post post-551 post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-beginners">
-                                                                    <div class="jkit-thumb"><a
-                                                                            href="../2021/08/07/freshwater-aquarium-setups-care/index.html">
-                                                                            <div class="thumbnail-container ">
-                                                                                <img decoding="async" width="1440"
-                                                                                    height="1080"
-                                                                                    src='{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/carp-fish-in-the-aquarium-e1628655039273.jpg ') }}'
-                                                                                    class="attachment-full size-full wp-post-image"
-                                                                                    alt="Carp fish in the aquarium" />
+                                                                            <div class="jkit-post-excerpt">
+                                                                                <p>{{ Str::limit($blog->content, 40, '...') }}
+                                                                                </p>
                                                                             </div>
-                                                                        </a></div>
-                                                                    <div class="jkit-postblock-content">
-                                                                        <div class="jkit-post-category "><span><a
-                                                                                    href="../category/design/index.html"
-                                                                                    class="category-design">Design</a></span>
-                                                                        </div>
-                                                                        <h3 class="jkit-post-title">
-                                                                            <a
-                                                                                href="../2021/08/07/freshwater-aquarium-setups-care/index.html">Freshwater
-                                                                                Aquarium Setups &#038; Care</a>
-                                                                        </h3>
-                                                                        <div class="jkit-post-excerpt">
-                                                                            <p>Lorem ipsum dolor sit amet, consectetur
-                                                                                adipiscing elit, sed...</p>
-                                                                        </div>
-                                                                        <div class="jkit-post-meta-bottom">
+                                                                            <div class="jkit-post-meta-bottom">
 
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                                <article
-                                                                    class="jkit-post post-552 post type-post status-publish format-standard has-post-thumbnail hentry category-fishes tag-ideas">
-                                                                    <div class="jkit-thumb"><a
-                                                                            href="../2021/08/07/lifespan-of-freshwater-aquarium-fishes/index.html">
-                                                                            <div class="thumbnail-container ">
-                                                                                <img loading="lazy" decoding="async"
-                                                                                    width="1440" height="1080"
-                                                                                    src='{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/salt-water-aquarium-e1628655024510.jpg ') }}'
-                                                                                    class="attachment-full size-full wp-post-image"
-                                                                                    alt="Salt Water Aquarium" />
                                                                             </div>
-                                                                        </a></div>
-                                                                    <div class="jkit-postblock-content">
-                                                                        <div class="jkit-post-category "><span><a
-                                                                                    href="../category/fishes/index.html"
-                                                                                    class="category-fishes">Fishes</a></span>
                                                                         </div>
-                                                                        <h3 class="jkit-post-title">
-                                                                            <a
-                                                                                href="../2021/08/07/lifespan-of-freshwater-aquarium-fishes/index.html">Lifespan
-                                                                                Of Freshwater Aquarium Fishes</a>
-                                                                        </h3>
-                                                                        <div class="jkit-post-excerpt">
-                                                                            <p>Lorem ipsum dolor sit amet, consectetur
-                                                                                adipiscing elit, sed...</p>
-                                                                        </div>
-                                                                        <div class="jkit-post-meta-bottom">
-
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                                <article
-                                                                    class="jkit-post post-553 post type-post status-publish format-standard has-post-thumbnail hentry category-aquarium tag-aquarium">
-                                                                    <div class="jkit-thumb"><a
-                                                                            href="../2021/08/07/aquarium-aquascape-design-ideas-for-house/index.html">
-                                                                            <div class="thumbnail-container ">
-                                                                                <img loading="lazy" decoding="async"
-                                                                                    width="1920" height="1280"
-                                                                                    src='{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-sea-fish-in-aquarium-e1628655011829.jpg ') }}'
-                                                                                    class="attachment-full size-full wp-post-image"
-                                                                                    alt="Colorful sea fish in aquarium" />
-                                                                            </div>
-                                                                        </a></div>
-                                                                    <div class="jkit-postblock-content">
-                                                                        <div class="jkit-post-category "><span><a
-                                                                                    href="../category/aquarium/index.html"
-                                                                                    class="category-aquarium">Aquarium</a></span>
-                                                                        </div>
-                                                                        <h3 class="jkit-post-title">
-                                                                            <a
-                                                                                href="../2021/08/07/aquarium-aquascape-design-ideas-for-house/index.html">Aquarium
-                                                                                Aquascape Design Ideas For House</a>
-                                                                        </h3>
-                                                                        <div class="jkit-post-excerpt">
-                                                                            <p>Lorem ipsum dolor sit amet, consectetur
-                                                                                adipiscing elit, sed...</p>
-                                                                        </div>
-                                                                        <div class="jkit-post-meta-bottom">
-
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                                <article
-                                                                    class="jkit-post post-554 post type-post status-publish format-standard has-post-thumbnail hentry category-freshwater tag-bettafish">
-                                                                    <div class="jkit-thumb"><a
-                                                                            href="../2021/08/07/guide-to-keeping-freshwater-sword-tails/index.html">
-                                                                            <div class="thumbnail-container ">
-                                                                                <img loading="lazy" decoding="async"
-                                                                                    width="1440" height="1080"
-                                                                                    src='{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-1-e1628654993767.jpg ') }}'
-                                                                                    class="attachment-full size-full wp-post-image"
-                                                                                    alt="Aquarium" />
-                                                                            </div>
-                                                                        </a></div>
-                                                                    <div class="jkit-postblock-content">
-                                                                        <div class="jkit-post-category "><span><a
-                                                                                    href="../category/freshwater/index.html"
-                                                                                    class="category-freshwater">Freshwater</a></span>
-                                                                        </div>
-                                                                        <h3 class="jkit-post-title">
-                                                                            <a
-                                                                                href="../2021/08/07/guide-to-keeping-freshwater-sword-tails/index.html">Guide
-                                                                                To Keeping Freshwater Sword Tails</a>
-                                                                        </h3>
-                                                                        <div class="jkit-post-excerpt">
-                                                                            <p>Lorem ipsum dolor sit amet, consectetur
-                                                                                adipiscing elit, sed...</p>
-                                                                        </div>
-                                                                        <div class="jkit-post-meta-bottom">
-
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
-                                                                <article
-                                                                    class="jkit-post post-546 post type-post status-publish format-standard has-post-thumbnail hentry category-maintenance tag-design">
-                                                                    <div class="jkit-thumb"><a
-                                                                            href="../2021/08/07/how-to-acclimate-tropical-fish-tank/index.html">
-                                                                            <div class="thumbnail-container ">
-                                                                                <img loading="lazy" decoding="async"
-                                                                                    width="1920" height="1280"
-                                                                                    src='{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/exotic-fish-in-a-collector-s-aquarium-e1628654984548.jpg ') }}'
-                                                                                    class="attachment-full size-full wp-post-image"
-                                                                                    alt="Exotic fish in a collector&#039;s aquarium" />
-                                                                            </div>
-                                                                        </a></div>
-                                                                    <div class="jkit-postblock-content">
-                                                                        <div class="jkit-post-category "><span><a
-                                                                                    href="../category/maintenance/index.html"
-                                                                                    class="category-maintenance">Maintenance</a></span>
-                                                                        </div>
-                                                                        <h3 class="jkit-post-title">
-                                                                            <a href="http://127.0.0.1:8000/Viewblog">How
-                                                                                To Acclimate Tropical Fish Tank</a>
-                                                                        </h3>
-                                                                        <div class="jkit-post-excerpt">
-                                                                            <p>Lorem ipsum dolor sit amet, consectetur
-                                                                                adipiscing elit, sed...</p>
-                                                                        </div>
-                                                                        <div class="jkit-post-meta-bottom">
-
-                                                                        </div>
-                                                                    </div>
-                                                                </article>
+                                                                    </article>
+                                                                @endforeach
                                                             </div>
                                                         </div>
                                                     </div>

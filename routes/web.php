@@ -27,14 +27,15 @@ Route::get('/Gallery', function () {
     return view('AquaVist.pages.testGallery');
 });
 
-Route::get('/Blog', function () {
-    return view('AquaVist.pages.testBlog');
-});
+// Route::get('/Blog', function () {
+//     return view('AquaVist.pages.testBlog');
+// });
+Route::get('/Blog', [BlogController::class, 'blogList'])->name('blog.list');
 
-
-Route::get('/Viewblog', function () {
-    return view('AquaVist.pages.testViewblog');
-});
+// Route::get('/Viewblog', function () {
+//     return view('AquaVist.pages.testViewblog');
+// });
+Route::get('/blogs/{blog_url}', [BlogController::class, 'show'])->name('blog.show');
 
 Route::get('/Contact-Us', function () {
     return view('AquaVist.pages.testContact');

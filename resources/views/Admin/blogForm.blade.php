@@ -43,7 +43,7 @@
                                 <input type="file" name="header_img" class="form-control"
                                     onchange="previewImage(event, 'headerPreview')" />
                                 <img id="headerPreview"
-                                    src="{{ isset($blog->header_img_url) ? asset('storage/' . $blog->header_img_url) : '#' }}"
+                                    src="{{ isset($blog->header_img_url) ? asset($blog->header_img_url) : '#' }}"
                                     alt="Header Preview"
                                     style="display: {{ isset($blog->header_img_url) ? 'block' : 'none' }}; margin-top: 10px; width: 150px;" />
                             </div>
@@ -55,7 +55,7 @@
                                 <input type="file" name="thumbnail_img" class="form-control"
                                     onchange="previewImage(event, 'thumbPreview')" />
                                 <img id="thumbPreview"
-                                    src="{{ isset($blog->thumb_img_url) ? asset('storage/' . $blog->thumb_img_url) : '#' }}"
+                                    src="{{ isset($blog->thumb_img_url) ? asset($blog->thumb_img_url) : '#' }}"
                                     alt="Thumbnail Preview"
                                     style="display: {{ isset($blog->thumb_img_url) ? 'block' : 'none' }}; margin-top: 10px; width: 150px;" />
                             </div>
@@ -67,7 +67,7 @@
                                 <input type="file" name="blog_img" class="form-control"
                                     onchange="previewImage(event, 'blogPreview')" />
                                 <img id="blogPreview"
-                                    src="{{ isset($blog->blog_img_url) ? asset('storage/' . $blog->blog_img_url) : '#' }}"
+                                    src="{{ isset($blog->blog_img_url) ? asset($blog->blog_img_url) : '#' }}"
                                     alt="Blog Preview"
                                     style="display: {{ isset($blog->blog_img_url) ? 'block' : 'none' }}; margin-top: 10px; width: 150px;" />
                             </div>
