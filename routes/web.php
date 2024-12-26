@@ -22,6 +22,7 @@ Route::get('/About', function () {
 Route::get('/Product', function () {
     return view('AquaVist.pages.testProducts');
 });
+Route::get('/Product', [testProductController::class, 'index'])->name('product.index');
 
 
 Route::get('/Gallery', function () {

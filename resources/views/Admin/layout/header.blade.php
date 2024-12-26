@@ -6,8 +6,8 @@
                     <div class="dropdown profile-element">
                         <img alt="image" class="rounded-circle" src="img/profile_small.jpg" />
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <span class="block m-t-xs font-bold">David Williams</span>
-                            <span class="text-muted text-xs block">Art Director <b class="caret"></b></span>
+                            <span class="m-t-xs block font-bold">David Williams</span>
+                            <span class="text-muted block text-xs">Art Director <b class="caret"></b></span>
                         </a>
                         <ul class="dropdown-menu animated fadeInRight m-t-xs">
                             <li>
@@ -30,14 +30,14 @@
                     </div>
                     <div class="logo-element">IN+</div>
                 </li>
-                <li class="{{ Request::is('page-editor') ? 'active' : '' }}">
+                {{-- <li class="{{ Request::is('page-editor') ? 'active' : '' }}">
                     <a href="/page-editor"><i class="fa fa-diamond"></i>
                         <span class="nav-label">Landing Page</span></a>
                 </li>
                 <li class="{{ Request::is('image-uploader') ? 'active' : '' }}">
                     <a href="/image-uploader"><i class="fa fa-picture-o"></i>
                         <span class="nav-label">Image Uploader</span></a>
-                </li>
+                </li> --}}
                 <li class="{{ Request::is('messages') ? 'active' : '' }}">
                     <a href="/messages"><i class="fa fa-envelope"></i>
                         <span class="nav-label">Mailbox</span></a>
@@ -47,7 +47,7 @@
                         <span class="nav-label">Products</span></a>
                 </li>
                 <li class="{{ Request::is('categories') ? 'active' : '' }}">
-                    <a href="/categories"><i class="fa fa-shopping-cart"></i>
+                    <a href="/categories"><i class="fa fa-object-group"></i>
                         <span class="nav-label">Category</span></a>
                 </li>
                 <li class="{{ Request::is('categories') ? 'active' : '' }}">
@@ -102,7 +102,7 @@
                                         <img alt="image" class="rounded-circle" src="img/a4.jpg" />
                                     </a>
                                     <div class="media-body">
-                                        <small class="float-right text-navy">5h ago</small>
+                                        <small class="text-navy float-right">5h ago</small>
                                         <strong>Chris Johnatan Overtunk</strong> started
                                         following <strong>Monica Smith</strong>. <br />
                                         <small class="text-muted">Yesterday 1:21 pm - 11.06.2014</small>
@@ -125,7 +125,7 @@
                             </li>
                             <li class="dropdown-divider"></li>
                             <li>
-                                <div class="text-center link-block">
+                                <div class="link-block text-center">
                                     <a href="mailbox.html" class="dropdown-item">
                                         <i class="fa fa-envelope"></i>
                                         <strong>Read All Messages</strong>
@@ -145,7 +145,7 @@
                                     <div>
                                         <i class="fa fa-envelope fa-fw"></i> You have 16
                                         messages
-                                        <span class="float-right text-muted small">4 minutes ago</span>
+                                        <span class="text-muted small float-right">4 minutes ago</span>
                                     </div>
                                 </a>
                             </li>
@@ -154,7 +154,7 @@
                                 <a href="profile.html" class="dropdown-item">
                                     <div>
                                         <i class="fa fa-twitter fa-fw"></i> 3 New Followers
-                                        <span class="float-right text-muted small">12 minutes ago</span>
+                                        <span class="text-muted small float-right">12 minutes ago</span>
                                     </div>
                                 </a>
                             </li>
@@ -163,13 +163,13 @@
                                 <a href="grid_options.html" class="dropdown-item">
                                     <div>
                                         <i class="fa fa-upload fa-fw"></i> Server Rebooted
-                                        <span class="float-right text-muted small">4 minutes ago</span>
+                                        <span class="text-muted small float-right">4 minutes ago</span>
                                     </div>
                                 </a>
                             </li>
                             <li class="dropdown-divider"></li>
                             <li>
-                                <div class="text-center link-block">
+                                <div class="link-block text-center">
                                     <a href="notifications.html" class="dropdown-item">
                                         <strong>See All Alerts</strong>
                                         <i class="fa fa-angle-right"></i>
