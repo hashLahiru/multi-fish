@@ -6,7 +6,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProductCategoryController;
 use App\Http\Controllers\testProductController;
-
+use App\Http\Controllers\BlogController;
 // --------------------------------------------------------------------------------------------------------
 // -------------------------------------------- Public Routes ---------------------------------------------
 // --------------------------------------------------------------------------------------------------------
@@ -28,14 +28,15 @@ Route::get('/Gallery', function () {
     return view('AquaVist.pages.testGallery');
 });
 
-Route::get('/Blog', function () {
-    return view('AquaVist.pages.testBlog');
-});
+// Route::get('/Blog', function () {
+//     return view('AquaVist.pages.testBlog');
+// });
+Route::get('/Blog', [BlogController::class, 'blogList'])->name('blog.list');
 
-
-Route::get('/Viewblog', function () {
-    return view('AquaVist.pages.testViewblog');
-});
+// Route::get('/Viewblog', function () {
+//     return view('AquaVist.pages.testViewblog');
+// });
+Route::get('/blogs/{blog_url}', [BlogController::class, 'show'])->name('blog.show');
 
 Route::get('/Contact-Us', function () {
     return view('AquaVist.pages.testContact');
@@ -56,7 +57,7 @@ Route::post('/Contact', [ContactController::class, 'store'])->name('contact.stor
 // --------------------------------------------- Admin Routes ---------------------------------------------
 // --------------------------------------------------------------------------------------------------------
 
-// Routes for Admin Dashboard 
+// Routes for Admin Dashboard
 Route::get('/dashboard', function () {
     return view('admin.dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -87,6 +88,17 @@ Route::post('/categories/update/{id}', [ProductCategoryController::class, 'updat
 //testproductcontorller
 Route::get('/product-categories', [testProductController::class, 'index'])->name('product.index');
 
+// Routes for Blogs
+Route::resource('blogs', BlogController::class);
+Route::get('/blogsAdmin', [BlogController::class, 'index'])->name('blogs.index');
+Route::get('/blogAdmin/create', [BlogController::class, 'create'])->name('blogs.create');
+Route::post('/blogAdmin/store', [BlogController::class, 'store'])->name('blog.store');
+Route::post('blogs/toggle-status/{id}', [BlogController::class, 'toggleStatus'])->name('blogs.toggleStatus');
+Route::post('blogs/delete/{id}', [BlogController::class, 'delete'])->name('blogs.delete');
+Route::get('blogs/edit/{id}', [BlogController::class, 'edit'])->name('blogs.edit');
+Route::put('blogs/update/{id}', [BlogController::class, 'update'])->name('blogs.update');
+
+
 
 // Middlewares
 Route::middleware('auth')->group(function () {
@@ -100,11 +112,3 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__ . '/auth.php';
-
-
-
-
-
-
-
-

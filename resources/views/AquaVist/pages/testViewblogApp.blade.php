@@ -627,6 +627,13 @@
         href='{{ asset('AquaVist/wp-json/oembed/1.0/embed15ab?url=https%3A%2F%2Ftemplatekit.jegtheme.com%2Faquavist%2F2021%2F08%2F07%2Fhow-to-acclimate-tropical-fish-tank%2F&amp;format=xml ') }}' />
     <meta name="generator"
         content="Elementor 3.17.3; features: e_dom_optimization, e_optimized_assets_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+
+    <style>
+        .elementor-546 .elementor-element.elementor-element-e1e281f:not(.elementor-motion-effects-element-type-background),
+        .elementor-546 .elementor-element.elementor-element-e1e281f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+            background-image: url({{ asset($blog->header_img_url) }}) !important;
+        }
+    </style>
 </head>
 
 <body

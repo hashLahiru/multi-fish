@@ -50,6 +50,10 @@
                     <a href="/categories"><i class="fa fa-shopping-cart"></i>
                         <span class="nav-label">Category</span></a>
                 </li>
+                <li class="{{ Request::is('categories') ? 'active' : '' }}">
+                    <a href="/blogsAdmin"><i class="fa fa-rss"></i>
+                        <span class="nav-label">Blog</span></a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -58,7 +62,8 @@
         <div class="row border-bottom">
             <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                 <div class="navbar-header">
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i class="fa fa-bars"></i>
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i
+                            class="fa fa-bars"></i>
                     </a>
                     <form role="search" class="navbar-form-custom" action="search_results.html">
                         <div class="form-group">
@@ -174,7 +179,7 @@
                         </ul>
                     </li>
                     <li>
-                        <form action="{{ route('logout') }}" method="POST" style="display: inline;">
+                        <form action="{{ route('login') }}" method="POST" style="display: inline;">
                             @csrf
                             <button type="submit" class="dropdown-item">Logout</button>
                         </form>
