@@ -10,12 +10,13 @@
                     <h5>Blog List</h5>
                     <div class="ibox-tools">
                         <a href="{{ route('blogs.create') }}" class="btn btn-primary mb-2">Create Blog</a>
-                        <a href="#" class="btn btn-success mb-2">Create Category</a>
+                        <a href="#" class="btn btn-success mb-2" data-bs-toggle="modal"
+                            data-bs-target="#createCategoryModal">Create Category</a>
                     </div>
                 </div>
                 <div class="ibox-content">
                     <div class="table-responsive">
-                        <table class="table table-striped table-bordered table-hover" id="blogTable">
+                        <table class="table-striped table-bordered table-hover table" id="blogTable">
                             <thead>
                                 <tr>
                                     <th>#</th>
@@ -55,6 +56,30 @@
                 </div>
             </div>
         </div>
+        <!-- Create Category Modal -->
+        <div class="modal fade" id="createCategoryModal" tabindex="-1" aria-labelledby="createCategoryModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form id="createCategoryForm">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="createCategoryModalLabel">Create Category</h5>
+                            <a href="#" class="fa fa-times" data-bs-dismiss="modal" aria-label="Close"></a>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="categoryName" class="form-label">Category Name</label>
+                                <input type="text" class="form-control" id="categoryName" name="categoryName" required>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-primary" id="saveCategoryBtn">Save</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -75,6 +100,45 @@
                     const blogId = button.getAttribute('data-id');
                     toggleStatus(blogId);
                 });
+            });
+
+            // Save category
+            document.getElementById('saveCategoryBtn').addEventListener('click', function() {
+                const categoryName = document.getElementById('categoryName').value.trim();
+
+                if (!categoryName) {
+                    alert('Please enter a category name.');
+                    return;
+                }
+
+                if (!confirm('Are you sure you want to save this category?')) {
+                    return;
+                }
+
+                const formData = new FormData();
+                formData.append('name', categoryName);
+
+                fetch('/categories/store', {
+                        method: 'POST',
+                        body: formData,
+                        headers: {
+                            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]')
+                                .getAttribute('content'),
+                        },
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        alert(data.message);
+                        if (data.success) {
+                            document.getElementById('createCategoryForm').reset();
+                            $('#createCategoryModal').modal('hide'); // Hide modal
+                            // location.reload(); // Reload the page to update the table
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        alert('An error occurred while saving the category.');
+                    });
             });
         });
 

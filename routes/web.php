@@ -98,6 +98,7 @@ Route::post('blogs/toggle-status/{id}', [BlogController::class, 'toggleStatus'])
 Route::post('blogs/delete/{id}', [BlogController::class, 'delete'])->name('blogs.delete');
 Route::get('blogs/edit/{id}', [BlogController::class, 'edit'])->name('blogs.edit');
 Route::put('blogs/update/{id}', [BlogController::class, 'update'])->name('blogs.update');
+Route::post('categories/store', [BlogController::class, 'storeCategory'])->name('categories.store');
 
 
 

@@ -150,4 +150,21 @@ class BlogController extends Controller
 
         return view('AquaVist.pages.testViewblog', compact('blog'));
     }
+
+    public function storeCategory(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|max:255',
+        ]);
+
+        BlogCategory::create([
+            'name' => $request->name,
+            'status' => 'active',
+        ]);
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Category added successfully!',
+        ]);
+    }
 }
