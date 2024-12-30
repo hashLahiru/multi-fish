@@ -11,19 +11,19 @@ use App\Http\Controllers\BlogController;
 // -------------------------------------------- Public Routes ---------------------------------------------
 // --------------------------------------------------------------------------------------------------------
 
-Route::get('/Home', function () {
+Route::get('/', function () {
     return view('AquaVist.pages.testHome');
 });
 
-Route::get('/About', function () {
+Route::get('/about', function () {
     return view('AquaVist.pages.testAboutUs');
 });
 
-Route::get('/Product', function () {
-    return view('AquaVist.pages.testProducts');
-});
-Route::get('/Product', [testProductController::class, 'index'])->name('product.index');
+// Route::get('/Product', function () {
+//     return view('AquaVist.pages.testProducts');
+// });
 
+Route::get('/Product', [testProductController::class, 'index'])->name('product.index');
 
 Route::get('/Gallery', function () {
     return view('AquaVist.pages.testGallery');
@@ -32,14 +32,14 @@ Route::get('/Gallery', function () {
 // Route::get('/Blog', function () {
 //     return view('AquaVist.pages.testBlog');
 // });
-Route::get('/Blog', [BlogController::class, 'blogList'])->name('blog.list');
+Route::get('/blog', [BlogController::class, 'blogList'])->name('blog.list');
 
 // Route::get('/Viewblog', function () {
 //     return view('AquaVist.pages.testViewblog');
 // });
 Route::get('/blogs/{blog_url}', [BlogController::class, 'show'])->name('blog.show');
 
-Route::get('/Contact-Us', function () {
+Route::get('/contactus', function () {
     return view('AquaVist.pages.testContact');
 });
 
