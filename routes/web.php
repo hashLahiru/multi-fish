@@ -23,9 +23,9 @@ Route::get('/about', function () {
 //     return view('AquaVist.pages.testProducts');
 // });
 
-Route::get('/Product', [testProductController::class, 'index'])->name('product.index');
+Route::get('/product', [testProductController::class, 'index'])->name('product.index');
 
-Route::get('/Gallery', function () {
+Route::get('/gallery', function () {
     return view('AquaVist.pages.testGallery');
 });
 
