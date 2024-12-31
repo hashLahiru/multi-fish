@@ -39,7 +39,7 @@
             border: none;
         }
 
-                .info {
+        .info {
             position: absolute;
         }
     </style>
@@ -160,25 +160,25 @@
                                                         class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
                                                         <li id="menu-item-22"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-22">
-                                                            <a href="../index.html">Home</a>
+                                                            <a href="/">Home</a>
                                                         </li>
                                                         <li id="menu-item-1430"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1430">
-                                                            <a href="../about/index.html">About</a>
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1430 current-menu-item page_item page-item-1291 current_page_item ">
+                                                            <a href="/about" aria-current="page">About</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="../services/index.html">Products</a>
-                                                        </li>
-
-                                                        <li id="menu-item-1429"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="../services/index.html">Gallery</a>
+                                                            <a href="/product-categories">Products</a>
                                                         </li>
 
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="../services/index.html">Blog</a>
+                                                            <a href="/gallery">Gallery</a>
+                                                        </li>
+
+                                                        <li id="menu-item-1429"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
+                                                            <a href="/blog">Blog</a>
                                                         </li>
                                                         {{-- <li id="menu-item-8"
                                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8">
@@ -223,8 +223,8 @@
                                                         </ul>
                                                     </li> --}}
                                                         <li id="menu-item-1426"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1291 current_page_item menu-item-1426">
-                                                            <a href="index.html" aria-current="page">Contact</a>
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-1426">
+                                                            <a href="/contactus" >Contact</a>
                                                         </li>
                                                     </ul>
                                                 </div>

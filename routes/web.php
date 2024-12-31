@@ -29,9 +29,9 @@ Route::get('/gallery', function () {
     return view('AquaVist.pages.testGallery');
 });
 
-// Route::get('/Blog', function () {
-//     return view('AquaVist.pages.testBlog');
-// });
+ Route::get('/testblog', function () {
+     return view('AquaVist.pages.testBlog');
+ });
 Route::get('/blog', [BlogController::class, 'blogList'])->name('blog.list');
 
 // Route::get('/Viewblog', function () {

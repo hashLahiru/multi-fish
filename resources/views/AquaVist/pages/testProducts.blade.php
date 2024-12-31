@@ -244,29 +244,71 @@
                                                         class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
                                                         <li id="menu-item-22"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-22">
-                                                            <a href="../index.html">Home</a>
+                                                            <a href="/">Home</a>
                                                         </li>
                                                         <li id="menu-item-1430"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1430">
-                                                            <a href="../about/index.html">About</a>
+                                                            <a href="/about">About</a>
                                                         </li>
                                                         <li id="menu-item-1429"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="../services/index.html">Products</a>
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429 current-menu-item page_item page-item-1291 current_page_item ">
+                                                            <a href="/product-categories" aria-current="page">Products</a>
                                                         </li>
 
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="../services/index.html">Gallery</a>
+                                                            <a href="/gallery">Gallery</a>
                                                         </li>
 
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="../services/index.html">Blog</a>
+                                                            <a href="/blog">Blog</a>
                                                         </li>
+                                                        {{-- <li id="menu-item-8"
+                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8">
+                                                        <a href="#">Pages</a>
+                                                        <ul class="sub-menu">
+                                                            <li id="menu-item-1435"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1435">
+                                                                <a href="../pricing/index.html">Pricing</a>
+                                                            </li>
+                                                            <li id="menu-item-1434"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1434">
+                                                                <a href="../gallery/index.html">Gallery</a>
+                                                            </li>
+                                                            <li id="menu-item-1433"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1433">
+                                                                <a href="../events/index.html">Events</a>
+                                                            </li>
+                                                            <li id="menu-item-1432"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1432">
+                                                                <a href="../faq/index.html">FAQ</a>
+                                                            </li>
+                                                            <li id="menu-item-1431"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1431">
+                                                                <a href="../404-page/index.html">404 Page</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li> --}}
+                                                        {{-- <li id="menu-item-1427"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1427">
+                                                        <a href="../blog/index.html">Blog</a>
+                                                        <ul class="sub-menu">
+                                                            <li id="menu-item-1425"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
+                                                                <a href="../blog/index.html">Blog</a>
+                                                            </li>
+                                                            <li id="menu-item-1428"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1428">
+                                                                <a
+                                                                    href="../2021/08/07/different-aquariums-for-different-ideas/index.html">Single
+                                                                    Post</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li> --}}
                                                         <li id="menu-item-1426"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1291 current_page_item menu-item-1426">
-                                                            <a href="index.html" aria-current="page">Contact</a>
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-1426">
+                                                            <a href="/contactus">Contact</a>
                                                         </li>
                                                     </ul>
                                                 </div>

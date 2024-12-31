@@ -325,7 +325,17 @@ body:not(.rtl)
     .jkit-menu
     > li:hover
     > a {
-    color: #ffffff;
+    color: #19cbe4;
+}
+
+.elementor-761
+    .elementor-element.elementor-element-ed57b6e
+    .jeg-elementor-kit.jkit-nav-menu
+    .jkit-menu-wrapper
+    .jkit-menu
+    > li:active
+    > a {
+    color: #19cbe4;
 }
 .elementor-761
     .elementor-element.elementor-element-ed57b6e
@@ -353,6 +363,24 @@ body:not(.rtl)
     > a {
     color: #19cbe4;
 }
+
+.elementor-761
+    .elementor-element.elementor-element-ed57b6e
+    .jeg-elementor-kit.jkit-nav-menu
+    .jkit-menu-wrapper
+    .jkit-menu
+    > li.current-menu-item:hover
+    > a,
+.elementor-761
+    .elementor-element.elementor-element-ed57b6e
+    .jeg-elementor-kit.jkit-nav-menu
+    .jkit-menu-wrapper
+    .jkit-menu
+    > li.current-menu-ancestor:hover
+    > a {
+    color: #19cbe4;
+}
+
 .elementor-761
     .elementor-element.elementor-element-ed57b6e
     .jeg-elementor-kit.jkit-nav-menu
