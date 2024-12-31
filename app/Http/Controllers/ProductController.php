@@ -34,8 +34,6 @@ class ProductController extends Controller
         $product->pro_description = $request->description;
         $product->unit_price = $request->price;
         $product->category_id = $request->category_id;
-
-        // Set country availability
         $product->isSriLanka = $request->has('isSriLanka') ? 1 : 0;
         $product->isIndonesia = $request->has('isIndonesia') ? 1 : 0;
         $product->isMalaysia = $request->has('isMalasiya') ? 1 : 0;
@@ -138,9 +136,9 @@ class ProductController extends Controller
         ]);
 
         // Update product fields
-        $product->prod_name = $request->prod_name;
-        $product->description = $request->description;
-        $product->price = $request->price;
+        $product->pro_name = $request->prod_name;
+        $product->pro_description = $request->description;
+        $product->unit_price = $request->price;
         $product->category_id = $request->category_id;
 
         // Update available countries

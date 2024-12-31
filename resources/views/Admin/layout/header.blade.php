@@ -30,14 +30,6 @@
                     </div>
                     <div class="logo-element">IN+</div>
                 </li>
-                {{-- <li class="{{ Request::is('page-editor') ? 'active' : '' }}">
-                    <a href="/page-editor"><i class="fa fa-diamond"></i>
-                        <span class="nav-label">Landing Page</span></a>
-                </li>
-                <li class="{{ Request::is('image-uploader') ? 'active' : '' }}">
-                    <a href="/image-uploader"><i class="fa fa-picture-o"></i>
-                        <span class="nav-label">Image Uploader</span></a>
-                </li> --}}
                 <li class="{{ Request::is('messages') ? 'active' : '' }}">
                     <a href="/messages"><i class="fa fa-envelope"></i>
                         <span class="nav-label">Mailbox</span></a>
@@ -50,7 +42,7 @@
                     <a href="/categories"><i class="fa fa-object-group"></i>
                         <span class="nav-label">Category</span></a>
                 </li>
-                <li class="{{ Request::is('categories') ? 'active' : '' }}">
+                <li class="{{ Request::is('blogsAdmin') ? 'active' : '' }}">
                     <a href="/blogsAdmin"><i class="fa fa-rss"></i>
                         <span class="nav-label">Blog</span></a>
                 </li>

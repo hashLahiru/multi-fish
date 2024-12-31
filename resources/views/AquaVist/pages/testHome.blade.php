@@ -13,10 +13,6 @@
 
         }
 
-
-
-
-
         .Alltext {
             position: absolute;
             top: 120px;
@@ -66,7 +62,6 @@
                                         <ul class="elementor-icon-list-items elementor-inline-items">
                                             <li class="elementor-icon-list-item elementor-inline-item">
                                                 <a href="#">
-
                                                     <span class="elementor-icon-list-icon">
                                                         <i aria-hidden="true" class="icon icon-facebook"></i> </span>
                                                     <span class="elementor-icon-list-text">Facebook</span>
@@ -74,7 +69,6 @@
                                             </li>
                                             <li class="elementor-icon-list-item elementor-inline-item">
                                                 <a href="#">
-
                                                     <span class="elementor-icon-list-icon">
                                                         <i aria-hidden="true" class="icon icon-twitter"></i> </span>
                                                     <span class="elementor-icon-list-text">Twitter</span>
@@ -82,7 +76,6 @@
                                             </li>
                                             <li class="elementor-icon-list-item elementor-inline-item">
                                                 <a href="#">
-
                                                     <span class="elementor-icon-list-icon">
                                                         <i aria-hidden="true" class="icon icon-linkedin"></i> </span>
                                                     <span class="elementor-icon-list-text">Linkedin</span>
@@ -90,7 +83,6 @@
                                             </li>
                                             <li class="elementor-icon-list-item elementor-inline-item">
                                                 <a href="#">
-
                                                     <span class="elementor-icon-list-icon">
                                                         <i aria-hidden="true" class="icon icon-instagram-1"></i>
                                                     </span>
@@ -149,58 +141,14 @@
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
                                                             <a href="../services/index.html">Products</a>
                                                         </li>
-
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
                                                             <a href="../services/index.html">Gallery</a>
                                                         </li>
-
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
                                                             <a href="../services/index.html">Blog</a>
                                                         </li>
-                                                        {{-- <li id="menu-item-8"
-                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8">
-                                                        <a href="#">Pages</a>
-                                                        <ul class="sub-menu">
-                                                            <li id="menu-item-1435"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1435">
-                                                                <a href="../pricing/index.html">Pricing</a>
-                                                            </li>
-                                                            <li id="menu-item-1434"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1434">
-                                                                <a href="../gallery/index.html">Gallery</a>
-                                                            </li>
-                                                            <li id="menu-item-1433"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1433">
-                                                                <a href="../events/index.html">Events</a>
-                                                            </li>
-                                                            <li id="menu-item-1432"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1432">
-                                                                <a href="../faq/index.html">FAQ</a>
-                                                            </li>
-                                                            <li id="menu-item-1431"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1431">
-                                                                <a href="../404-page/index.html">404 Page</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li> --}}
-                                                        {{-- <li id="menu-item-1427"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1427">
-                                                        <a href="../blog/index.html">Blog</a>
-                                                        <ul class="sub-menu">
-                                                            <li id="menu-item-1425"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
-                                                                <a href="../blog/index.html">Blog</a>
-                                                            </li>
-                                                            <li id="menu-item-1428"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1428">
-                                                                <a
-                                                                    href="../2021/08/07/different-aquariums-for-different-ideas/index.html">Single
-                                                                    Post</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li> --}}
                                                         <li id="menu-item-1426"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1291 current_page_item menu-item-1426">
                                                             <a href="index.html" aria-current="page">Contact</a>
@@ -240,7 +188,6 @@
                                                 <div class="icon-box icon-box-body">
                                                     <h2 class="title">+021 441 9858</h2>
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>
@@ -266,8 +213,8 @@
                                 data-id="c45af93" data-element_type="widget" data-widget_type="jkit_heading.default">
                                 <div class="elementor-widget-container">
                                     <div
-                                        class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_20_2_675926d952223">
-                                        <div class="heading-section-title  display-inline-block">
+                                        class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_20_2_675926d952223">
+                                        <div class="heading-section-title display-inline-block">
                                             <h2 class="heading-title">Amazing Aquarium</h2>
                                         </div>
                                         <div class="heading-section-separator">
@@ -295,7 +242,7 @@
                                 data-id="00c0327" data-element_type="widget" data-widget_type="jkit_button.default">
                                 <div class="elementor-widget-container">
                                     <div
-                                        class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_20_3_675926d95562a">
+                                        class="jeg-elementor-kit jkit-button icon-position-before jeg_module_20_3_675926d95562a">
                                         <a href="#" class="jkit-button-wrapper">Get Started</a>
                                     </div>
                                 </div>
@@ -304,7 +251,7 @@
                                 data-id="addc8d3" data-element_type="widget" data-widget_type="jkit_button.default">
                                 <div class="elementor-widget-container">
                                     <div
-                                        class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_20_4_675926d955fe9">
+                                        class="jeg-elementor-kit jkit-button icon-position-before jeg_module_20_4_675926d955fe9">
                                         <a href="#" class="jkit-button-wrapper">Read More</a>
                                     </div>
                                 </div>
@@ -336,13 +283,9 @@
                                 class="elementor-section elementor-inner-section elementor-element elementor-element-9a47b26 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                 data-id="9a47b26" data-element_type="section">
                                 <div class="elementor-container elementor-column-gap-default">
-
-
-
-
                                     <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-ffc483d"
                                         data-id="ffc483d" data-element_type="column"
-                                        style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto1.jpg') }}'); 
+                                        style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto1.jpg') }}');
                                            background-size: cover; background-position:left center; width: 1550px; height: 250px; margin-top:110px"
                                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                         <div class ="Alltext">
@@ -368,20 +311,16 @@
                                                 data-widget_type="jkit_button.default">
                                                 <div class="elementor-widget-container">
                                                     <div
-                                                        class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_20_6_675926d95ac38">
+                                                        class="jeg-elementor-kit jkit-button icon-position-before jeg_module_20_6_675926d95ac38">
                                                         <a href="#" class="jkit-button-wrapper">Learn More</a>
                                                     </div>
                                                 </div>
                                             </div>
-
                                         </div>
-
                                     </div>
-
-
                                     <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-ffc483d"
                                         data-id="ffc483d" data-element_type="column"
-                                        style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo6.jpg') }}'); 
+                                        style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo6.jpg') }}');
                                        background-size: cover; background-position:left; width: 1550px; height: 250px; margin-top:110px"
                                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                         <div class ="Alltext">
@@ -407,18 +346,16 @@
                                                 data-widget_type="jkit_button.default">
                                                 <div class="elementor-widget-container">
                                                     <div
-                                                        class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_20_5_675926d958d80">
+                                                        class="jeg-elementor-kit jkit-button icon-position-before jeg_module_20_5_675926d958d80">
                                                         <a href="#" class="jkit-button-wrapper">Learn More</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
-
                                     <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b1e2c37"
                                         data-id="b1e2c37" data-element_type="column"
-                                        style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemo.jpg') }}'); 
+                                        style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemo.jpg') }}');
                                            background-size: cover; background-position: left; width: 1550px; height: 250px; margin-top:110px"
                                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                         <div class ="Alltext">
@@ -444,15 +381,13 @@
                                                 data-widget_type="jkit_button.default">
                                                 <div class="elementor-widget-container">
                                                     <div
-                                                        class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_20_5_675926d958d80">
+                                                        class="jeg-elementor-kit jkit-button icon-position-before jeg_module_20_5_675926d958d80">
                                                         <a href="#" class="jkit-button-wrapper">Learn More</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
-
                                 </div>
                             </section>
                         </div>
@@ -471,7 +406,7 @@
                                 <div class="elementor-widget-container">
                                     <img decoding="async" width="1000" height="1333"
                                         src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-e1628654647969.jpg') }}"
-                                        class="attachment-full size-full wp-image-167" alt="Aquarium" />
+                                        class="attachment-full wp-image-167 size-full" alt="Aquarium" />
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-8e8deb9 elementor-widget__width-auto elementor-absolute elementor-hidden-phone elementor-widget elementor-widget-jkit_video_button"
@@ -518,8 +453,8 @@
                                 data-id="b9b3e6a" data-element_type="widget" data-widget_type="jkit_heading.default">
                                 <div class="elementor-widget-container">
                                     <div
-                                        class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_20_9_675926d9626fb">
-                                        <div class="heading-section-title  display-inline-block">
+                                        class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_20_9_675926d9626fb">
+                                        <div class="heading-section-title display-inline-block">
                                             <h2 class="heading-title">About Aquavist</h2>
                                         </div>
                                         <div class="heading-section-separator">
@@ -566,14 +501,13 @@
                                                                 <p class="icon-box-description">Lorem ipsum dolor sit
                                                                     amet sed consect adipiscing elit sed do eiusmod
                                                                     tempor incididunt.</p>
-                                                                <div class="icon-box-button ">
+                                                                <div class="icon-box-button">
                                                                     <div class="btn-wrapper icon-position-after">
                                                                         <a href="#" class="icon-box-link">Read
                                                                             More</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
-
                                                         </div>
                                                     </div>
                                                 </div>
@@ -600,14 +534,13 @@
                                                                 <p class="icon-box-description">Lorem ipsum dolor sit
                                                                     amet sed consect adipiscing elit sed do eiusmod
                                                                     tempor incididunt.</p>
-                                                                <div class="icon-box-button ">
+                                                                <div class="icon-box-button">
                                                                     <div class="btn-wrapper icon-position-after">
                                                                         <a href="#" class="icon-box-link">Read
                                                                             More</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
-
                                                         </div>
                                                     </div>
                                                 </div>
@@ -631,8 +564,8 @@
                                 data-id="2c01220" data-element_type="widget" data-widget_type="jkit_heading.default">
                                 <div class="elementor-widget-container">
                                     <div
-                                        class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_20_12_675926d967741">
-                                        <div class="heading-section-title  display-inline-block">
+                                        class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_20_12_675926d967741">
+                                        <div class="heading-section-title display-inline-block">
                                             <h3 class="heading-title">Teddy Saunders</h3>
                                         </div>
                                         <div class="heading-section-description">CEO &amp; Founder</div>
@@ -655,8 +588,6 @@
                     </div>
                 </div>
             </section>
-
-
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-6fb470e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="6fb470e" data-element_type="section">
@@ -664,9 +595,6 @@
                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f8ebbbc"
                         data-id="f8ebbbc" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
-
-
-
                             <section
                                 class="elementor-section elementor-inner-section elementor-element elementor-element-0f05573 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                 data-id="0f05573" data-element_type="section">
@@ -678,20 +606,6 @@
                                                 data-id="ce635bd" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    {{-- <div
-                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_13_675926d96a146">
-                                                        <div class="jkit-icon-box-wrapper hover-from-left">
-                                                            <div class="icon-box icon-box-header elementor-animation-">
-                                                                <div class="icon style-color"><img decoding="async"
-                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset1-T6M9WU6.png') }}"
-                                                                        alt="Pike Fish"></div>
-                                                            </div>
-                                                            <div class="icon-box icon-box-body">
-                                                                <h3 class="title">Pike Fish</h3>
-                                                            </div>
-
-                                                        </div>
-                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -703,20 +617,6 @@
                                                 data-id="1a8e032" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    {{-- <div
-                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_14_675926d96be9a">
-                                                        <div class="jkit-icon-box-wrapper hover-from-left">
-                                                            <div class="icon-box icon-box-header elementor-animation-">
-                                                                <div class="icon style-color"><img decoding="async"
-                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset2-T6M9WU6.png') }}"
-                                                                        alt="Marline Fish"></div>
-                                                            </div>
-                                                            <div class="icon-box icon-box-body">
-                                                                <h3 class="title">Marline Fish</h3>
-                                                            </div>
-
-                                                        </div>
-                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -728,20 +628,6 @@
                                                 data-id="9e0c2cd" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    {{-- <div
-                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_15_675926d96da89">
-                                                        <div class="jkit-icon-box-wrapper hover-from-left">
-                                                            <div class="icon-box icon-box-header elementor-animation-">
-                                                                <div class="icon style-color"><img decoding="async"
-                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset3-T6M9WU6.png') }}"
-                                                                        alt="Boar Fish"></div>
-                                                            </div>
-                                                            <div class="icon-box icon-box-body">
-                                                                <h3 class="title">Boar Fish</h3>
-                                                            </div>
-
-                                                        </div>
-                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -753,20 +639,6 @@
                                                 data-id="423e4c0" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    {{-- <div
-                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_16_675926d96f652">
-                                                        <div class="jkit-icon-box-wrapper hover-from-left">
-                                                            <div class="icon-box icon-box-header elementor-animation-">
-                                                                <div class="icon style-color"><img decoding="async"
-                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset4-T6M9WU6.png') }}"
-                                                                        alt="Seahorse"></div>
-                                                            </div>
-                                                            <div class="icon-box icon-box-body">
-                                                                <h3 class="title">Seahorse</h3>
-                                                            </div>
-
-                                                        </div>
-                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -778,20 +650,6 @@
                                                 data-id="eb3531b" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    {{-- <div
-                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_17_675926d971643">
-                                                        <div class="jkit-icon-box-wrapper hover-from-left">
-                                                            <div class="icon-box icon-box-header elementor-animation-">
-                                                                <div class="icon style-color"><img decoding="async"
-                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset5-T6M9WU6.png') }}"
-                                                                        alt="Hog Fish"></div>
-                                                            </div>
-                                                            <div class="icon-box icon-box-body">
-                                                                <h3 class="title">Hog Fish</h3>
-                                                            </div>
-
-                                                        </div>
-                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -803,28 +661,12 @@
                                                 data-id="5398f95" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    {{-- <div
-                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_18_675926d972e29">
-                                                        <div class="jkit-icon-box-wrapper hover-from-left">
-                                                            <div class="icon-box icon-box-header elementor-animation-">
-                                                                <div class="icon style-color"><img decoding="async"
-                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset6-T6M9WU6.png') }}"
-                                                                        alt="Threadfin"></div>
-                                                            </div>
-                                                            <div class="icon-box icon-box-body">
-                                                                <h3 class="title">Threadfin</h3>
-                                                            </div>
-
-                                                        </div>
-                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </section>
-
-
                             <section
                                 class="elementor-section elementor-inner-section elementor-element elementor-element-637382c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                 data-id="637382c" data-element_type="section">
@@ -836,20 +678,6 @@
                                                 data-id="58d3e74" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    {{-- <div
-                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_19_675926d9752d8">
-                                                        <div class="jkit-icon-box-wrapper hover-from-left">
-                                                            <div class="icon-box icon-box-header elementor-animation-">
-                                                                <div class="icon style-color"><img decoding="async"
-                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset7-T6M9WU6.png') }}"
-                                                                        alt="Clown Fish"></div>
-                                                            </div>
-                                                            <div class="icon-box icon-box-body">
-                                                                <h3 class="title">Clown Fish</h3>
-                                                            </div>
-
-                                                        </div>
-                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -861,20 +689,6 @@
                                                 data-id="718453b" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    {{-- <div
-                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_20_675926d976dcc">
-                                                        <div class="jkit-icon-box-wrapper hover-from-left">
-                                                            <div class="icon-box icon-box-header elementor-animation-">
-                                                                <div class="icon style-color"><img decoding="async"
-                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset8-T6M9WU6.png') }}"
-                                                                        alt="Sword Fish"></div>
-                                                            </div>
-                                                            <div class="icon-box icon-box-body">
-                                                                <h3 class="title">Sword Fish</h3>
-                                                            </div>
-
-                                                        </div>
-                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -886,20 +700,6 @@
                                                 data-id="4598af2" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    {{-- <div
-                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_21_675926d97936b">
-                                                        <div class="jkit-icon-box-wrapper hover-from-left">
-                                                            <div class="icon-box icon-box-header elementor-animation-">
-                                                                <div class="icon style-color"><img decoding="async"
-                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset9-T6M9WU6.png') }}"
-                                                                        alt="Molidae"></div>
-                                                            </div>
-                                                            <div class="icon-box icon-box-body">
-                                                                <h3 class="title">Molidae</h3>
-                                                            </div>
-
-                                                        </div>
-                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -911,20 +711,6 @@
                                                 data-id="c99936f" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    {{-- <div
-                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_22_675926d97b680">
-                                                        <div class="jkit-icon-box-wrapper hover-from-left">
-                                                            <div class="icon-box icon-box-header elementor-animation-">
-                                                                <div class="icon style-color"><img decoding="async"
-                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset10-T6M9WU6.png') }}"
-                                                                        alt="Blow Fish"></div>
-                                                            </div>
-                                                            <div class="icon-box icon-box-body">
-                                                                <h3 class="title">Blow Fish</h3>
-                                                            </div>
-
-                                                        </div>
-                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -936,20 +722,6 @@
                                                 data-id="a16ce98" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    {{-- <div
-                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_23_675926d97dc24">
-                                                        <div class="jkit-icon-box-wrapper hover-from-left">
-                                                            <div class="icon-box icon-box-header elementor-animation-">
-                                                                <div class="icon style-color"><img decoding="async"
-                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset11-T6M9WU6.png') }}"
-                                                                        alt="Coral"></div>
-                                                            </div>
-                                                            <div class="icon-box icon-box-body">
-                                                                <h3 class="title">Coral</h3>
-                                                            </div>
-
-                                                        </div>
-                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -961,34 +733,16 @@
                                                 data-id="5c70667" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
-                                                    {{-- <div
-                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_24_675926d97f829">
-                                                        <div class="jkit-icon-box-wrapper hover-from-left">
-                                                            <div class="icon-box icon-box-header elementor-animation-">
-                                                                <div class="icon style-color"><img decoding="async"
-                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/asset12-T6M9WU6.png') }}"
-                                                                        alt="Angler Fish"></div>
-                                                            </div>
-                                                            <div class="icon-box icon-box-body">
-                                                                <h3 class="title">Angler Fish</h3>
-                                                            </div>
-
-                                                        </div>
-                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </section>
-
-
                         </div>
                     </div>
                 </div>
             </section>
-
-
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-1f4cbce elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                 data-id="1f4cbce" data-element_type="section">
@@ -1002,8 +756,8 @@
                                 data-id="1e861cc" data-element_type="widget" data-widget_type="jkit_heading.default">
                                 <div class="elementor-widget-container">
                                     <div
-                                        class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_20_25_675926d981cde">
-                                        <div class="heading-section-title  display-inline-block">
+                                        class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_20_25_675926d981cde">
+                                        <div class="heading-section-title display-inline-block">
                                             <h2 class="heading-title">What We Do</h2>
                                         </div>
                                         <div class="heading-section-separator">
@@ -1039,7 +793,7 @@
                                                 data-id="46d204a" data-element_type="widget"
                                                 data-widget_type="jkit_pie_chart.default">
                                                 <div class="elementor-widget-container">
-                                                    <div class="jeg-elementor-kit jkit-pie-chart style-static  jeg_module_20_26_675926d983ff6"
+                                                    <div class="jeg-elementor-kit jkit-pie-chart style-static jeg_module_20_26_675926d983ff6"
                                                         data-cutout="90" data-percent="98" data-color-type="normal"
                                                         data-color="#19CBE4" data-bg-color="#03020200" data-gradient1=""
                                                         data-gradient2="" data-animation-duration="3600"
@@ -1082,7 +836,7 @@
                                                 data-id="108bcf9" data-element_type="widget"
                                                 data-widget_type="jkit_pie_chart.default">
                                                 <div class="elementor-widget-container">
-                                                    <div class="jeg-elementor-kit jkit-pie-chart style-static  jeg_module_20_27_675926d985852"
+                                                    <div class="jeg-elementor-kit jkit-pie-chart style-static jeg_module_20_27_675926d985852"
                                                         data-cutout="90" data-percent="86" data-color-type="normal"
                                                         data-color="#19CBE4" data-bg-color="#03020200" data-gradient1=""
                                                         data-gradient2="" data-animation-duration="3600"
@@ -1151,11 +905,9 @@
                     </div>
                 </div>
             </section>
-
             <section>
                 </br>
             </section>
-
 
             {{-- map section --}}
             <style>
@@ -1168,17 +920,12 @@
                     height: auto;
                 }
 
-
                 .textglobel {
-
                     padding-top: 5%;
                     font-size: 20px;
                     font-weight: bold;
                     color: #19cbe4;
                     margin-left: 20px;
-
-
-
                 }
 
                 .map {
@@ -1189,7 +936,6 @@
                 .map img {
                     opacity: .4;
                     background-color: #1d252b;
-
                 }
 
                 .map span {
@@ -1200,11 +946,6 @@
                     top: 50%;
                     left: 20%;
                     background-color: #e20808;
-                    /*  #2c3e50 */
-
-
-                    /* create animation part */
-
                     animation: highlight 1.5s linear infinite;
                 }
 
@@ -1212,7 +953,6 @@
                     100% {
                         transform: scale(5);
                         opacity: 0;
-
                     }
                 }
 
@@ -1230,14 +970,12 @@
                     animation-delay: 0.5s;
                 }
 
-
                 .map .marker4 {
                     position: absolute;
                     margin-left: 30%;
                     top: 30%;
                     animation-delay: .1s;
                 }
-
 
                 .para {
                     width: 350px;
@@ -1252,44 +990,33 @@
 
                 .container {
                     background-color: #1d252b;
-
                 }
             </style>
 
             <section>
-
                 <div class = "container">
                     <h2 class="textglobel"
-                        style= " font-size: 50px; 
-                        font-weight: bold; 
-                        color: rgb(59, 206, 255); 
-                        margin-left: 5%; 
+                        style= " font-size: 50px;
+                        font-weight: bold;
+                        color: rgb(59, 206, 255);
+                        margin-left: 5%;
                          ">
                         Globel Clients</h2>
 
                     <div class = "map">
                         <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/globalmap.png') }}"
                             alt="World Map">
-
-
                         <span class = "marker2" style="color:#ffffff; font-size: 12px; ">Sri Lanka</span>
                         <span class = "marker3" style="color:#ffffff; font-size: 12px;">Indonesian</span>
                         <span class = "marker4" style="color:#ffffff; font-size: 12px;">Malayasian</span>
-
                     </div>
-
 
                     <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Sed vel ipsum auctor, iaculis arcu quis. sit amet, consectetur adipiscing elit.
-                        Sed vel ipsum auctor, iaculis arcu quis.</p>
-
+                        Sed vel ipsum auctor, iaculis arcu quis.
+                    </p>
                 </div>
-
-
-
             </section>
-
-
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-39c1eb7 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="39c1eb7" data-element_type="section">
@@ -1321,14 +1048,13 @@
                                                                 <p class="icon-box-description">Lorem ipsum dolor sit
                                                                     sedar consect adipiscing el sed do eiusmod tempor.
                                                                 </p>
-                                                                <div class="icon-box-button ">
+                                                                <div class="icon-box-button">
                                                                     <div class="btn-wrapper icon-position-after">
                                                                         <a href="#" class="icon-box-link">Read
                                                                             More</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
-
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1355,14 +1081,13 @@
                                                                 <p class="icon-box-description">Lorem ipsum dolor sit
                                                                     sedar consect adipiscing el sed do eiusmod tempor.
                                                                 </p>
-                                                                <div class="icon-box-button ">
+                                                                <div class="icon-box-button">
                                                                     <div class="btn-wrapper icon-position-after">
                                                                         <a href="#" class="icon-box-link">Read
                                                                             More</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
-
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1377,8 +1102,8 @@
                                                 data-widget_type="jkit_heading.default">
                                                 <div class="elementor-widget-container">
                                                     <div
-                                                        class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_20_30_675926d98bf70">
-                                                        <div class="heading-section-title  display-inline-block">
+                                                        class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_20_30_675926d98bf70">
+                                                        <div class="heading-section-title display-inline-block">
                                                             <h2 class="heading-title">Our Services</h2>
                                                         </div>
                                                         <div class="heading-section-separator">
@@ -1400,7 +1125,7 @@
                                                 data-widget_type="jkit_button.default">
                                                 <div class="elementor-widget-container">
                                                     <div
-                                                        class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_20_31_675926d98d01b">
+                                                        class="jeg-elementor-kit jkit-button icon-position-before jeg_module_20_31_675926d98d01b">
                                                         <a href="#" class="jkit-button-wrapper">All
                                                             Services</a>
                                                     </div>
@@ -1434,14 +1159,13 @@
                                                                 <p class="icon-box-description">Lorem ipsum dolor sit
                                                                     sedar consect adipiscing el sed do eiusmod tempor.
                                                                 </p>
-                                                                <div class="icon-box-button ">
+                                                                <div class="icon-box-button">
                                                                     <div class="btn-wrapper icon-position-after">
                                                                         <a href="#" class="icon-box-link">Read
                                                                             More</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
-
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1468,14 +1192,13 @@
                                                                 <p class="icon-box-description">Lorem ipsum dolor sit
                                                                     sedar consect adipiscing el sed do eiusmod tempor.
                                                                 </p>
-                                                                <div class="icon-box-button ">
+                                                                <div class="icon-box-button">
                                                                     <div class="btn-wrapper icon-position-after">
                                                                         <a href="#" class="icon-box-link">Read
                                                                             More</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
-
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1502,14 +1225,13 @@
                                                                 <p class="icon-box-description">Lorem ipsum dolor sit
                                                                     sedar consect adipiscing el sed do eiusmod tempor.
                                                                 </p>
-                                                                <div class="icon-box-button ">
+                                                                <div class="icon-box-button">
                                                                     <div class="btn-wrapper icon-position-after">
                                                                         <a href="#" class="icon-box-link">Read
                                                                             More</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
-
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1536,14 +1258,13 @@
                                                                 <p class="icon-box-description">Lorem ipsum dolor sit
                                                                     sedar consect adipiscing el sed do eiusmod tempor.
                                                                 </p>
-                                                                <div class="icon-box-button ">
+                                                                <div class="icon-box-button">
                                                                     <div class="btn-wrapper icon-position-after">
                                                                         <a href="#" class="icon-box-link">Read
                                                                             More</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
-
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1578,14 +1299,14 @@
                                                         <h3 class="info-title">Hygrophila Difformis</h3>
                                                     </div>
                                                 </div>
-                                                <div class="row-item elementor-repeater-item-ddcac74 "
+                                                <div class="row-item elementor-repeater-item-ddcac74"
                                                     data-tab="portfolio-gallery-tab-1">
                                                     <div class="row-item-info">
                                                         <p class="info-subtitle"></p>
                                                         <h3 class="info-title">Mastigias Aquarium</h3>
                                                     </div>
                                                 </div>
-                                                <div class="row-item elementor-repeater-item-d9083d2 "
+                                                <div class="row-item elementor-repeater-item-d9083d2"
                                                     data-tab="portfolio-gallery-tab-2">
                                                     <div class="row-item-info">
                                                         <p class="info-subtitle"></p>
@@ -1605,11 +1326,11 @@
                                                     data-background="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/07/fishes-in-aquarium-e1628654613319.jpg') }}"
                                                     style="background-image:url({{ asset('AquaVist/wp-content/uploads/sites/129/2021/07/fishes-in-aquarium-e1628654613319.jpg') }});">
                                                 </div>
-                                                <div id="portfolio-gallery-tab-1" class="image-item "
+                                                <div id="portfolio-gallery-tab-1" class="image-item"
                                                     data-background="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/a-fish-in-an-aquarium-e1628654720598.jpg') }}"
                                                     style="background-image:url({{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/a-fish-in-an-aquarium-e1628654720598.jpg') }});">
                                                 </div>
-                                                <div id="portfolio-gallery-tab-2" class="image-item "
+                                                <div id="portfolio-gallery-tab-2" class="image-item"
                                                     data-background="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/marine-life-in-the-aquarium-e1628654697954.jpg') }}"
                                                     style="background-image:url({{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/marine-life-in-the-aquarium-e1628654697954.jpg') }});">
                                                 </div>
@@ -1637,8 +1358,8 @@
                                 data-id="7dca550" data-element_type="widget" data-widget_type="jkit_heading.default">
                                 <div class="elementor-widget-container">
                                     <div
-                                        class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_20_37_675926d999e2e">
-                                        <div class="heading-section-title  display-inline-block">
+                                        class="jeg-elementor-kit jkit-heading align-center align-tablet- align-mobile- jeg_module_20_37_675926d999e2e">
+                                        <div class="heading-section-title display-inline-block">
                                             <h2 class="heading-title">Testimonial</h2>
                                         </div>
                                         <div class="heading-section-separator">
@@ -2191,7 +1912,7 @@
                                                         <div class="testimonials-list">
                                                             <div class="testimonials-track">
                                                                 <div
-                                                                    class="testimonial-item  elementor-repeater-item-578b953">
+                                                                    class="testimonial-item elementor-repeater-item-578b953">
                                                                     <div class="testimonial-box hover-from-left">
                                                                         <div class="icon-content"><i aria-hidden="true"
                                                                                 class="fas fa-quote-left"></i></div>
@@ -2235,7 +1956,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div
-                                                                    class="testimonial-item  elementor-repeater-item-f24d500">
+                                                                    class="testimonial-item elementor-repeater-item-f24d500">
                                                                     <div class="testimonial-box hover-from-left">
                                                                         <div class="icon-content"><i aria-hidden="true"
                                                                                 class="fas fa-quote-left"></i></div>
@@ -2279,7 +2000,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div
-                                                                    class="testimonial-item  elementor-repeater-item-2196130">
+                                                                    class="testimonial-item elementor-repeater-item-2196130">
                                                                     <div class="testimonial-box hover-from-left">
                                                                         <div class="icon-content"><i aria-hidden="true"
                                                                                 class="fas fa-quote-left"></i></div>
@@ -2323,7 +2044,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div
-                                                                    class="testimonial-item  elementor-repeater-item-c8eb2d3">
+                                                                    class="testimonial-item elementor-repeater-item-c8eb2d3">
                                                                     <div class="testimonial-box hover-from-left">
                                                                         <div class="icon-content"><i aria-hidden="true"
                                                                                 class="fas fa-quote-left"></i></div>
@@ -2380,7 +2101,6 @@
                 </div>
             </section>
 
-
             {{-- news and article------------------------------------ --}}
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-f14b0ad elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -2401,8 +2121,8 @@
                                                 data-widget_type="jkit_heading.default">
                                                 <div class="elementor-widget-container">
                                                     <div
-                                                        class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_20_39_675926d9b54a8">
-                                                        <div class="heading-section-title  display-inline-block">
+                                                        class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_20_39_675926d9b54a8">
+                                                        <div class="heading-section-title display-inline-block">
                                                             <h2 class="heading-title">Our News</h2>
                                                         </div>
                                                         <div class="heading-section-separator">
@@ -2458,16 +2178,16 @@
                                                                     class="jkit-post post-550 post type-post status-publish format-standard has-post-thumbnail hentry category-saltwater tag-advice">
                                                                     <div class="jkit-thumb"><a
                                                                             href="2021/08/07/different-aquariums-for-different-ideas/index.html">
-                                                                            <div class="thumbnail-container ">
+                                                                            <div class="thumbnail-container">
                                                                                 <img loading="lazy" decoding="async"
                                                                                     width="1440" height="961"
                                                                                     src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-fish-from-the-spieces-symphysodon-discus-in-aquarium--e1628655050154.jpg') }}"
-                                                                                    class="attachment-full size-full wp-post-image"
+                                                                                    class="attachment-full wp-post-image size-full"
                                                                                     alt="Colorful fish from the spieces Symphysodon discus in aquarium." />
                                                                             </div>
                                                                         </a></div>
                                                                     <div class="jkit-postblock-content">
-                                                                        <div class="jkit-post-category "><span><a
+                                                                        <div class="jkit-post-category"><span><a
                                                                                     href="category/saltwater/index.html"
                                                                                     class="category-saltwater">Saltwater</a></span>
                                                                         </div>
@@ -2489,16 +2209,16 @@
                                                                     class="jkit-post post-551 post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-beginners">
                                                                     <div class="jkit-thumb"><a
                                                                             href="2021/08/07/freshwater-aquarium-setups-care/index.html">
-                                                                            <div class="thumbnail-container ">
+                                                                            <div class="thumbnail-container">
                                                                                 <img loading="lazy" decoding="async"
                                                                                     width="1440" height="1080"
                                                                                     src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/carp-fish-in-the-aquarium-e1628655039273.jpg') }}"
-                                                                                    class="attachment-full size-full wp-post-image"
+                                                                                    class="attachment-full wp-post-image size-full"
                                                                                     alt="Carp fish in the aquarium" />
                                                                             </div>
                                                                         </a></div>
                                                                     <div class="jkit-postblock-content">
-                                                                        <div class="jkit-post-category "><span><a
+                                                                        <div class="jkit-post-category"><span><a
                                                                                     href="category/design/index.html"
                                                                                     class="category-design">Design</a></span>
                                                                         </div>
@@ -2532,8 +2252,8 @@
                                                 data-widget_type="jkit_heading.default">
                                                 <div class="elementor-widget-container">
                                                     <div
-                                                        class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_20_41_675926d9c216d">
-                                                        <div class="heading-section-title  display-inline-block">
+                                                        class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_20_41_675926d9c216d">
+                                                        <div class="heading-section-title display-inline-block">
                                                             <h2 class="heading-title">Recent News</h2>
                                                         </div>
                                                         <div class="heading-section-separator">
@@ -2817,7 +2537,7 @@
                                                 &lt;div class=\&quot;caption-category\&quot;&gt;&lt;\/div&gt;
                                                 &lt;\/div&gt;&lt;\/div&gt; &lt;\/div&gt;&quot;]">
                                                 <div class="gallery-items">
-                                                    <div class="gallery-item-wrap ">
+                                                    <div class="gallery-item-wrap">
                                                         <div class="grid-item">
                                                             <div class="thumbnail-wrap"><img
                                                                     src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/tropical-fish-e1628654856592.jpg') }}">
@@ -2845,7 +2565,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="gallery-item-wrap ">
+                                                    <div class="gallery-item-wrap">
                                                         <div class="grid-item">
                                                             <div class="thumbnail-wrap"><img
                                                                     src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/clown-fish-e1628655075684.jpg') }}">
@@ -2873,7 +2593,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="gallery-item-wrap ">
+                                                    <div class="gallery-item-wrap">
                                                         <div class="grid-item">
                                                             <div class="thumbnail-wrap"><img
                                                                     src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/majestic-blue-girdled-angel-e1628655086136.jpg') }}">
@@ -2901,7 +2621,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="gallery-item-wrap ">
+                                                    <div class="gallery-item-wrap">
                                                         <div class="grid-item">
                                                             <div class="thumbnail-wrap"><img
                                                                     src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/spotted-jellyfish-e1628655100406.jpg') }}">
@@ -2929,7 +2649,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="gallery-item-wrap ">
+                                                    <div class="gallery-item-wrap">
                                                         <div class="grid-item">
                                                             <div class="thumbnail-wrap"><img
                                                                     src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/common-newt-amhibian-in-freshwater-habitat-e1628655110206.jpg') }}">
@@ -2957,7 +2677,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="gallery-item-wrap ">
+                                                    <div class="gallery-item-wrap">
                                                         <div class="grid-item">
                                                             <div class="thumbnail-wrap"><img
                                                                     src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/an-extra-ordinary-kind-of-fish-e1628655121470.jpg') }}">
@@ -3029,7 +2749,6 @@
                                                                         <p class="icon-box-description">Legian Atkins
                                                                             West, DPS 11490, Bali</p>
                                                                     </div>
-
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3057,7 +2776,6 @@
                                                                         <p class="icon-box-description">
                                                                             +62-202-555-0133</p>
                                                                     </div>
-
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3085,7 +2803,6 @@
                                                                         <p class="icon-box-description">
                                                                             aquavist@support.com</p>
                                                                     </div>
-
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3113,7 +2830,6 @@
                                                                         <p class="icon-box-description">Everyday 09:00
                                                                             AM - 18:00 PM</p>
                                                                     </div>
-
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3145,7 +2861,7 @@
                                                         <div class="elementor-widget-container">
                                                             <img width="1000" height="349"
                                                                 src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-e1628655153433.png') }}"
-                                                                class="attachment-full size-full wp-image-662"
+                                                                class="attachment-full wp-image-662 size-full"
                                                                 alt="" decoding="async" loading="lazy" />
                                                         </div>
                                                     </div>
@@ -3211,7 +2927,6 @@
                                                             <ul class="elementor-icon-list-items">
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
-
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -3222,7 +2937,6 @@
                                                                 </li>
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
-
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -3243,7 +2957,6 @@
                                                                 </li>
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
-
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -3254,7 +2967,6 @@
                                                                 </li>
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
-
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -3286,7 +2998,6 @@
                                                             <ul class="elementor-icon-list-items">
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
-
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -3297,7 +3008,6 @@
                                                                 </li>
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
-
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -3308,7 +3018,6 @@
                                                                 </li>
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
-
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -3319,7 +3028,6 @@
                                                                 </li>
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
-
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -3330,7 +3038,6 @@
                                                                 </li>
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
-
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -3382,7 +3089,7 @@
                                                                                 <div
                                                                                     class="jkit-input-element-container jkit-input-group">
                                                                                     <input type="email" name="email"
-                                                                                        class="jkit-email jkit-form-control "
+                                                                                        class="jkit-email jkit-form-control"
                                                                                         placeholder="Your Email"
                                                                                         required="">
                                                                                 </div>
