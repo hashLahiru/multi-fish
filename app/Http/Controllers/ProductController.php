@@ -38,7 +38,6 @@ class ProductController extends Controller
         $product->isIndonesia = $request->has('isIndonesia') ? 1 : 0;
         $product->isMalaysia = $request->has('isMalasiya') ? 1 : 0;
 
-        // Handle image uploads
         if ($request->hasFile('img1')) {
             $product->img1_url = $this->uploadImage($request->file('img1'));
         }
@@ -81,50 +80,34 @@ class ProductController extends Controller
 
     public function delete($id)
     {
-        // Find the product by ID
         $product = Products::find($id);
 
         if ($product) {
-            // Set the status to 'delete'
             $product->status = 'delete';
             $product->save();
 
-            // Return a success response
             return response()->json(['success' => true, 'message' => 'Product deleted successfully.']);
         }
 
-        // If the product is not found, return a failure response
         return response()->json(['success' => false, 'message' => 'Product not found.'], 404);
     }
 
-
-
     public function edit($id)
     {
-        // Find the product by ID
         $product = Products::find($id);
 
-        // Check if product exists
         if (!$product) {
             return redirect()->route('products.view')->with('error', 'Product not found');
         }
-
-        // Retrieve active categories
         $categories = ProductCategories::where('status', 'active')->get();
 
-        // Return the edit view with product data
         return view('admin.productsEditForm', compact('product', 'categories'));
     }
 
-    /**
-     * Update the product data.
-     */
     public function update(Request $request, $id)
     {
-        // Find the product
         $product = Products::findOrFail($id);
 
-        // Validate the input data
         $request->validate([
             'prod_name' => 'required|string|max:255',
             'description' => 'required|string',
@@ -135,18 +118,15 @@ class ProductController extends Controller
             'img3' => 'nullable|image|mimes:jpeg,png,jpg,gif',
         ]);
 
-        // Update product fields
         $product->pro_name = $request->prod_name;
         $product->pro_description = $request->description;
         $product->unit_price = $request->price;
         $product->category_id = $request->category_id;
 
-        // Update available countries
         $product->isSriLanka = $request->has('isSriLanka') ? 1 : 0;
         $product->isIndonesia = $request->has('isIndonesia') ? 1 : 0;
         $product->isMalaysia = $request->has('isMalaysia') ? 1 : 0;
 
-        // Handle image uploads
         if ($request->hasFile('img1')) {
             $product->img1_url = $this->uploadImage($request->file('img1'), $product->img1_url);
         }
@@ -159,13 +139,10 @@ class ProductController extends Controller
             $product->img3_url = $this->uploadImage($request->file('img3'), $product->img3_url);
         }
 
-        // Save the updated product
         $product->save();
 
-        // Redirect with success message
         return redirect()->route('products.view')->with('success', 'Product updated successfully.');
     }
-
 
     private function uploadImage($image)
     {
@@ -178,5 +155,16 @@ class ProductController extends Controller
 
         $image->move($destinationPath, $imageName);
         return '/productImages/' . $imageName;
+    }
+
+    public function malaysia()
+    {
+        $products = Products::where('products.status', 'active')
+            ->join('product_categories', 'products.category_id', '=', 'product_categories.id')
+            ->select('products.*', 'product_categories.super_category_id')
+            ->where('isMalaysia', 1)
+            ->get();
+
+        return view('AquaVist.pages.testProducts', compact('products'));
     }
 }

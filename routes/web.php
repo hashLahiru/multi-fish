@@ -48,6 +48,8 @@ Route::get('/Malaysian', function () {
     return view('AquaVist.pages.testMalaysian');
 });
 
+Route::get('/Malaysian', [ProductController::class, 'getProducts'])->name('product.get');
+
 Route::get('/Indonesian', function () {
     return view('AquaVist.pages.testIndonesian');
 });
