@@ -3,8 +3,6 @@
 @section('title', 'Home Page')
 
 @section('content')
-
-
     <style>
         .jeg-elementor-kit.jkit-icon-box .icon-box.icon-box-body .title {
             padding: 0;
@@ -12,7 +10,6 @@
             font-size: 23px;
             width: 150px;
         }
-
 
         body {
             font-family: Arial, sans-serif;
@@ -91,9 +88,6 @@
             padding: 10px 32px;
         }
 
-
-
-
         .hover-from-left1 {
             width: 90%;
             height: 80%;
@@ -119,7 +113,6 @@
 
         }
 
-
         .hover-from-left1 h3 {
             color: #333;
             font-size: 16px;
@@ -132,9 +125,6 @@
 
         }
 
-
-
-
         .show {
             display: block;
         }
@@ -146,7 +136,6 @@
     </style>
 
     <div id="page" class="hfeed site">
-
         <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
             <p class="main-title bhf-hidden" itemprop="headline"><a href="https://templatekit.jegtheme.com/aquavist"
                     title="Aquavist" rel="home">Aquavist</a></p>
@@ -187,7 +176,6 @@
                                         <ul class="elementor-icon-list-items elementor-inline-items">
                                             <li class="elementor-icon-list-item elementor-inline-item">
                                                 <a href="#">
-
                                                     <span class="elementor-icon-list-icon">
                                                         <i aria-hidden="true" class="icon icon-facebook"></i> </span>
                                                     <span class="elementor-icon-list-text">Facebook</span>
@@ -195,7 +183,6 @@
                                             </li>
                                             <li class="elementor-icon-list-item elementor-inline-item">
                                                 <a href="#">
-
                                                     <span class="elementor-icon-list-icon">
                                                         <i aria-hidden="true" class="icon icon-twitter"></i> </span>
                                                     <span class="elementor-icon-list-text">Twitter</span>
@@ -203,7 +190,6 @@
                                             </li>
                                             <li class="elementor-icon-list-item elementor-inline-item">
                                                 <a href="#">
-
                                                     <span class="elementor-icon-list-icon">
                                                         <i aria-hidden="true" class="icon icon-linkedin"></i> </span>
                                                     <span class="elementor-icon-list-text">Linkedin</span>
@@ -211,7 +197,6 @@
                                             </li>
                                             <li class="elementor-icon-list-item elementor-inline-item">
                                                 <a href="#">
-
                                                     <span class="elementor-icon-list-icon">
                                                         <i aria-hidden="true" class="icon icon-instagram-1"></i> </span>
                                                     <span class="elementor-icon-list-text">Instagram</span>
@@ -269,58 +254,14 @@
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
                                                             <a href="../services/index.html">Products</a>
                                                         </li>
-
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
                                                             <a href="../services/index.html">Gallery</a>
                                                         </li>
-
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
                                                             <a href="../services/index.html">Blog</a>
                                                         </li>
-                                                        {{-- <li id="menu-item-8"
-                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8">
-                                                        <a href="#">Pages</a>
-                                                        <ul class="sub-menu">
-                                                            <li id="menu-item-1435"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1435">
-                                                                <a href="../pricing/index.html">Pricing</a>
-                                                            </li>
-                                                            <li id="menu-item-1434"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1434">
-                                                                <a href="../gallery/index.html">Gallery</a>
-                                                            </li>
-                                                            <li id="menu-item-1433"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1433">
-                                                                <a href="../events/index.html">Events</a>
-                                                            </li>
-                                                            <li id="menu-item-1432"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1432">
-                                                                <a href="../faq/index.html">FAQ</a>
-                                                            </li>
-                                                            <li id="menu-item-1431"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1431">
-                                                                <a href="../404-page/index.html">404 Page</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li> --}}
-                                                        {{-- <li id="menu-item-1427"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1427">
-                                                        <a href="../blog/index.html">Blog</a>
-                                                        <ul class="sub-menu">
-                                                            <li id="menu-item-1425"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
-                                                                <a href="../blog/index.html">Blog</a>
-                                                            </li>
-                                                            <li id="menu-item-1428"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1428">
-                                                                <a
-                                                                    href="../2021/08/07/different-aquariums-for-different-ideas/index.html">Single
-                                                                    Post</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li> --}}
                                                         <li id="menu-item-1426"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1291 current_page_item menu-item-1426">
                                                             <a href="index.html" aria-current="page">Contact</a>
@@ -360,7 +301,6 @@
                                                 <div class="icon-box icon-box-body">
                                                     <h2 class="title">+021 441 9858</h2>
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>
@@ -386,8 +326,8 @@
                                 data-id="520c223" data-element_type="widget" data-widget_type="jkit_heading.default">
                                 <div class="elementor-widget-container">
                                     <div
-                                        class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_1064_2_675928918e3c5">
-                                        <div class="heading-section-title  display-inline-block">
+                                        class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_1064_2_675928918e3c5">
+                                        <div class="heading-section-title display-inline-block">
                                             <h2 class="heading-title">Malaysian</h2>
                                         </div>
                                         <div class="heading-section-separator">
@@ -408,7 +348,6 @@
                                                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                                                 nisi </p>
                                         </li>
-
                                     </ul>
                                 </div>
                             </div>
@@ -421,17 +360,9 @@
                     </div>
                 </div>
             </section>
-
-
-
-
-
-
             <section>
                 <div style="margin-top: 3%; margin-left:7%;">
-
                     <div style="display: flex; align-items: center; justify-content: space-between;">
-
                         <div class="btncontainer" id="myBtnContainer"
                             style="display: flex; align-items: center; gap: 10px; ">
                             {{-- <button class="btn"
@@ -452,13 +383,10 @@
                                 onclick="filterSelection('plant')">Plants</button>
                         </div>
                     </div>
-
                 </div>
-
             </section>
 
             {{-- section-2 --}}
-
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-6fb470e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 style="margin-top: 5%; background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/location1.jpg') }}'); background-size: contain; background-position: center;"
@@ -467,9 +395,8 @@
                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f8ebbbc"
                         data-id="f8ebbbc" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
-
                             <div
-                                class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_788_3_6759274bcfbc0">
+                                class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_788_3_6759274bcfbc0">
                                 <div class="elementor-element elementor-element-9716da2 elementor-widget elementor-widget-heading"
                                     data-id="9716da2" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
@@ -485,7 +412,7 @@
                                 </div>
                             </div>
                             <div
-                                class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_788_3_6759274bcfbc0">
+                                class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_788_3_6759274bcfbc0">
                                 <div class="elementor-element elementor-element-9716da2 elementor-widget elementor-widget-heading"
                                     data-id="9716da2" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
@@ -501,7 +428,7 @@
                                 </div>
                             </div>
                             <div
-                                class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_788_3_6759274bcfbc0">
+                                class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_788_3_6759274bcfbc0">
                                 <div class="elementor-element elementor-element-9716da2 elementor-widget elementor-widget-heading"
                                     data-id="9716da2" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
@@ -516,24 +443,14 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </section>
 
-
-
-
-
-
-
             {{-- section3 --}}
-
             <section>
-
                 <div class="section3" style=" margin-top: 3%;">
-
                     <div class="elementor-element elementor-element-520c223 elementor-widget elementor-widget-jkit_heading"
                         data-id="520c223" data-element_type="widget" data-widget_type="jkit_heading.default">
                         <div class="elementor-widget-container">
@@ -541,15 +458,12 @@
                                 class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_1064_2_675928918e3c5">
                                 <div class="heading-container"
                                     style="display: flex; align-items: center; justify-content: space-between;">
-
                                     <div class="heading-section-title display-inline-block" style="flex: 1;">
                                         <h2 class="heading-title"
                                             style="color: black; font-size: 35px; margin-left: 15%;">Buy Aquarium
                                             Fish
                                             Online</h2>
                                     </div>
-
-
                                     <div class="search-bar-container"
                                         style="display: flex; align-items: center; gap: 10px; margin-right: 11%;">
                                         <input type="text" class="search-bar"
@@ -561,14 +475,10 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-
                     <div class="main-grid">
-
                         <div class="product-grid">
-
                             <div class="filterDiv fresh">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -580,8 +490,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
-
                             <div class="filterDiv fresh">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -593,7 +501,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv fresh">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -605,7 +512,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv plant">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -617,7 +523,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv fresh">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -630,9 +535,7 @@
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
                         </div>
-
                         <div class="product-grid">
-
                             <div class="filterDiv plant">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -644,8 +547,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
-
                             <div class="filterDiv plant">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -657,7 +558,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv marine">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -669,7 +569,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv marine">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -681,7 +580,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv plant">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -694,10 +592,7 @@
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
                         </div>
-
-
                         <div class="product-grid">
-
                             <div class="filterDiv plant">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -709,8 +604,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
-
                             <div class="filterDiv plant">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -722,7 +615,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv marine">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -734,7 +626,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv marine">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -746,7 +637,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv fresh">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -759,10 +649,7 @@
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
                         </div>
-
-
                         <div class="product-grid">
-
                             <div class="filterDiv fresh">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -774,8 +661,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
-
                             <div class="filterDiv plant">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -787,7 +672,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv marine">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -799,7 +683,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv fresh">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -811,7 +694,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv plant">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -824,10 +706,7 @@
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
                         </div>
-
-
                         <div class="product-grid">
-
                             <div class="filterDiv fresh">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -839,8 +718,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
-
                             <div class="filterDiv plant">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -852,7 +729,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv marine">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -864,7 +740,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv fresh">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -876,7 +751,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv plant">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -889,9 +763,7 @@
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
                         </div>
-
                         <div class="product-grid">
-
                             <div class="filterDiv fresh">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -903,8 +775,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
-
                             <div class="filterDiv marine">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -916,7 +786,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv plant">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -928,7 +797,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv marine">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -940,7 +808,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv fresh">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -953,10 +820,7 @@
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
                         </div>
-
-
                         <div class="product-grid">
-
                             <div class="filterDiv fresh">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -968,8 +832,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
-
                             <div class="filterDiv plant">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -981,7 +843,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%;  padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv plant">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -993,7 +854,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv fresh">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -1005,7 +865,6 @@
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-
                             <div class="filterDiv marine">
                                 <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
                                     alt="Product Image" class="product-image">
@@ -1018,17 +877,9 @@
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
-
-
-
             </section> {{-- end of section 3 --}}
-
-
-
 
             <script>
                 filterSelection("all")
@@ -1066,7 +917,6 @@
                     element.className = arr1.join(" ");
                 }
 
-
                 var btnContainer = document.getElementById("myBtnContainer");
                 var btns = btnContainer.getElementsByClassName("btn");
                 for (var i = 0; i < btns.length; i++) {
@@ -1077,8 +927,6 @@
                     });
                 }
             </script>
-
-
         </div>
 
         <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
@@ -1247,7 +1095,6 @@
                                                 &lt;\/div&gt; &lt;div class=\&quot;caption-head\&quot;&gt;&lt;\/div&gt;
                                                 &lt;div class=\&quot;caption-category\&quot;&gt;&lt;\/div&gt;
                                                 &lt;\/div&gt;&lt;\/div&gt; &lt;\/div&gt;&quot;]">
-
                                                 <div class="load-more-items"></div>
                                             </div>
                                         </div>
@@ -1292,7 +1139,6 @@
                                                                             Atkins
                                                                             West, DPS 11490, Bali</p>
                                                                     </div>
-
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1321,7 +1167,6 @@
                                                                         <p class="icon-box-description">
                                                                             +62-202-555-0133</p>
                                                                     </div>
-
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1409,7 +1254,7 @@
                                                         <div class="elementor-widget-container">
                                                             <img width="1000" height="349"
                                                                 src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-e1628655153433.png') }}"
-                                                                class="attachment-full size-full wp-image-662"
+                                                                class="attachment-full wp-image-662 size-full"
                                                                 alt="" decoding="async" loading="lazy" />
                                                         </div>
                                                     </div>
@@ -1651,7 +1496,7 @@
                                                                                 <div
                                                                                     class="jkit-input-element-container jkit-input-group">
                                                                                     <input type="email" name="email"
-                                                                                        class="jkit-email jkit-form-control "
+                                                                                        class="jkit-email jkit-form-control"
                                                                                         placeholder="Your Email"
                                                                                         required="">
                                                                                 </div>
