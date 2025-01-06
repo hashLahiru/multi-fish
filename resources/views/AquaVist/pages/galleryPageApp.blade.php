@@ -1,16 +1,11 @@
-<!DOCTYPE html>
 <html lang="en-US">
-
-<!-- Mirrored from templatekit.jegtheme.com/aquavist/services/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Dec 2024 07:34:13 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="profile" href="https://gmpg.org/xfn/11" />
     <link rel="pingback" href="../xmlrpc.html" />
-    <title>Services &#8211; Aquavist</title>
+    <title>Gallery &#8211; Aquavist</title>
     <meta name='robots' content='max-image-preview:large' />
     <link rel="alternate" type="application/rss+xml" title="Aquavist &raquo; Feed" href="../feed/index.html" />
     <link rel="alternate" type="application/rss+xml" title="Aquavist &raquo; Comments Feed"
@@ -25,7 +20,7 @@
                 "concatemoji": "https:\/\/templatekit.jegtheme.com\/aquavist\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1"
             }
         };
-        /*! This file is auto-generated */
+
         ! function(i, n) {
             var o, s, e;
 
@@ -133,7 +128,7 @@
         }((window, document), window._wpemojiSettings);
     </script>
     <link rel='stylesheet' id='jkit-elements-main-css'
-        href='{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main61da.css?ver=2.6.2 ') }}'
+        href="{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main61da.css?ver=2.6.2') }} "
         media='all' />
     <style id='wp-emoji-styles-inline-css'>
         img.wp-smiley,
@@ -150,7 +145,7 @@
         }
     </style>
     <link rel='stylesheet' id='wp-block-library-css'
-        href='{{ asset('AquaVist/wp-includes/css/dist/block-library/style.minaec2.css?ver=6.4.1 ') }}' media='all' />
+        href="{{ asset('AquaVist/wp-includes/css/dist/block-library/style.minaec2.css?ver=6.4.1') }} " media='all' />
     <style id='classic-theme-styles-inline-css'>
         /*! This file is auto-generated */
         .wp-block-button__link {
@@ -536,125 +531,117 @@
         }
     </style>
     <link rel='stylesheet' id='allow-webp-image-css'
-        href='{{ asset('AquaVist/wp-content/plugins/allow-webp-image/public/css/allow-webp-image-publicf269.css?ver=1.0.1 ') }}'
+        href="{{ asset('AquaVist/wp-content/plugins/allow-webp-image/public/css/allow-webp-image-publicf269.css?ver=1.0.1') }} "
         media='all' />
     <link rel='stylesheet' id='template-kit-export-css'
-        href='{{ asset('AquaVist/wp-content/plugins/template-kit-export/public/assets/css/template-kit-export-public.min365c.css?ver=1.0.21 ') }}'
+        href="{{ asset('AquaVist/wp-content/plugins/template-kit-export/public/assets/css/template-kit-export-public.min365c.css?ver=1.0.21') }} "
         media='all' />
     <link rel='stylesheet' id='hfe-style-css'
-        href='{{ asset('AquaVist/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor1f62.css?ver=1.6.13 ') }}'
+        href="{{ asset('AquaVist/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor1f62.css?ver=1.6.13') }} "
         media='all' />
     <link rel='stylesheet' id='elementor-icons-css'
-        href='{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min192d.css?ver=5.23.0 ') }}'
+        href="{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min192d.css?ver=5.23.0') }} "
         media='all' />
     <link rel='stylesheet' id='elementor-frontend-css'
-        href='{{ asset('AquaVist/wp-content/plugins/elementor/assets/css/frontend.min8864.css?ver=3.17.3 ') }}'
+        href="{{ asset('AquaVist/wp-content/plugins/elementor/assets/css/frontend.min8864.css?ver=3.17.3') }} "
         media='all' />
     <link rel='stylesheet' id='swiper-css'
-        href='{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min48f5.css?ver=5.3.6 ') }}'
+        href="{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min48f5.css?ver=5.3.6') }} "
         media='all' />
     <link rel='stylesheet' id='elementor-post-4-css'
-        href='{{ asset('AquaVist/wp-content/uploads/sites/129/elementor/css/post-4cd8a.css?ver=1700563263 ') }}'
+        href="{{ asset('AquaVist/wp-content/uploads/sites/129/elementor/css/post-4cd8a.css?ver=1700563263') }} "
         media='all' />
     <link rel='stylesheet' id='elementor-global-css'
-        href='{{ asset('AquaVist/wp-content/uploads/sites/129/elementor/css/globalcd8a.css?ver=1700563263 ') }}'
+        href="{{ asset('AquaVist/wp-content/uploads/sites/129/elementor/css/globalcd8a.css?ver=1700563263') }} "
         media='all' />
-    <link rel='stylesheet' id='elementor-post-1064-css'
-        href='{{ asset('AquaVist/wp-content/uploads/sites/129/elementor/css/post-106486ea.css?ver=1700823359 ') }}'
+    <link rel='stylesheet' id='elementor-post-1129-css'
+        href="{{ asset('AquaVist/wp-content/uploads/sites/129/elementor/css/post-11292e80.css?ver=1700805089') }} "
         media='all' />
     <link rel='stylesheet' id='hfe-widgets-style-css'
-        href='{{ asset('AquaVist/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend1f62.css?ver=1.6.13 ') }}'
+        href="{{ asset('AquaVist/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend1f62.css?ver=1.6.13') }} "
         media='all' />
     <link rel='stylesheet' id='font-awesome-5-all-css'
-        href='{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min8864.css?ver=3.17.3 ') }}'
+        href="{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min8864.css?ver=3.17.3') }} "
         media='all' />
     <link rel='stylesheet' id='font-awesome-4-shim-css'
-        href='{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min8864.css?ver=3.17.3') }}'
+        href="{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min8864.css?ver=3.17.3') }} "
         media='all' />
     <link rel='stylesheet' id='elementor-post-761-css'
-        href='{{ asset('AquaVist/wp-content/uploads/sites/129/elementor/css/post-7610d5b.css?ver=1700563264 ') }}'
+        href="{{ asset('AquaVist/wp-content/uploads/sites/129/elementor/css/post-7610d5b.css?ver=1700563264') }} "
         media='all' />
     <link rel='stylesheet' id='elementor-post-772-css'
-        href='{{ asset('AquaVist/wp-content/uploads/sites/129/elementor/css/post-7720d5b.css?ver=1700563264 ') }}'
+        href="{{ asset('AquaVist/wp-content/uploads/sites/129/elementor/css/post-7720d5b.css?ver=1700563264') }} "
         media='all' />
     <link rel='stylesheet' id='text-editor-style-css'
-        href='{{ asset('AquaVist/wp-content/plugins/metform/public/assets/css/text-editor9e95.css?ver=3.8.0 ') }}'
+        href="{{ asset('AquaVist/wp-content/plugins/metform/public/assets/css/text-editor9e95.css?ver=3.8.0') }} "
         media='all' />
     <link rel='stylesheet' id='hello-elementor-css'
-        href='{{ asset('AquaVist/wp-content/themes/hello-elementor/style.minc141.css?ver=2.6.1 ') }}' media='all' />
+        href="{{ asset('AquaVist/wp-content/themes/hello-elementor/style.minc141.css?ver=2.6.1') }} " media='all' />
     <link rel='stylesheet' id='hello-elementor-theme-style-css'
-        href='{{ asset('AquaVist/wp-content/themes/hello-elementor/theme.minc141.css?ver=2.6.1 ') }}' media='all' />
+        href="{{ asset('AquaVist/wp-content/themes/hello-elementor/theme.minc141.css?ver=2.6.1') }} " media='all' />
     <link rel='stylesheet' id='google-fonts-1-css'
         href='https://fonts.googleapis.com/css?family=Exo%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.4.1'
         media='all' />
     <link rel='stylesheet' id='elementor-icons-jkiticon-css'
-        href='{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/fonts/jkiticon/jkiticon61da.css?ver=2.6.2 ') }}'
+        href="{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/fonts/jkiticon/jkiticon61da.css?ver=2.6.2') }} "
         media='all' />
     <link rel='stylesheet' id='elementor-icons-shared-0-css'
-        href='{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css?ver=5.15.3 ') }}'
+        href="{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css?ver=5.15.3') }} "
         media='all' />
     <link rel='stylesheet' id='elementor-icons-fa-solid-css'
-        href='{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min52d5.css?ver=5.15.3 ') }}'
+        href="{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min52d5.css?ver=5.15.3') }} "
         media='all' />
     <link rel='stylesheet' id='elementor-icons-fa-brands-css'
-        href='{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min52d5.css?ver=5.15.3 ') }}'
+        href="{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min52d5.css?ver=5.15.3') }} "
         media='all' />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <script src='{{ asset('AquaVist/wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1 ') }}' id="jquery-core-js"></script>
-    <script src='{{ asset('AquaVist/wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1 ') }}'
+    <script src="{{ asset('AquaVist/wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1') }} " id="jquery-core-js"></script>
+    <script src="{{ asset('AquaVist/wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1') }} "
         id="jquery-migrate-js"></script>
     <script
-        src='{{ asset('AquaVist/wp-content/plugins/allow-webp-image/public/js/allow-webp-image-publicf269.js?ver=1.0.1 ') }}'
+        src="{{ asset('AquaVist/wp-content/plugins/allow-webp-image/public/js/allow-webp-image-publicf269.js?ver=1.0.1') }} "
         id="allow-webp-image-js"></script>
     <script
-        src='{{ asset('AquaVist/wp-content/plugins/template-kit-export/public/assets/js/template-kit-export-public.min365c.js?ver=1.0.21 ') }}'
+        src="{{ asset('AquaVist/wp-content/plugins/template-kit-export/public/assets/js/template-kit-export-public.min365c.js?ver=1.0.21') }} "
         id="template-kit-export-js"></script>
     <script
-        src='{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min8864.js?ver=3.17.3 ') }}'
+        src="{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min8864.js?ver=3.17.3') }} "
         id="font-awesome-4-shim-js"></script>
-    <link rel="https://api.w.org/" href='{{ asset('AquaVist/wp-json/index.html ') }}' />
-    <link rel="alternate" type="application/json" href='{{ asset('AquaVist/wp-json/wp/v2/pages/1064.json ') }}' />
+    <link rel="https://api.w.org/" href="{{ asset('AquaVist/wp-json/index.html') }} " />
+    <link rel="alternate" type="application/json" href="{{ asset('AquaVist/wp-json/wp/v2/pages/1129.json') }} " />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.html?rsd" />
     <meta name="generator" content="WordPress 6.4.1" />
     <link rel="canonical" href="index.html" />
-    <link rel='shortlink' href='../index5ce3.html?p=1064' />
+    <link rel='shortlink' href='../index6b36.html?p=1129' />
     <link rel="alternate" type="application/json+oembed"
-        href='{{ asset('AquaVist/wp-json/oembed/1.0/embed5887.json?url=https%3A%2F%2Ftemplatekit.jegtheme.com%2Faquavist%2Fservices%2F ') }}' />
+        href="{{ asset('AquaVist/wp-json/oembed/1.0/embedb79d.json?url=https%3A%2F%2Ftemplatekit.jegtheme.com%2Faquavist%2Fgallery%2F') }} " />
     <link rel="alternate" type="text/xml+oembed"
-        href='{{ asset('AquaVist/wp-json/oembed/1.0/embedfe6a?url=https%3A%2F%2Ftemplatekit.jegtheme.com%2Faquavist%2Fservices%2F&amp;format=xml ') }}' />
+        href="{{ asset('AquaVist/wp-json/oembed/1.0/embed6af8?url=https%3A%2F%2Ftemplatekit.jegtheme.com%2Faquavist%2Fgallery%2F&amp;format=xml') }} " />
     <meta name="generator"
         content="Elementor 3.17.3; features: e_dom_optimization, e_optimized_assets_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css"
-        integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body
-    class="page-template page-template-elementor_header_footer page page-id-1064 ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor jkit-color-scheme elementor-default elementor-template-full-width elementor-kit-4 elementor-page elementor-page-1064">
+    class="page-template page-template-elementor_header_footer page page-id-1129 ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor jkit-color-scheme elementor-default elementor-template-full-width elementor-kit-4 elementor-page elementor-page-1129">
     <main>
         @yield('content')
     </main>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
-        integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel='stylesheet' id='jeg-dynamic-style-css'
-        href='{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/lib/jeg-framework/assets/css/jeg-dynamic-styles6f3e.css?ver=1.3.0') }}'
+        href="{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/lib/jeg-framework/assets/css/jeg-dynamic-styles6f3e.css?ver=1.3.0') }} "
         media='all' />
     <link rel='stylesheet' id='tiny-slider-css'
-        href='{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-sliderf342.css?ver=2.9.3') }}'
+        href='{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-sliderf342.css?ver=2.9.3') }} '
         media='all' />
     <link rel='stylesheet' id='e-animations-css'
-        href='{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/animations/animations.min8864.css?ver=3.17.3') }}'
+        href='{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/animations/animations.min8864.css?ver=3.17.3') }} '
         media='all' />
-    <script src='{{ asset('AquaVist/wp-content/plugins/elementor/assets/js/webpack.runtime.min8864.js?ver=3.17.3') }}'
+    <script src="{{ asset('AquaVist/wp-content/plugins/elementor/assets/js/webpack.runtime.min8864.js?ver=3.17.3') }} "
         id="elementor-webpack-runtime-js"></script>
-    <script src='{{ asset('AquaVist/wp-content/plugins/elementor/assets/js/frontend-modules.min8864.js?ver=3.17.3') }}'
+    <script src="{{ asset('AquaVist/wp-content/plugins/elementor/assets/js/frontend-modules.min8864.js?ver=3.17.3') }} "
         id="elementor-frontend-modules-js"></script>
-    <script src='{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2') }}'
+    <script src="{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2') }} "
         id="elementor-waypoints-js"></script>
-    <script src='{{ asset('AquaVist/wp-includes/js/jquery/ui/core.min3f14.js?ver=1.13.2') }}' id="jquery-ui-core-js">
+    <script src="{{ asset('AquaVist/wp-includes/js/jquery/ui/core.min3f14.js?ver=1.13.2') }} " id="jquery-ui-core-js">
     </script>
     <script id="elementor-frontend-js-before">
         var elementorFrontendConfig = {
@@ -765,48 +752,43 @@
                 "lightbox_description_src": "description"
             },
             "post": {
-                "id": 1064,
-                "title": "Services%20%E2%80%93%20Aquavist",
+                "id": 1129,
+                "title": "Gallery%20%E2%80%93%20Aquavist",
                 "excerpt": "",
                 "featuredImage": false
             }
         };
     </script>
-    <script src='{{ asset('AquaVist/wp-content/plugins/elementor/assets/js/frontend.min8864.js?ver=3.17.3 ') }}'
+    <script src="{{ asset('AquaVist/wp-content/plugins/elementor/assets/js/frontend.min8864.js?ver=3.17.3') }} "
         id="elementor-frontend-js"></script>
     <script id="elementor-frontend-js-after">
-        var jkit_ajax_url = "indexe2f2.html?jkit-ajax-request=jkit_elements",
+        var jkit_ajax_url = "../indexe2f2.html?jkit-ajax-request=jkit_elements",
             jkit_nonce = "04d38ddabe";
     </script>
     <script
-        src='{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/elements/sticky-element61da.js?ver=2.6.2 ') }}'
+        src="{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/elements/sticky-element61da.js?ver=2.6.2') }} "
         id="jkit-sticky-element-js"></script>
     <script
-        src='{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/elements/nav-menu61da.js?ver=2.6.2 ') }}'
+        src="{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/elements/nav-menu61da.js?ver=2.6.2') }} "
         id="jkit-element-navmenu-js"></script>
     <script
-        src='{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/elements/pie-chart61da.js?ver=2.6.2') }}'
-        id="jkit-element-piechart-js"></script>
+        src="{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/elements/portfolio-gallery61da.js?ver=2.6.2') }} "
+        id="jkit-element-portfoliogallery-js"></script>
     <script
-        src='{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/chartjs/chart.mina560.js?ver=3.9.1 ') }}'
-        id="chartjs-js"></script>
-    <script
-        src='{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/elements/testimonials61da.js?ver=2.6.2 ') }}'
+        src="{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/elements/testimonials61da.js?ver=2.6.2') }} "
         id="jkit-element-testimonials-js"></script>
     <script
-        src='{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-sliderf342.js?ver=2.9.3 ') }}'
+        src="{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-sliderf342.js?ver=2.9.3') }} "
         id="tiny-slider-js"></script>
-    <script src='{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/elements/gallery61da.js?ver=2.6.2 ') }}'
+    <script src="{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/elements/gallery61da.js?ver=2.6.2') }} "
         id="jkit-element-gallery-js"></script>
-    <script src='{{ asset('AquaVist/wp-includes/js/imagesloaded.minbb93.js?ver=5.0.0 ') }}' id="imagesloaded-js"></script>
+    <script src="{{ asset('AquaVist/wp-includes/js/imagesloaded.minbb93.js?ver=5.0.0') }} " id="imagesloaded-js"></script>
     <script
-        src='{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/isotope/isotope.min7c45.js?ver=3.0.6 ') }}'
+        src="{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/isotope/isotope.min7c45.js?ver=3.0.6') }} "
         id="isotope-js"></script>
     <script
-        src='{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/elements/mailchimp61da.js?ver=2.6.2') }}'
+        src="{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/elements/mailchimp61da.js?ver=2.6.2') }} "
         id="jkit-element-mailchimp-js"></script>
 </body>
-
-<!-- Mirrored from templatekit.jegtheme.com/aquavist/services/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Dec 2024 07:34:18 GMT -->
 
 </html>

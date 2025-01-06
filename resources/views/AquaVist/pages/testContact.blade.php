@@ -3,6 +3,34 @@
 @section('title', 'Home Page')
 
 @section('content')
+    <style>
+        @media (max-width: 768px) {
+            .row {
+                margin-right: calc(0* var(--bs-gutter-x)) !important;
+            }
+
+            .top-filters {
+                margin-left: -1pc !important;
+            }
+
+            .search-bar-mobile {
+                margin-left: 2pc !important;
+            }
+
+            .search-bar-container-2 {
+                margin-right: 0% !important;
+                margin-top: 10px !important;
+            }
+
+            .product-card {
+                margin-left: 1px !important;
+            }
+
+            .side-bar-menu-items {
+                height: 0px !important;
+            }
+        }
+    </style>
     <div id="page" class="hfeed site">
         <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
             <p class="main-title bhf-hidden" itemprop="headline"><a href="https://templatekit.jegtheme.com/aquavist"
@@ -116,30 +144,31 @@
                                                         class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
                                                         <li id="menu-item-22"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home">
-                                                            <a href="/">Home</a>
+                                                            <a class="side-bar-menu-items" href="/">Home</a>
                                                         </li>
                                                         <li id="menu-item-1430"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1430">
-                                                            <a href="/about">About</a>
+                                                            <a class="side-bar-menu-items" href="/about">About</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="/product">Products</a>
+                                                            <a class="side-bar-menu-items" href="/product">Products</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="/gallery">Gallery</a>
+                                                            <a class="side-bar-menu-items" href="/gallery">Gallery</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="/news">Blog</a>
+                                                            <a class="side-bar-menu-items" href="/news">Blog</a>
                                                         </li>
                                                         <li id="menu-item-1426"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1426 menu-item-22 current-menu-item page_item page-item-1291 current_page_item">
-                                                            <a href="/contactus" aria-current="page">Contact</a>
+                                                            <a class="side-bar-menu-items" href="/contactus"
+                                                                aria-current="page">Contact</a>
                                                         </li>
                                                         <li id="menu-item-malaysia" class="menu-item">
-                                                            <a href="/Malaysian">
+                                                            <a class="side-bar-menu-items" href="/Malaysian">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="32"
                                                                     height="32" viewBox="0 0 32 32">
                                                                     <rect x="1" y="4" width="30" height="24"
@@ -179,7 +208,7 @@
                                                             </a>
                                                         </li>
                                                         <li id="menu-item-indonesia" class="menu-item">
-                                                            <a href="/Indonesian">
+                                                            <a class="side-bar-menu-items" href="/Indonesian">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="32"
                                                                     height="32" viewBox="0 0 32 32">
                                                                     <path
@@ -204,7 +233,7 @@
                                                     <div class="jkit-nav-site-title"><a
                                                             href="https://templatekit.jegtheme.com/aquavist"
                                                             class="jkit-nav-logo"><img
-                                                                src="../wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-e1628655153433.png"></a>
+                                                                src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-e1628655153433.png') }} "></a>
                                                     </div>
                                                     <button class="jkit-close-menu"><i aria-hidden="true"
                                                             class="jki jki-times-solid"></i></button>

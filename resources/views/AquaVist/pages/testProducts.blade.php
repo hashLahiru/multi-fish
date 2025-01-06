@@ -27,11 +27,9 @@
         }
 
         .product-card {
-            border: 1px solid #ddd;
             border-radius: 8px;
             text-align: center;
             padding: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             background-color: #fff;
         }
 
@@ -133,6 +131,55 @@
             margin-top: 20px;
             overflow: hidden;
         }
+
+
+
+        @media (max-width: 768px) {
+            .row {
+                margin-right: calc(0* var(--bs-gutter-x)) !important;
+            }
+
+            .top-filters {
+                margin-left: -1pc !important;
+            }
+
+            .search-bar-mobile {
+                margin-left: 2pc !important;
+            }
+
+            .search-bar-container-2 {
+                margin-right: 0% !important;
+                margin-top: 10px !important;
+            }
+
+            .product-card {
+                margin-left: 1px !important;
+            }
+
+            .side-bar-menu-items {
+                height: 0px !important;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .margin-left-5pc {
+                margin-left: 5pc;
+            }
+
+            .row-desktop {
+                --bs-gutter-x: 1.5rem;
+                --bs-gutter-y: 0;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: calc(-1* var(--bs-gutter-y));
+                margin-right: calc(-.5* var(--bs-gutter-x));
+                margin-left: calc(-.5* var(--bs-gutter-x));
+            }
+
+            .product-card {
+                padding-left: 6pc;
+            }
+        }
     </style>
 
     <div id="page" class="hfeed site">
@@ -220,9 +267,9 @@
                                     data-id="df5b3d7" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
                                         <img width="800" height="279"
-                                            src="../wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png"
+                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}"
                                             class="attachment-large size-large wp-image-662" alt="" decoding="async"
-                                            srcset="https://templatekit.jegtheme.com/aquavist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png 1024w, https://templatekit.jegtheme.com/aquavist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-300x105.png 300w, https://templatekit.jegtheme.com/aquavist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-768x268.png 768w, https://templatekit.jegtheme.com/aquavist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1536x536.png 1536w, https://templatekit.jegtheme.com/aquavist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-2048x714.png 2048w, https://templatekit.jegtheme.com/aquavist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-800x279.png 800w, https://templatekit.jegtheme.com/aquavist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-e1628655153433.png 1000w"
+                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  2048w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  1000w"
                                             sizes="(max-width: 800px) 100vw, 800px" />
                                     </div>
                                 </div>
@@ -243,31 +290,32 @@
                                                     <ul id="menu-menu-1"
                                                         class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
                                                         <li id="menu-item-22"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-22 current-menu-item page_item page-item-1291 current_page_item">
-                                                            <a href="/">Home</a>
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-22">
+                                                            <a class="side-bar-menu-items" href="/">Home</a>
                                                         </li>
                                                         <li id="menu-item-1430"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1430">
-                                                            <a href="/about">About</a>
+                                                            <a class="side-bar-menu-items" href="/about">About</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429 menu-item-22 current-menu-item page_item page-item-1291 current_page_item">
-                                                            <a href="/product">Products</a>
+                                                            <a class="side-bar-menu-items" href="/product">Products</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="/gallery">Gallery</a>
+                                                            <a class="side-bar-menu-items" href="/gallery">Gallery</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="/news">Blog</a>
+                                                            <a class="side-bar-menu-items" href="/news">Blog</a>
                                                         </li>
                                                         <li id="menu-item-1426"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1426">
-                                                            <a href="/contactus" aria-current="page">Contact</a>
+                                                            <a class="side-bar-menu-items" href="/contactus"
+                                                                aria-current="page">Contact</a>
                                                         </li>
                                                         <li id="menu-item-malaysia" class="menu-item">
-                                                            <a href="/Malaysian">
+                                                            <a class="side-bar-menu-items" href="/Malaysian">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="32"
                                                                     height="32" viewBox="0 0 32 32">
                                                                     <rect x="1" y="4" width="30" height="24"
@@ -307,7 +355,7 @@
                                                             </a>
                                                         </li>
                                                         <li id="menu-item-indonesia" class="menu-item">
-                                                            <a href="/Indonesian">
+                                                            <a class="side-bar-menu-items" href="/Indonesian">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="32"
                                                                     height="32" viewBox="0 0 32 32">
                                                                     <path
@@ -332,7 +380,7 @@
                                                     <div class="jkit-nav-site-title"><a
                                                             href="https://templatekit.jegtheme.com/aquavist"
                                                             class="jkit-nav-logo"><img
-                                                                src="../wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-e1628655153433.png"></a>
+                                                                src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-e1628655153433.png') }}"></a>
                                                     </div>
                                                     <button class="jkit-close-menu"><i aria-hidden="true"
                                                             class="jki jki-times-solid"></i></button>
@@ -406,7 +454,7 @@
                 </div>
             </section>
 
-            <section>
+            <section class="top-filters">
                 <div style="margin-top: 3%; margin-left:7%;">
                     <div style="display: flex; align-items: center; justify-content: space-between;">
                         <div class="btncontainer" id="myBtnContainer"
@@ -517,7 +565,7 @@
                                                             <div
                                                                 class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation-">
                                                                 <div class="hover-from-left1"
-                                                                    style="background-size:cover; background-position: center; margin: 35px; object-fit: contain; background-image: url('{{ asset($category->img_url) }}');">
+                                                                    style="background-size:cover; background-position: center; margin: 25px; object-fit: contain; background-image: url('{{ asset($category->img_url) }}');">
                                                                     <div
                                                                         class="icon-box icon-box-header elementor-animation-">
                                                                     </div>
@@ -549,17 +597,16 @@
                         <div class="elementor-widget-container">
                             <div
                                 class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_1064_2_675928918e3c5">
-                                <div class="heading-container"
+                                <div class="row heading-container"
                                     style="display: flex; align-items: center; justify-content: space-between;">
-                                    <div class="heading-section-title display-inline-block" style="flex: 1;">
+                                    <div class="col-md-7 col-12 heading-section-title display-inline-block"
+                                        style="flex: 1;">
                                         <h2 class="heading-title"
-                                            style="color: black; font-size: 35px; margin-left: 15%;">Buy Aquarium
-                                            Fish
-                                            Online</h2>
+                                            style="color: black; font-size: 35px; margin-left: 15%;">Products</h2>
                                     </div>
-                                    <div class="search-bar-container"
-                                        style="display: flex; align-items: center; gap: 10px; margin-right: 11%;">
-                                        <input type="text" class="search-bar"
+                                    <div class="col-md-5 col-12 search-bar-container search-bar-container-2"
+                                        style="display: flex; align-items: center; gap: 10px;">
+                                        <input type="text" class="search-bar search-bar-mobile"
                                             style="color: rgb(0, 0, 0); border: 1px solid #464646; border-radius: 8px; width: 300px; height: 30px; padding: 10px;"
                                             placeholder="  Search for fish..." onkeyup="searchProducts(this.value)" />
                                         <button class="all-button"
@@ -571,9 +618,9 @@
                         </div>
                     </div>
 
-                    <div class="product-grid">
+                    <div class="row product-grid product-card">
                         @foreach ($products as $product)
-                            <div class="filterDiv fresh" data-category-id="{{ $product->category_id }}">
+                            <div class="col-12 col-md-2 filterDiv fresh" data-category-id="{{ $product->category_id }}">
                                 <img src="{{ asset($product->img1_url) }}" alt="Product Image" class="product-image">
                                 <div class="product-name"> {{ $product->pro_name }} </div>
                                 <div class="product-price">

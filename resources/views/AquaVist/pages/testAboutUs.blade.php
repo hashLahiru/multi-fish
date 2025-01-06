@@ -39,6 +39,42 @@
         .info {
             position: absolute;
         }
+
+        @media (max-width: 768px) {
+            .margin-top-1pc {
+                margin-top: 1pc !important;
+            }
+
+            .mobile-padding-x-1 {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+
+            .mobile-padding-xy-1 {
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: 2pc;
+            }
+
+            .mobile-padding-3 {
+                margin-top: 1pc;
+                margin-left: -40px;
+            }
+
+            .side-bar-menu-items-2{
+                height: 0px !important;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .desktop-padding-1 {
+                padding-right: 0;
+                margin-right: 0;
+                width: 150%;
+padding-left: 3pc;
+padding-top:3pc;
+            }
+        }
     </style>
     <div id="page" class="hfeed site info">
         <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
@@ -127,7 +163,7 @@
                                         <img width="800" height="279"
                                             src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}"
                                             class="attachment-large size-large wp-image-662" alt="" decoding="async"
-                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }} 1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-300x105.png') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-768x268.png') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1536x536.png') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-2048x714.png') }} 2048w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-e1628655153433.png') }} 1000w"
+                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  2048w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  1000w"
                                             sizes="(max-width: 800px) 100vw, 800px" />
                                     </div>
                                 </div>
@@ -149,30 +185,30 @@
                                                         class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
                                                         <li id="menu-item-22"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home">
-                                                            <a href="/">Home</a>
+                                                            <a class="side-bar-menu-items-2" href="/">Home</a>
                                                         </li>
                                                         <li id="menu-item-1430"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1430 menu-item-22 current-menu-item page_item page-item-1291 current_page_item">
-                                                            <a href="/about">About</a>
+                                                            <a class="side-bar-menu-items-2" href="/about">About</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="/product">Products</a>
+                                                            <a class="side-bar-menu-items-2" href="/product">Products</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="/gallery">Gallery</a>
+                                                            <a class="side-bar-menu-items-2" href="/gallery">Gallery</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="/news">Blog</a>
+                                                            <a class="side-bar-menu-items-2" href="/news">Blog</a>
                                                         </li>
                                                         <li id="menu-item-1426"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1426">
-                                                            <a href="/contactus" aria-current="page">Contact</a>
+                                                            <a class="side-bar-menu-items-2" href="/contactus" aria-current="page">Contact</a>
                                                         </li>
                                                         <li id="menu-item-malaysia" class="menu-item">
-                                                            <a href="/Malaysian">
+                                                            <a class="side-bar-menu-items-2" href="/Malaysian">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="32"
                                                                     height="32" viewBox="0 0 32 32">
                                                                     <rect x="1" y="4" width="30" height="24"
@@ -212,7 +248,7 @@
                                                             </a>
                                                         </li>
                                                         <li id="menu-item-indonesia" class="menu-item">
-                                                            <a href="/Indonesian">
+                                                            <a class="side-bar-menu-items-2" href="/Indonesian">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="32"
                                                                     height="32" viewBox="0 0 32 32">
                                                                     <path
@@ -320,7 +356,7 @@
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementsor-column elementor-col-66 elementor-top-column elementor-element elementor-element-b2df78f"
                         data-id="b2df78f" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="mobile-padding-x-1 elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-baf8c1f elementor-widget elementor-widget-jkit_heading"
                                 data-id="baf8c1f" data-element_type="widget" data-widget_type="jkit_heading.default">
                                 <div class="elementor-widget-container">
@@ -500,10 +536,10 @@
                         </div>
                     </div>
                 </div>
-                <section class="elementor-section1 elementor-top-section" data-id="a42b3aa" data-element_type="section">
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementsor-column elementor-element elementor-element-b2df78f" data-id="b2df78f"
-                            data-element_type="column">
+                <section class="elementor-top-section" data-id="a42b3aa" data-element_type="section">
+                    <div class="desktop-padding-1 elementor-container elementor-column-gap-default">
+                        <div class="mobile-padding-xy-1 elementsor-column elementor-element elementor-element-b2df78f"
+                            data-id="b2df78f" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
                                 <div
                                     class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_788_3_6759274bcfbc0">
@@ -520,44 +556,26 @@
                                 <div class="elementor-element" data-id="e669a8c" data-element_type="widget"
                                     data-widget_type="text-editor.default" style="width:100%;">
                                     <div class="elementor-widget-container1">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                            nostrud
-                                            exercitation ullamco laboris nisi ut aliquip dolore magna aliqua enim ad minim
-                                            veniam, quis nostrud.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                            nostrud
-                                            exercitation ullamco laboris nisi ut aliquip dolore magna aliqua enim ad minim
-                                            veniam, quis nostrud.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                            nostrud
-                                            exercitation ullamco laboris nisi ut aliquip dolore magna aliqua enim ad minim
-                                            veniam, quis nostrud.
-                                            </br>
-                                        <p>
-                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                            nostrud
-                                            exercitation ullamco laboris nisi ut aliquip dolore magna aliqua enim ad minim
-                                            veniam, quis nostrud.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                            nostrud
-                                            exercitation ullamco laboris nisi ut aliquip dolore magna aliqua enim ad minim
-                                            veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                            sed do eiusmod tempor
-                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                            nostrud
-                                        </p>
-
-                                        </p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip dolore magna aliqua enim ad minim
+                                        veniam, quis nostrud.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip dolore magna aliqua enim ad minim
+                                        veniam, quis nostrud.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip dolore magna aliqua enim ad minim
+                                        veniam, quis nostrud.
                                     </div>
                                 </div>
-
-                                <div style="text-align: center;  margin-left: 30%;  margin-top: 5%;">
-                                    <hr style="width: 500px; height: 4px; background-color: black; border: none;">
-                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </section>
 
@@ -885,17 +903,28 @@
                         data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div
-                                class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_788_3_6759274bcfbc0">
+                                class="mobile-padding-3 jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_788_3_6759274bcfbc0">
                                 <div class="elementor-element elementor-element-9716da2 elementor-widget elementor-widget-heading"
                                     data-id="9716da2" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Certifications and
-                                            Achievements</h2>
+                                        <h2 class="margin-top-1pc elementor-heading-title elementor-size-default">
+                                            Certifications <br class="br-for-small-devices" /> and
+                                            <br class="br-for-small-devices" />
+                                            <style>
+                                                @media (min-width: 768px) {
+                                                    .br-for-small-devices {
+                                                        display: none;
+                                                    }
+                                                }
+                                            </style>
+                                            Achievements
+                                        </h2>
                                         <div class="heading-section-separator">
                                             <div class="separator-wrapper style-solid"></div>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                             <div>
                                 <section
@@ -1243,9 +1272,6 @@
                                         </div>
                                     </div>
                                 </section>
-                            </div>
-                            <div style="text-align: center;  margin-left: 40%; margin-top: 3px; margin-bottom: 4%;">
-                                <hr style="width: 250px; height: 4px; background-color: black; border: none;">
                             </div>
             </section>
 
