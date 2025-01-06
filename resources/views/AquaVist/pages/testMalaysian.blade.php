@@ -243,28 +243,89 @@
                                                     <ul id="menu-menu-1"
                                                         class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
                                                         <li id="menu-item-22"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-22">
-                                                            <a href="../index.html">Home</a>
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-22 current-menu-item page_item page-item-1291 current_page_item">
+                                                            <a href="/">Home</a>
                                                         </li>
                                                         <li id="menu-item-1430"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1430">
-                                                            <a href="../about/index.html">About</a>
+                                                            <a href="/about">About</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="../services/index.html">Products</a>
+                                                            <a href="/product">Products</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="../services/index.html">Gallery</a>
+                                                            <a href="/gallery">Gallery</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="../services/index.html">Blog</a>
+                                                            <a href="/news">Blog</a>
                                                         </li>
                                                         <li id="menu-item-1426"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1291 current_page_item menu-item-1426">
-                                                            <a href="index.html" aria-current="page">Contact</a>
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1426">
+                                                            <a href="/contactus" aria-current="page">Contact</a>
+                                                        </li>
+                                                        <li id="menu-item-malaysia"
+                                                            class="menu-item menu-item-22 current-menu-item page_item page-item-1291 current_page_item">
+                                                            <a href="/Malaysian">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" viewBox="0 0 32 32">
+                                                                    <rect x="1" y="4" width="30" height="24"
+                                                                        rx="4" ry="4" fill="#fff">
+                                                                    </rect>
+                                                                    <path
+                                                                        d="M1.638,5.847H30.362c-.711-1.108-1.948-1.847-3.362-1.847H5c-1.415,0-2.651,.739-3.362,1.847Z"
+                                                                        fill="#bc271a"></path>
+                                                                    <path
+                                                                        d="M1.031,7.692c-.008,.103-.031,.202-.031,.308v1.539H31v-1.539c0-.105-.023-.204-.031-.308H1.031Z"
+                                                                        fill="#bc271a"></path>
+                                                                    <path fill="#bc271a" d="M1 11.384H31V13.231H1z"></path>
+                                                                    <path fill="#bc271a" d="M1 15.077H31V16.924H1z"></path>
+                                                                    <path fill="#bc271a" d="M1 18.769H31V20.616H1z"></path>
+                                                                    <path
+                                                                        d="M1,24c0,.105,.023,.204,.031,.308H30.969c.008-.103,.031-.202,.031-.308v-1.539H1v1.539Z"
+                                                                        fill="#bc271a"></path>
+                                                                    <path
+                                                                        d="M30.362,26.153H1.638c.711,1.108,1.948,1.847,3.362,1.847H27c1.415,0,2.651-.739,3.362-1.847Z"
+                                                                        fill="#bc271a"></path>
+                                                                    <path d="M16,4H5c-2.209,0-4,1.791-4,4v10.769h15V4Z"
+                                                                        fill="#010062"></path>
+                                                                    <path
+                                                                        d="M27,4H5c-2.209,0-4,1.791-4,4V24c0,2.209,1.791,4,4,4H27c2.209,0,4-1.791,4-4V8c0-2.209-1.791-4-4-4Zm3,20c0,1.654-1.346,3-3,3H5c-1.654,0-3-1.346-3-3V8c0-1.654,1.346-3,3-3H27c1.654,0,3,1.346,3,3V24Z"
+                                                                        opacity=".15"></path>
+                                                                    <path
+                                                                        d="M27,5H5c-1.657,0-3,1.343-3,3v1c0-1.657,1.343-3,3-3H27c1.657,0,3,1.343,3,3v-1c0-1.657-1.343-3-3-3Z"
+                                                                        fill="#fff" opacity=".2"></path>
+                                                                    <path fill="#f6cd46"
+                                                                        d="M11.639 8.108L11.931 10.106 13.061 8.432 12.455 10.36 14.2 9.342 12.818 10.816 14.833 10.655 12.949 11.384 14.833 12.113 12.818 11.952 14.2 13.427 12.455 12.408 13.061 14.336 11.931 12.662 11.639 14.661 11.346 12.662 10.216 14.336 10.822 12.408 9.077 13.427 10.459 11.952 8.444 12.113 10.328 11.384 8.444 10.655 10.459 10.816 9.077 9.342 10.822 10.36 10.216 8.432 11.346 10.106 11.639 8.108z">
+                                                                    </path>
+                                                                    <path
+                                                                        d="M10,8.189c-1.764-.783-3.829,.013-4.612,1.777-.783,1.764,.013,3.829,1.777,4.612,.903,.4,1.932,.4,2.835,0-1.764,1.266-4.221,.862-5.487-.903s-.862-4.221,.903-5.487c1.37-.983,3.214-.983,4.584,0Z"
+                                                                        fill="#f6cd46"></path>
+                                                                </svg>
+                                                                &nbsp; Malaysia
+                                                            </a>
+                                                        </li>
+                                                        <li id="menu-item-indonesia" class="menu-item">
+                                                            <a href="/Indonesian">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" viewBox="0 0 32 32">
+                                                                    <path
+                                                                        d="M31,8c0-2.209-1.791-4-4-4H5c-2.209,0-4,1.791-4,4v9H31V8Z"
+                                                                        fill="#ea3323"></path>
+                                                                    <path
+                                                                        d="M5,28H27c2.209,0,4-1.791,4-4v-8H1v8c0,2.209,1.791,4,4,4Z"
+                                                                        fill="#fff"></path>
+                                                                    <path
+                                                                        d="M5,28H27c2.209,0,4-1.791,4-4V8c0-2.209-1.791-4-4-4H5c-2.209,0-4,1.791-4,4V24c0,2.209,1.791,4,4,4ZM2,8c0-1.654,1.346-3,3-3H27c1.654,0,3,1.346,3,3V24c0,1.654-1.346,3-3,3H5c-1.654,0-3-1.346-3-3V8Z"
+                                                                        opacity=".15"></path>
+                                                                    <path
+                                                                        d="M27,5H5c-1.657,0-3,1.343-3,3v1c0-1.657,1.343-3,3-3H27c1.657,0,3,1.343,3,3v-1c0-1.657-1.343-3-3-3Z"
+                                                                        fill="#fff" opacity=".2"></path>
+                                                                </svg>
+                                                                &nbsp; Indonesia
+                                                            </a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -360,31 +421,6 @@
                     </div>
                 </div>
             </section>
-            <section>
-                <div style="margin-top: 3%; margin-left:7%;">
-                    <div style="display: flex; align-items: center; justify-content: space-between;">
-                        <div class="btncontainer" id="myBtnContainer"
-                            style="display: flex; align-items: center; gap: 10px; ">
-                            {{-- <button class="btn"
-                                style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border-radius: 10px; height: 35px; padding: 5px 15px; "
-                                onclick="filterSelection('all')">All
-                            </button> --}}
-                            <button class="btn"
-                                style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border-radius: 10px; height: 35px; padding: 5px 15px; "
-                                onclick="filterSelection('fresh')">Fresh
-                                Water Fish
-                            </button>
-                            <button class="btn"
-                                style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border-radius: 10px; height: 35px; padding: 5px 15px;"
-                                onclick="filterSelection('marine')">Marine
-                                Fish</button>
-                            <button class="btn"
-                                style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border-radius: 10px; height: 35px; padding: 5px 15px;"
-                                onclick="filterSelection('plant')">Plants</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             {{-- section-2 --}}
             <section
@@ -448,6 +484,77 @@
                 </div>
             </section>
 
+            <section>
+                <div style="margin-top: 3%; margin-left:7%;">
+                    <div style="display: flex; align-items: center; justify-content: space-between;">
+                        <div class="btncontainer" id="myBtnContainer"
+                            style="display: flex; align-items: center; gap: 10px;">
+                            <button class="btn"
+                                style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: none; border-radius: 10px; height: 35px; padding: 5px 15px;"
+                                onmouseover="this.style.textDecorationColor='grey';"
+                                onmouseout="if (!this.classList.contains('active')) { this.style.textDecorationColor='transparent'; }"
+                                onclick="filterCategories('all'); setActiveButton(this);">All</button>
+                            <button class="btn"
+                                style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: none; border-radius: 10px; height: 35px; padding: 5px 15px;"
+                                onmouseover="this.style.textDecorationColor='grey';"
+                                onmouseout="if (!this.classList.contains('active')) { this.style.textDecorationColor='transparent'; }"
+                                onclick="filterCategories(1); setActiveButton(this);">Fresh Water Fish</button>
+                            <button class="btn"
+                                style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: none; border-radius: 10px; height: 35px; padding: 5px 15px;"
+                                onmouseover="this.style.textDecorationColor='grey';"
+                                onmouseout="if (!this.classList.contains('active')) { this.style.textDecorationColor='transparent'; }"
+                                onclick="filterCategories(2); setActiveButton(this);">Marine Fish</button>
+                            <button class="btn"
+                                style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: none; border-radius: 10px; height: 35px; padding: 5px 15px;"
+                                onmouseover="this.style.textDecorationColor='grey';"
+                                onmouseout="if (!this.classList.contains('active')) { this.style.textDecorationColor='transparent'; }"
+                                onclick="filterCategories(3); setActiveButton(this);">Plants</button>
+                        </div>
+
+                        <script>
+                            function setActiveButton(button) {
+                                var btns = document.getElementsByClassName("btn");
+                                for (var i = 0; i < btns.length; i++) {
+                                    btns[i].classList.remove("active");
+                                    btns[i].style.textDecorationColor = 'transparent';
+                                }
+                                button.classList.add("active");
+                                button.style.textDecorationColor = 'black';
+                            }
+
+                            function filterCategories(superCategoryId) {
+                                var products = document.getElementsByClassName("filterDiv");
+                                for (var i = 0; i < products.length; i++) {
+                                    if (superCategoryId === 'all' || products[i].dataset.categoryId == superCategoryId) {
+                                        products[i].style.display = "block";
+                                    } else {
+                                        products[i].style.display = "none";
+                                    }
+                                }
+                            }
+
+                            function filterProducts(categoryId) {
+                                var products = document.getElementsByClassName("filterDiv");
+                                for (var i = 0; i < products.length; i++) {
+                                    if (!categoryId || products[i].dataset.categoryId == categoryId) {
+                                        products[i].style.display = "block";
+                                    } else {
+                                        products[i].style.display = "none";
+                                    }
+                                }
+                            }
+
+                            document.addEventListener('click', function(e) {
+                                if (e.target.closest('.category')) {
+                                    const categoryId = e.target.closest('.category').dataset.id;
+                                    filterProducts(categoryId);
+                                }
+                            });
+                        </script>
+                    </div>
+                </div>
+            </section>
+
             {{-- section3 --}}
             <section>
                 <div class="section3" style=" margin-top: 3%;">
@@ -468,7 +575,7 @@
                                         style="display: flex; align-items: center; gap: 10px; margin-right: 11%;">
                                         <input type="text" class="search-bar"
                                             style="color: rgb(0, 0, 0); border: 1px solid #464646; border-radius: 8px; width: 300px; height: 30px; padding: 10px;"
-                                            placeholder="  Search for fish..." />
+                                            placeholder="  Search for fish..." onkeyup="searchProducts(this.value)" />
                                         <button class="all-button"
                                             style="background-color: black; color: white; border-radius: 10px; height: 35px; padding: 5px 15px;"
                                             onclick="filterSelection('all')">All</button>
@@ -477,409 +584,29 @@
                             </div>
                         </div>
                     </div>
-                    <div class="main-grid">
-                        <div class="product-grid">
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
+
+                    <div class="product-grid">
+                        @foreach ($products as $product)
+                            <div class="filterDiv fresh" data-category-id="{{ $product->super_category_id }}">
+                                <img src="{{ asset($product->img1_url) }}" alt="Product Image" class="product-image">
+                                <div class="product-name"> {{ $product->pro_name }} </div>
                                 <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
+                                    @if ($product->discount > 0)
+                                        <span class="previous-price"> {{ number_format($product->unit_price, 2) }} </span>
+                                        <span class="current-price">
+                                            {{ number_format($product->unit_price - $product->discount, 2) }}
+                                        </span>
+                                    @else
+                                        <span class="current-price"> {{ number_format($product->unit_price, 2) }} </span>
+                                    @endif
                                 </div>
                                 <button class="sale-button"
                                     style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
                             </div>
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                        </div>
-                        <div class="product-grid">
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv marine">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv marine">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                        </div>
-                        <div class="product-grid">
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv marine">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv marine">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                        </div>
-                        <div class="product-grid">
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv marine">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                        </div>
-                        <div class="product-grid">
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv marine">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                        </div>
-                        <div class="product-grid">
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv marine">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv marine">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                        </div>
-                        <div class="product-grid">
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/imperial-anglefish-closeup-in-saltwater-aquarium-e1628655205910.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemofish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%;  padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv plant">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/blackfish.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv fresh">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/group.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                            <div class="filterDiv marine">
-                                <img src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto-1188529024-612x612.jpg') }}"
-                                    alt="Product Image" class="product-image">
-                                <div class="product-name">Product Name</div>
-                                <div class="product-price">
-                                    <span class="previous-price">$50.00</span>
-                                    <span class="current-price">$35.00</span>
-                                </div>
-                                <button class="sale-button"
-                                    style="border-radius: 5px; margin top:15%;  margin-top:10%; padding: 10px 32px;">Buy</button>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
                 </div>
-            </section> {{-- end of section 3 --}}
+            </section>
 
             <script>
                 filterSelection("all")
@@ -925,6 +652,18 @@
                         current[0].className = current[0].className.replace(" active", "");
                         this.className += " active";
                     });
+                }
+
+                function searchProducts(query) {
+                    var products = document.getElementsByClassName("filterDiv");
+                    for (var i = 0; i < products.length; i++) {
+                        var productName = products[i].getElementsByClassName("product-name")[0].innerText.toLowerCase();
+                        if (productName.includes(query.toLowerCase())) {
+                            products[i].style.display = "block";
+                        } else {
+                            products[i].style.display = "none";
+                        }
+                    }
                 }
             </script>
         </div>

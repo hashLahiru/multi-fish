@@ -1,6 +1,4 @@
-@extends('AquaVist.pages.testHomeApp')
-
-@section('title', 'Home Page')
+@extends('AquaVist.pages.homePageApp')
 
 @section('content')
     <style>
@@ -18,9 +16,23 @@
             left: 20px;
 
         }
+
+        @media (max-width: 768px) {
+            .margin-10 {
+                margin: 10px !important;
+            }
+
+            .margin-top-10 {
+                margin-top: 10px !important;
+            }
+
+            .margin-top-20pc {
+                margin-top: 20pc !important;
+            }
+        }
     </style>
 
-    <div id="page" class="hfeed site info">
+    <div id="page" class="hfeed site">
         <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
             <p class="main-title bhf-hidden" itemprop="headline"><a href="https://templatekit.jegtheme.com/aquavist"
                     title="Aquavist" rel="home">Aquavist</a></p>
@@ -61,6 +73,7 @@
                                         <ul class="elementor-icon-list-items elementor-inline-items">
                                             <li class="elementor-icon-list-item elementor-inline-item">
                                                 <a href="#">
+
                                                     <span class="elementor-icon-list-icon">
                                                         <i aria-hidden="true" class="icon icon-facebook"></i> </span>
                                                     <span class="elementor-icon-list-text">Facebook</span>
@@ -68,6 +81,7 @@
                                             </li>
                                             <li class="elementor-icon-list-item elementor-inline-item">
                                                 <a href="#">
+
                                                     <span class="elementor-icon-list-icon">
                                                         <i aria-hidden="true" class="icon icon-twitter"></i> </span>
                                                     <span class="elementor-icon-list-text">Twitter</span>
@@ -75,6 +89,7 @@
                                             </li>
                                             <li class="elementor-icon-list-item elementor-inline-item">
                                                 <a href="#">
+
                                                     <span class="elementor-icon-list-icon">
                                                         <i aria-hidden="true" class="icon icon-linkedin"></i> </span>
                                                     <span class="elementor-icon-list-text">Linkedin</span>
@@ -82,6 +97,7 @@
                                             </li>
                                             <li class="elementor-icon-list-item elementor-inline-item">
                                                 <a href="#">
+
                                                     <span class="elementor-icon-list-icon">
                                                         <i aria-hidden="true" class="icon icon-instagram-1"></i>
                                                     </span>
@@ -108,7 +124,7 @@
                                         <img width="800" height="279"
                                             src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}"
                                             class="attachment-large size-large wp-image-662" alt="" decoding="async"
-                                            srcset="{{ asset('AquaVist//wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }} 1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-300x105.png') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-768x268.png') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1536x536.png') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-2048x714.png') }} 2048w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-800x279.png') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-e1628655153433.png') }} 1000w"
+                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-300x105.png') }}  300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-768x268.png') }}  768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1536x536.png') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-2048x714.png') }}  2048w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-800x279.png') }}  800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-e1628655153433.png') }}  1000w"
                                             sizes="(max-width: 800px) 100vw, 800px" />
                                     </div>
                                 </div>
@@ -129,88 +145,62 @@
                                                     <ul id="menu-menu-1"
                                                         class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
                                                         <li id="menu-item-22"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-22 current-menu-item page_item page-item-1291 current_page_item">
-                                                            <a href="/">Home</a>
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-20 current_page_item menu-item-22">
+                                                            <a href="index.html" aria-current="page">Home</a>
                                                         </li>
                                                         <li id="menu-item-1430"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1430">
-                                                            <a href="/about">About</a>
+                                                            <a href="about/index.html">About</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="/product">Products</a>
+                                                            <a href="services/index.html">Services</a>
                                                         </li>
-                                                        <li id="menu-item-1429"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="/gallery">Gallery</a>
+                                                        <li id="menu-item-8"
+                                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8">
+                                                            <a href="#">Pages</a>
+                                                            <ul class="sub-menu">
+                                                                <li id="menu-item-1435"
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1435">
+                                                                    <a href="pricing/index.html">Pricing</a>
+                                                                </li>
+                                                                <li id="menu-item-1434"
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1434">
+                                                                    <a href="gallery/index.html">Gallery</a>
+                                                                </li>
+                                                                <li id="menu-item-1433"
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1433">
+                                                                    <a href="events/index.html">Events</a>
+                                                                </li>
+                                                                <li id="menu-item-1432"
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1432">
+                                                                    <a href="faq/index.html">FAQ</a>
+                                                                </li>
+                                                                <li id="menu-item-1431"
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1431">
+                                                                    <a href="404-page/index.html">404 Page</a>
+                                                                </li>
+                                                            </ul>
                                                         </li>
-                                                        <li id="menu-item-1429"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="/news">Blog</a>
+                                                        <li id="menu-item-1427"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1427">
+                                                            <a href="blog/index.html">Blog</a>
+                                                            <ul class="sub-menu">
+                                                                <li id="menu-item-1425"
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
+                                                                    <a href="blog/index.html">Blog</a>
+                                                                </li>
+                                                                <li id="menu-item-1428"
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1428">
+                                                                    <a
+                                                                        href="2021/08/07/different-aquariums-for-different-ideas/index.html">Single
+                                                                        Post</a>
+                                                                </li>
+                                                            </ul>
                                                         </li>
                                                         <li id="menu-item-1426"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1426">
-                                                            <a href="/contactus" aria-current="page">Contact</a>
-                                                        </li>
-                                                        <li id="menu-item-malaysia" class="menu-item">
-                                                            <a href="/Malaysian">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
-                                                                    height="32" viewBox="0 0 32 32">
-                                                                    <rect x="1" y="4" width="30" height="24"
-                                                                        rx="4" ry="4" fill="#fff">
-                                                                    </rect>
-                                                                    <path
-                                                                        d="M1.638,5.847H30.362c-.711-1.108-1.948-1.847-3.362-1.847H5c-1.415,0-2.651,.739-3.362,1.847Z"
-                                                                        fill="#bc271a"></path>
-                                                                    <path
-                                                                        d="M1.031,7.692c-.008,.103-.031,.202-.031,.308v1.539H31v-1.539c0-.105-.023-.204-.031-.308H1.031Z"
-                                                                        fill="#bc271a"></path>
-                                                                    <path fill="#bc271a" d="M1 11.384H31V13.231H1z"></path>
-                                                                    <path fill="#bc271a" d="M1 15.077H31V16.924H1z"></path>
-                                                                    <path fill="#bc271a" d="M1 18.769H31V20.616H1z"></path>
-                                                                    <path
-                                                                        d="M1,24c0,.105,.023,.204,.031,.308H30.969c.008-.103,.031-.202,.031-.308v-1.539H1v1.539Z"
-                                                                        fill="#bc271a"></path>
-                                                                    <path
-                                                                        d="M30.362,26.153H1.638c.711,1.108,1.948,1.847,3.362,1.847H27c1.415,0,2.651-.739,3.362-1.847Z"
-                                                                        fill="#bc271a"></path>
-                                                                    <path d="M16,4H5c-2.209,0-4,1.791-4,4v10.769h15V4Z"
-                                                                        fill="#010062"></path>
-                                                                    <path
-                                                                        d="M27,4H5c-2.209,0-4,1.791-4,4V24c0,2.209,1.791,4,4,4H27c2.209,0,4-1.791,4-4V8c0-2.209-1.791-4-4-4Zm3,20c0,1.654-1.346,3-3,3H5c-1.654,0-3-1.346-3-3V8c0-1.654,1.346-3,3-3H27c1.654,0,3,1.346,3,3V24Z"
-                                                                        opacity=".15"></path>
-                                                                    <path
-                                                                        d="M27,5H5c-1.657,0-3,1.343-3,3v1c0-1.657,1.343-3,3-3H27c1.657,0,3,1.343,3,3v-1c0-1.657-1.343-3-3-3Z"
-                                                                        fill="#fff" opacity=".2"></path>
-                                                                    <path fill="#f6cd46"
-                                                                        d="M11.639 8.108L11.931 10.106 13.061 8.432 12.455 10.36 14.2 9.342 12.818 10.816 14.833 10.655 12.949 11.384 14.833 12.113 12.818 11.952 14.2 13.427 12.455 12.408 13.061 14.336 11.931 12.662 11.639 14.661 11.346 12.662 10.216 14.336 10.822 12.408 9.077 13.427 10.459 11.952 8.444 12.113 10.328 11.384 8.444 10.655 10.459 10.816 9.077 9.342 10.822 10.36 10.216 8.432 11.346 10.106 11.639 8.108z">
-                                                                    </path>
-                                                                    <path
-                                                                        d="M10,8.189c-1.764-.783-3.829,.013-4.612,1.777-.783,1.764,.013,3.829,1.777,4.612,.903,.4,1.932,.4,2.835,0-1.764,1.266-4.221,.862-5.487-.903s-.862-4.221,.903-5.487c1.37-.983,3.214-.983,4.584,0Z"
-                                                                        fill="#f6cd46"></path>
-                                                                </svg>
-                                                                &nbsp; Malaysia
-                                                            </a>
-                                                        </li>
-                                                        <li id="menu-item-indonesia" class="menu-item">
-                                                            <a href="/Indonesian">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
-                                                                    height="32" viewBox="0 0 32 32">
-                                                                    <path
-                                                                        d="M31,8c0-2.209-1.791-4-4-4H5c-2.209,0-4,1.791-4,4v9H31V8Z"
-                                                                        fill="#ea3323"></path>
-                                                                    <path
-                                                                        d="M5,28H27c2.209,0,4-1.791,4-4v-8H1v8c0,2.209,1.791,4,4,4Z"
-                                                                        fill="#fff"></path>
-                                                                    <path
-                                                                        d="M5,28H27c2.209,0,4-1.791,4-4V8c0-2.209-1.791-4-4-4H5c-2.209,0-4,1.791-4,4V24c0,2.209,1.791,4,4,4ZM2,8c0-1.654,1.346-3,3-3H27c1.654,0,3,1.346,3,3V24c0,1.654-1.346,3-3,3H5c-1.654,0-3-1.346-3-3V8Z"
-                                                                        opacity=".15"></path>
-                                                                    <path
-                                                                        d="M27,5H5c-1.657,0-3,1.343-3,3v1c0-1.657,1.343-3,3-3H27c1.657,0,3,1.343,3,3v-1c0-1.657-1.343-3-3-3Z"
-                                                                        fill="#fff" opacity=".2"></path>
-                                                                </svg>
-                                                                &nbsp; Indonesia
-                                                            </a>
+                                                            <a href="contact/index.html">Contact</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -218,7 +208,7 @@
                                                     <div class="jkit-nav-site-title"><a
                                                             href="https://templatekit.jegtheme.com/aquavist"
                                                             class="jkit-nav-logo"><img
-                                                                src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-e1628655153433.png') }}"></a>
+                                                                src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-e1628655153433.png') }} "></a>
                                                     </div>
                                                     <button class="jkit-close-menu"><i aria-hidden="true"
                                                             class="jki jki-times-solid"></i></button>
@@ -247,6 +237,7 @@
                                                 <div class="icon-box icon-box-body">
                                                     <h2 class="title">+021 441 9858</h2>
                                                 </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -260,7 +251,7 @@
 
         <div data-elementor-type="wp-page" data-elementor-id="20" class="elementor elementor-20">
             <section
-                class="elementor-section elementor-top-section elementor-element elementor-element-cf2085b elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                class="margin-10 elementor-section elementor-top-section elementor-element elementor-element-cf2085b elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="cf2085b" data-element_type="section"
                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                 <div class="elementor-background-overlay"></div>
@@ -286,7 +277,7 @@
                                 data-id="0c687f4" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <h1 class="elementor-heading-title elementor-size-default">The Most Beautiful
-                                        Aquarium Fish</h1>
+                                        Aquarium In The World</h1>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-343402b elementor-widget elementor-widget-text-editor"
@@ -324,30 +315,57 @@
                     </div>
                 </div>
             </section>
-
-            {{-- secion 2-------------------------------- --}}
             <section
-                class="elementor-section elementor-top-section elementor-element elementor-element-a141fb4 elementor-section-full_width elementor-reverse-tablet elementor-reverse-mobile elementor-section-height-default elementor-section-height-default"
+                class="margin-top-10 elementor-section elementor-top-section elementor-element elementor-element-a141fb4 elementor-section-full_width elementor-reverse-tablet elementor-reverse-mobile elementor-section-height-default elementor-section-height-default"
                 data-id="a141fb4" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3a7bb39 elementor-hidden-tablet elementor-hidden-phone"
-                        data-id="3a7bb39" data-element_type="column" width="100px">
+                        data-id="3a7bb39" data-element_type="column">
                         <div class="elementor-widget-wrap">
                         </div>
                     </div>
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9699dc1"
                         data-id="9699dc1" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
-                            {{-- <section
+                            <section
                                 class="elementor-section elementor-inner-section elementor-element elementor-element-9a47b26 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                 data-id="9a47b26" data-element_type="section">
                                 <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b1e2c37"
+                                        data-id="b1e2c37" data-element_type="column"
+                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-36c0355 elementor-widget elementor-widget-heading"
+                                                data-id="36c0355" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Aquarium
+                                                        Design</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-e42969f elementor-widget elementor-widget-text-editor"
+                                                data-id="e42969f" data-element_type="widget"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>Lorem ipsum dolor sit amet deliar consectetur adipiscing.</p>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-77803b1 elementor-widget__width-auto elementor-widget elementor-widget-jkit_button"
+                                                data-id="77803b1" data-element_type="widget"
+                                                data-widget_type="jkit_button.default">
+                                                <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-button icon-position-before jeg_module_20_5_675926d958d80">
+                                                        <a href="#" class="jkit-button-wrapper">Learn More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-ffc483d"
                                         data-id="ffc483d" data-element_type="column"
-                                        style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/istockphoto1.jpg') }}');
-                                           background-size: cover; background-position:left center; width: 1550px; height: 250px; margin-top:110px"
                                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class ="Alltext">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
                                             <div class="elementor-element elementor-element-add2a54 elementor-widget elementor-widget-heading"
                                                 data-id="add2a54" data-element_type="widget"
                                                 data-widget_type="heading.default">
@@ -360,9 +378,7 @@
                                                 data-id="faef70b" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p
-                                                        style="transform: translateY(-10px);  font-size: 14px; width: 200px;">
-                                                        Lorem ipsum dolor sit amet deliar consectetur adipiscing.</p>
+                                                    <p>Lorem ipsum dolor sit amet deliar consectetur adipiscing.</p>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-09b8cd0 elementor-widget__width-auto elementor-widget elementor-widget-jkit_button"
@@ -377,84 +393,30 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-ffc483d"
-                                        data-id="ffc483d" data-element_type="column"
-                                        style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo6.jpg') }}');
-                                       background-size: cover; background-position:left; width: 1550px; height: 250px; margin-top:110px"
+                                    <div style="display:none;"
+                                        class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9efd87d"
+                                        data-id="9efd87d" data-element_type="column"
                                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class ="Alltext">
-                                            <div class="elementor-element elementor-element-add2a54 elementor-widget elementor-widget-heading"
-                                                data-id="add2a54" data-element_type="widget"
-                                                data-widget_type="heading.default">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-3f652d8 elementor-widget elementor-widget-spacer"
+                                                data-id="3f652d8" data-element_type="widget"
+                                                data-widget_type="spacer.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Complete
-                                                        Fishes</h2>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-faef70b elementor-widget elementor-widget-text-editor"
-                                                data-id="faef70b" data-element_type="widget"
-                                                data-widget_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <p
-                                                        style="transform: translateY(-10px);  font-size: 14px; width: 200px;">
-                                                        Lorem ipsum dolor sit amet deliar consectetur adipiscing.</p>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-77803b1 elementor-widget__width-auto elementor-widget elementor-widget-jkit_button"
-                                                data-id="77803b1" data-element_type="widget"
-                                                data-widget_type="jkit_button.default">
-                                                <div class="elementor-widget-container">
-                                                    <div
-                                                        class="jeg-elementor-kit jkit-button icon-position-before jeg_module_20_5_675926d958d80">
-                                                        <a href="#" class="jkit-button-wrapper">Learn More</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b1e2c37"
-                                        data-id="b1e2c37" data-element_type="column"
-                                        style="background-image: url('{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/nemo.jpg') }}');
-                                           background-size: cover; background-position: left; width: 1550px; height: 250px; margin-top:110px"
-                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class ="Alltext">
-                                            <div class="elementor-element elementor-element-36c0355 elementor-widget elementor-widget-heading"
-                                                data-id="36c0355" data-element_type="widget"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">Aquarium
-                                                        Design</h2>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-e42969f elementor-widget elementor-widget-text-editor"
-                                                data-id="e42969f" data-element_type="widget"
-                                                data-widget_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <p
-                                                        style="transform: translateY(-10px);  font-size: 14px; width: 200px;">
-                                                        Lorem ipsum dolor sit amet deliar consectetur adipiscing.</p>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-77803b1 elementor-widget__width-auto elementor-widget elementor-widget-jkit_button"
-                                                data-id="77803b1" data-element_type="widget"
-                                                data-widget_type="jkit_button.default">
-                                                <div class="elementor-widget-container">
-                                                    <div
-                                                        class="jeg-elementor-kit jkit-button icon-position-before jeg_module_20_5_675926d958d80">
-                                                        <a href="#" class="jkit-button-wrapper">Learn More</a>
+                                                    <div class="elementor-spacer">
+                                                        <div class="elementor-spacer-inner"></div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </section> --}}
+                            </section>
                         </div>
                     </div>
                 </div>
             </section>
             <section
-                class="elementor-section elementor-top-section elementor-element elementor-element-1379755 elementor-section-content-middle elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                class="margin-top-20pc elementor-section elementor-top-section elementor-element elementor-element-1379755 elementor-section-content-middle elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="1379755" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c5c7cc9"
@@ -464,7 +426,7 @@
                                 data-id="8629faa" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
                                     <img decoding="async" width="1000" height="1333"
-                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-e1628654647969.jpg') }}"
+                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-e1628654647969.jpg') }} "
                                         class="attachment-full wp-image-167 size-full" alt="Aquarium" />
                                 </div>
                             </div>
@@ -478,8 +440,7 @@
                                         data-mute="0" data-start="0" data-end="0"><a
                                             href="https://www.youtube.com/watch?v=MLpWrANjFbI"
                                             class="jkit-video-popup-btn glow-enable"><span class="icon-position-before"><i
-                                                    aria-hidden="true" class="jki jki-play-button-light"
-                                                    style="display: inline-block; transform: translateY(23px);"></i></span></a>
+                                                    aria-hidden="true" class="jki jki-play-button-light"></i></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -567,6 +528,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -600,6 +562,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -612,10 +575,10 @@
                                 data-id="cf69fce" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
                                     <img decoding="async" width="300" height="300"
-                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/bearded-male-hunter-tries-on-hat-in-gun-store-e1628080948327-300x300.jpg') }}"
+                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/bearded-male-hunter-tries-on-hat-in-gun-store-e1628080948327-300x300.jpg') }} "
                                         class="attachment-medium size-medium wp-image-278"
                                         alt="Bearded male hunter tries on hat in gun store"
-                                        srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/bearded-male-hunter-tries-on-hat-in-gun-store-e1628080948327-300x300.jpg') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/bearded-male-hunter-tries-on-hat-in-gun-store-e1628080948327-150x150.jpg') }} 150w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/bearded-male-hunter-tries-on-hat-in-gun-store-e1628080948327-768x768.jpg') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/bearded-male-hunter-tries-on-hat-in-gun-store-e1628080948327-800x800.jpg') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/bearded-male-hunter-tries-on-hat-in-gun-store-e1628080948327.jpg') }} 1000w"
+                                        srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/bearded-male-hunter-tries-on-hat-in-gun-store-e1628080948327-300x300.jpg') }}  300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/bearded-male-hunter-tries-on-hat-in-gun-store-e1628080948327-150x150.jpg') }}  150w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/bearded-male-hunter-tries-on-hat-in-gun-store-e1628080948327-768x768.jpg') }}  768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/bearded-male-hunter-tries-on-hat-in-gun-store-e1628080948327-800x800.jpg') }}  800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/bearded-male-hunter-tries-on-hat-in-gun-store-e1628080948327.jpg') }}  1000w"
                                         sizes="(max-width: 300px) 100vw, 300px" />
                                 </div>
                             </div>
@@ -631,23 +594,23 @@
                                     </div>
                                 </div>
                             </div>
-                            {{-- <div class="elementor-element elementor-element-3af207a elementor-widget__width-initial elementor-absolute elementor-widget-mobile__width-initial elementor-widget elementor-widget-image"
+                            <div class="elementor-element elementor-element-3af207a elementor-widget__width-initial elementor-absolute elementor-widget-mobile__width-initial elementor-widget elementor-widget-image"
                                 data-id="3af207a" data-element_type="widget"
                                 data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
                                 data-widget_type="image.default">
                                 <div class="elementor-widget-container">
                                     <img loading="lazy" decoding="async" width="800" height="245"
-                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/harris-sgntr-1024x314.png') }}"
+                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/harris-sgntr-1024x314.png') }} "
                                         class="attachment-large size-large wp-image-257" alt=""
-                                        srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/harris-sgntr-1024x314.png') }} 1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/harris-sgntr-300x92.png') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/harris-sgntr-768x236.png') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/harris-sgntr-800x246.png') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/harris-sgntr-e1628654657516.png') }} 1000w"
+                                        srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/harris-sgntr-1024x314.png') }}  1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/harris-sgntr-300x92.png') }}  300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/harris-sgntr-768x236.png') }}  768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/harris-sgntr-800x246.png') }}  800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/harris-sgntr-e1628654657516.png') }}  1000w"
                                         sizes="(max-width: 800px) 100vw, 800px" />
                                 </div>
-                            </div> --}}
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section
+            {{-- <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-6fb470e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="6fb470e" data-element_type="section">
                 <div class="elementor-container elementor-column-gap-default">
@@ -665,6 +628,20 @@
                                                 data-id="ce635bd" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_13_675926d96a146">
+                                                        <div class="jkit-icon-box-wrapper hover-from-left">
+                                                            <div class="icon-box icon-box-header elementor-animation-">
+                                                                <div class="icon style-color"><img decoding="async"
+                                                                        src="{{ asset('AquaVist/') }} wp-content/uploads/sites/129/2021/08/asset1-T6M9WU6.png"
+                                                                        alt="Pike Fish"></div>
+                                                            </div>
+                                                            <div class="icon-box icon-box-body">
+                                                                <h3 class="title">Pike Fish</h3>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -676,6 +653,20 @@
                                                 data-id="1a8e032" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_14_675926d96be9a">
+                                                        <div class="jkit-icon-box-wrapper hover-from-left">
+                                                            <div class="icon-box icon-box-header elementor-animation-">
+                                                                <div class="icon style-color"><img decoding="async"
+                                                                        src="{{ asset('AquaVist/') }} wp-content/uploads/sites/129/2021/08/asset2-T6M9WU6.png"
+                                                                        alt="Marline Fish"></div>
+                                                            </div>
+                                                            <div class="icon-box icon-box-body">
+                                                                <h3 class="title">Marline Fish</h3>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -687,6 +678,20 @@
                                                 data-id="9e0c2cd" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_15_675926d96da89">
+                                                        <div class="jkit-icon-box-wrapper hover-from-left">
+                                                            <div class="icon-box icon-box-header elementor-animation-">
+                                                                <div class="icon style-color"><img decoding="async"
+                                                                        src="{{ asset('AquaVist/') }} wp-content/uploads/sites/129/2021/08/asset3-T6M9WU6.png"
+                                                                        alt="Boar Fish"></div>
+                                                            </div>
+                                                            <div class="icon-box icon-box-body">
+                                                                <h3 class="title">Boar Fish</h3>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -698,6 +703,20 @@
                                                 data-id="423e4c0" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_16_675926d96f652">
+                                                        <div class="jkit-icon-box-wrapper hover-from-left">
+                                                            <div class="icon-box icon-box-header elementor-animation-">
+                                                                <div class="icon style-color"><img decoding="async"
+                                                                        src="{{ asset('AquaVist/') }} wp-content/uploads/sites/129/2021/08/asset4-T6M9WU6.png"
+                                                                        alt="Seahorse"></div>
+                                                            </div>
+                                                            <div class="icon-box icon-box-body">
+                                                                <h3 class="title">Seahorse</h3>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -709,6 +728,20 @@
                                                 data-id="eb3531b" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_17_675926d971643">
+                                                        <div class="jkit-icon-box-wrapper hover-from-left">
+                                                            <div class="icon-box icon-box-header elementor-animation-">
+                                                                <div class="icon style-color"><img decoding="async"
+                                                                        src="{{ asset('AquaVist/') }} wp-content/uploads/sites/129/2021/08/asset5-T6M9WU6.png"
+                                                                        alt="Hog Fish"></div>
+                                                            </div>
+                                                            <div class="icon-box icon-box-body">
+                                                                <h3 class="title">Hog Fish</h3>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -720,6 +753,20 @@
                                                 data-id="5398f95" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_18_675926d972e29">
+                                                        <div class="jkit-icon-box-wrapper hover-from-left">
+                                                            <div class="icon-box icon-box-header elementor-animation-">
+                                                                <div class="icon style-color"><img decoding="async"
+                                                                        src="{{ asset('AquaVist/') }} wp-content/uploads/sites/129/2021/08/asset6-T6M9WU6.png"
+                                                                        alt="Threadfin"></div>
+                                                            </div>
+                                                            <div class="icon-box icon-box-body">
+                                                                <h3 class="title">Threadfin</h3>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -737,6 +784,20 @@
                                                 data-id="58d3e74" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_19_675926d9752d8">
+                                                        <div class="jkit-icon-box-wrapper hover-from-left">
+                                                            <div class="icon-box icon-box-header elementor-animation-">
+                                                                <div class="icon style-color"><img decoding="async"
+                                                                        src="{{ asset('AquaVist/') }} wp-content/uploads/sites/129/2021/08/asset7-T6M9WU6.png"
+                                                                        alt="Clown Fish"></div>
+                                                            </div>
+                                                            <div class="icon-box icon-box-body">
+                                                                <h3 class="title">Clown Fish</h3>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -748,6 +809,20 @@
                                                 data-id="718453b" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_20_675926d976dcc">
+                                                        <div class="jkit-icon-box-wrapper hover-from-left">
+                                                            <div class="icon-box icon-box-header elementor-animation-">
+                                                                <div class="icon style-color"><img decoding="async"
+                                                                        src="{{ asset('AquaVist/') }} wp-content/uploads/sites/129/2021/08/asset8-T6M9WU6.png"
+                                                                        alt="Sword Fish"></div>
+                                                            </div>
+                                                            <div class="icon-box icon-box-body">
+                                                                <h3 class="title">Sword Fish</h3>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -759,6 +834,20 @@
                                                 data-id="4598af2" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_21_675926d97936b">
+                                                        <div class="jkit-icon-box-wrapper hover-from-left">
+                                                            <div class="icon-box icon-box-header elementor-animation-">
+                                                                <div class="icon style-color"><img decoding="async"
+                                                                        src="{{ asset('AquaVist/') }} wp-content/uploads/sites/129/2021/08/asset9-T6M9WU6.png"
+                                                                        alt="Molidae"></div>
+                                                            </div>
+                                                            <div class="icon-box icon-box-body">
+                                                                <h3 class="title">Molidae</h3>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -770,6 +859,20 @@
                                                 data-id="c99936f" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_22_675926d97b680">
+                                                        <div class="jkit-icon-box-wrapper hover-from-left">
+                                                            <div class="icon-box icon-box-header elementor-animation-">
+                                                                <div class="icon style-color"><img decoding="async"
+                                                                        src="{{ asset('AquaVist/') }} wp-content/uploads/sites/129/2021/08/asset10-T6M9WU6.png"
+                                                                        alt="Blow Fish"></div>
+                                                            </div>
+                                                            <div class="icon-box icon-box-body">
+                                                                <h3 class="title">Blow Fish</h3>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -781,6 +884,20 @@
                                                 data-id="a16ce98" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_23_675926d97dc24">
+                                                        <div class="jkit-icon-box-wrapper hover-from-left">
+                                                            <div class="icon-box icon-box-header elementor-animation-">
+                                                                <div class="icon style-color"><img decoding="async"
+                                                                        src="{{ asset('AquaVist/') }} wp-content/uploads/sites/129/2021/08/asset11-T6M9WU6.png"
+                                                                        alt="Coral"></div>
+                                                            </div>
+                                                            <div class="icon-box icon-box-body">
+                                                                <h3 class="title">Coral</h3>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -792,6 +909,20 @@
                                                 data-id="5c70667" data-element_type="widget"
                                                 data-widget_type="jkit_icon_box.default">
                                                 <div class="elementor-widget-container">
+                                                    <div
+                                                        class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_20_24_675926d97f829">
+                                                        <div class="jkit-icon-box-wrapper hover-from-left">
+                                                            <div class="icon-box icon-box-header elementor-animation-">
+                                                                <div class="icon style-color"><img decoding="async"
+                                                                        src="{{ asset('AquaVist/') }} wp-content/uploads/sites/129/2021/08/asset12-T6M9WU6.png"
+                                                                        alt="Angler Fish"></div>
+                                                            </div>
+                                                            <div class="icon-box icon-box-body">
+                                                                <h3 class="title">Angler Fish</h3>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -801,7 +932,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-1f4cbce elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                 data-id="1f4cbce" data-element_type="section">
@@ -964,94 +1095,6 @@
                     </div>
                 </div>
             </section>
-            <section>
-                </br>
-            </section>
-
-            {{-- map section --}}
-            <style>
-                .map img {
-                    display: block;
-                    margin: 0 auto;
-                    margin-top: 5%;
-                    margin-left: 15%;
-                    max-width: 100%;
-                    height: auto;
-                }
-
-                .textglobel {
-                    padding-top: 5%;
-                    font-size: 20px;
-                    font-weight: bold;
-                    color: #19cbe4;
-                    margin-left: 20px;
-                }
-
-                .map {
-                    background-color: #1d252b;
-                    position: relative;
-                }
-
-                .map img {
-                    opacity: .4;
-                    background-color: #1d252b;
-                }
-
-                .map span {
-                    position: absolute;
-                    width: 10px;
-                    height: 10px;
-                    border-radius: 50px;
-                    top: 50%;
-                    left: 20%;
-                    background-color: #e20808;
-                    animation: highlight 1.5s linear infinite;
-                }
-
-                @keyframes highlight {
-                    100% {
-                        transform: scale(5);
-                        opacity: 0;
-                    }
-                }
-
-                .map .marker2 {
-                    position: absolute;
-                    margin-left: 15%;
-                    top: 90%;
-                    animation-delay: 0.7s;
-                }
-
-                .map .marker3 {
-                    position: absolute;
-                    margin-left: 50%;
-                    top: 70%;
-                    animation-delay: 0.5s;
-                }
-
-                .map .marker4 {
-                    position: absolute;
-                    margin-left: 30%;
-                    top: 30%;
-                    animation-delay: .1s;
-                }
-
-                .para {
-                    width: 350px;
-                    margin-left: 5%;
-                    position: relative;
-                    transform: translateY(-20px);
-                    font-size: 20px;
-                    font-weight: bold;
-                    color: #ffffff;
-
-                }
-
-                .container {
-                    background-color: #1d252b;
-                }
-            </style>
-
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-39c1eb7 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="39c1eb7" data-element_type="section">
@@ -1090,6 +1133,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1123,6 +1167,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1201,6 +1246,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1234,6 +1280,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1267,6 +1314,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1300,6 +1348,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1362,15 +1411,15 @@
                                                     style="background-image:url({{ asset('AquaVist/wp-content/uploads/sites/129/2021/07/fishes-in-aquarium-e1628654613319.jpg') }});">
                                                 </div>
                                                 <div id="portfolio-gallery-tab-1" class="image-item"
-                                                    data-background="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/a-fish-in-an-aquarium-e1628654720598.jpg') }}"
+                                                    data-background="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/a-fish-in-an-aquarium-e1628654720598.jpg') }} "
                                                     style="background-image:url({{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/a-fish-in-an-aquarium-e1628654720598.jpg') }});">
                                                 </div>
                                                 <div id="portfolio-gallery-tab-2" class="image-item"
-                                                    data-background="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/marine-life-in-the-aquarium-e1628654697954.jpg') }}"
+                                                    data-background="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/marine-life-in-the-aquarium-e1628654697954.jpg') }} "
                                                     style="background-image:url({{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/marine-life-in-the-aquarium-e1628654697954.jpg') }});">
                                                 </div>
                                                 <div id="portfolio-gallery-tab-3" class="image-item current-item"
-                                                    data-background="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fish-swimming-in-aquarium-e1628654735615.jpg') }}"
+                                                    data-background="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fish-swimming-in-aquarium-e1628654735615.jpg') }} "
                                                     style="background-image:url({{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fish-swimming-in-aquarium-e1628654735615.jpg') }});">
                                                 </div>
                                             </div>
@@ -1978,7 +2027,7 @@
                                                                             <div class="bio-details">
                                                                                 <div class="profile-image"><img
                                                                                         decoding="async"
-                                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/portrait-of-good-looking-brunette-woman-smiles-too-UCETKXG.jpg') }}"
+                                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/portrait-of-good-looking-brunette-woman-smiles-too-UCETKXG.jpg') }} "
                                                                                         alt="Abbie Carter"></div>
                                                                                 <span class="profile-info">
                                                                                     <strong class="profile-name">Abbie
@@ -2022,7 +2071,7 @@
                                                                             <div class="bio-details">
                                                                                 <div class="profile-image"><img
                                                                                         decoding="async"
-                                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/pleased-cheerful-redhaired-male-with-pleasant-smil-CCXAYZL.jpg') }}"
+                                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/pleased-cheerful-redhaired-male-with-pleasant-smil-CCXAYZL.jpg') }} "
                                                                                         alt="Dominic Pelletier"></div>
                                                                                 <span class="profile-info">
                                                                                     <strong class="profile-name">Dominic
@@ -2066,7 +2115,7 @@
                                                                             <div class="bio-details">
                                                                                 <div class="profile-image"><img
                                                                                         decoding="async"
-                                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/indoor-shot-of-attractive-european-schoolgirl-has-LEUUQRK.jpg') }}"
+                                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/indoor-shot-of-attractive-european-schoolgirl-has-LEUUQRK.jpg') }} "
                                                                                         alt="Lola Bailey"></div>
                                                                                 <span class="profile-info">
                                                                                     <strong class="profile-name">Lola
@@ -2110,7 +2159,7 @@
                                                                             <div class="bio-details">
                                                                                 <div class="profile-image"><img
                                                                                         decoding="async"
-                                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/attractive-older-man-smiling-PQ3VUFU.jpg') }}"
+                                                                                        src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/attractive-older-man-smiling-PQ3VUFU.jpg') }} "
                                                                                         alt="Linette Hayward"></div>
                                                                                 <span class="profile-info">
                                                                                     <strong class="profile-name">Linette
@@ -2135,8 +2184,6 @@
                     </div>
                 </div>
             </section>
-
-            {{-- news and article------------------------------------ --}}
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-f14b0ad elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="f14b0ad" data-element_type="section">
@@ -2216,7 +2263,7 @@
                                                                             <div class="thumbnail-container">
                                                                                 <img loading="lazy" decoding="async"
                                                                                     width="1440" height="961"
-                                                                                    src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-fish-from-the-spieces-symphysodon-discus-in-aquarium--e1628655050154.jpg') }}"
+                                                                                    src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-fish-from-the-spieces-symphysodon-discus-in-aquarium--e1628655050154.jpg') }} "
                                                                                     class="attachment-full wp-post-image size-full"
                                                                                     alt="Colorful fish from the spieces Symphysodon discus in aquarium." />
                                                                             </div>
@@ -2247,7 +2294,7 @@
                                                                             <div class="thumbnail-container">
                                                                                 <img loading="lazy" decoding="async"
                                                                                     width="1440" height="1080"
-                                                                                    src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/carp-fish-in-the-aquarium-e1628655039273.jpg') }}"
+                                                                                    src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/carp-fish-in-the-aquarium-e1628655039273.jpg') }} "
                                                                                     class="attachment-full wp-post-image size-full"
                                                                                     alt="Carp fish in the aquarium" />
                                                                             </div>
@@ -2311,10 +2358,10 @@
                                                                         href="2021/08/07/lifespan-of-freshwater-aquarium-fishes/index.html">
                                                                         <img loading="lazy" decoding="async"
                                                                             width="800" height="600"
-                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/salt-water-aquarium-1024x768.jpg') }}"
+                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/salt-water-aquarium-1024x768.jpg') }} "
                                                                             class="attachment-large size-large wp-post-image"
                                                                             alt="Salt Water Aquarium"
-                                                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank2.jpg') }} 1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank2.jpg') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank2.jpg') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank2.jpg') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank2.jpg') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank2.jpg') }} 1440w"
+                                                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/salt-water-aquarium-1024x768.jpg') }}  1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/salt-water-aquarium-300x225.jpg') }}  300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/salt-water-aquarium-768x576.jpg') }}  768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/salt-water-aquarium-1536x1152.jpg') }}  1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/salt-water-aquarium-800x600.jpg') }}  800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/salt-water-aquarium-e1628655024510.jpg') }}  1440w"
                                                                             sizes="(max-width: 800px) 100vw, 800px" />
                                                                         <div class="jkit-postlist-content"><span
                                                                                 class="jkit-postlist-title">Lifespan
@@ -2332,10 +2379,10 @@
                                                                         href="2021/08/07/aquarium-aquascape-design-ideas-for-house/index.html">
                                                                         <img loading="lazy" decoding="async"
                                                                             width="800" height="533"
-                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-sea-fish-in-aquarium-1024x682.jpg') }}"
+                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-sea-fish-in-aquarium-1024x682.jpg') }} "
                                                                             class="attachment-large size-large wp-post-image"
                                                                             alt="Colorful sea fish in aquarium"
-                                                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/redfishnew1.jpg') }} 1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/redfishnew1.jpg') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/redfishnew1.jpg') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/redfishnew1.jpg') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/redfishnew1.jpg') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/redfishnew1.jpg') }} 1920w"
+                                                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-sea-fish-in-aquarium-1024x682.jpg') }}  1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-sea-fish-in-aquarium-300x200.jpg') }}  300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-sea-fish-in-aquarium-768x512.jpg') }}  768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-sea-fish-in-aquarium-1536x1024.jpg') }}  1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-sea-fish-in-aquarium-800x533.jpg') }}  800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/colorful-sea-fish-in-aquarium-e1628655011829.jpg') }}  1920w"
                                                                             sizes="(max-width: 800px) 100vw, 800px" />
                                                                         <div class="jkit-postlist-content"><span
                                                                                 class="jkit-postlist-title">Aquarium
@@ -2353,10 +2400,10 @@
                                                                         href="2021/08/07/guide-to-keeping-freshwater-sword-tails/index.html">
                                                                         <img loading="lazy" decoding="async"
                                                                             width="800" height="600"
-                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-1-1024x768.jpg') }}"
+                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-1-1024x768.jpg') }} "
                                                                             class="attachment-large size-large wp-post-image"
                                                                             alt="Aquarium"
-                                                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo.jpg') }} 1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo.jpg') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo.jpg') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo.jpg') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo.jpg') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/photo.jpg') }} 1440w"
+                                                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-1-1024x768.jpg') }}  1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-1-300x225.jpg') }}  300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-1-768x576.jpg') }}  768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-1-1536x1152.jpg') }}  1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-1-800x600.jpg') }}  800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/aquarium-1-e1628654993767.jpg') }}  1440w"
                                                                             sizes="(max-width: 800px) 100vw, 800px" />
                                                                         <div class="jkit-postlist-content"><span
                                                                                 class="jkit-postlist-title">Guide To
@@ -2374,10 +2421,10 @@
                                                                         href="2021/08/07/how-to-acclimate-tropical-fish-tank/index.html">
                                                                         <img loading="lazy" decoding="async"
                                                                             width="800" height="533"
-                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/exotic-fish-in-a-collector-s-aquarium-1024x682.jpg') }}"
+                                                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/exotic-fish-in-a-collector-s-aquarium-1024x682.jpg') }} "
                                                                             class="attachment-large size-large wp-post-image"
                                                                             alt="Exotic fish in a collector&#039;s aquarium"
-                                                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank4.jpg') }} 1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank4.jpg') }} 300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank4.jpg') }} 768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank4.jpg') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank4.jpg') }} 800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/fishtank4.jpg') }} 1920w"
+                                                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/exotic-fish-in-a-collector-s-aquarium-1024x682.jpg') }}  1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/exotic-fish-in-a-collector-s-aquarium-300x200.jpg') }}  300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/exotic-fish-in-a-collector-s-aquarium-768x512.jpg') }}  768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/exotic-fish-in-a-collector-s-aquarium-1536x1024.jpg') }}  1536w,{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/exotic-fish-in-a-collector-s-aquarium-800x533.jpg') }}   800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/exotic-fish-in-a-collector-s-aquarium-e1628654984548.jpg') }}  1920w"
                                                                             sizes="(max-width: 800px) 100vw, 800px" />
                                                                         <div class="jkit-postlist-content"><span
                                                                                 class="jkit-postlist-title">How To
@@ -2575,7 +2622,7 @@
                                                     <div class="gallery-item-wrap">
                                                         <div class="grid-item">
                                                             <div class="thumbnail-wrap"><img
-                                                                    src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/tropical-fish-e1628654856592.jpg') }}">
+                                                                    src="wp-content/uploads/sites/129/2021/08/tropical-fish-e1628654856592.jpg">
                                                             </div>
                                                             <div class="caption-wrap style-overlay overlay-overlay">
                                                                 <div class="item-hover-bg"></div>
@@ -2583,7 +2630,7 @@
                                                                     <h5 class="item-title"></h5>
                                                                     <div class="item-content"></div>
                                                                     <div class="item-buttons"><a
-                                                                            href="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/tropical-fish-e1628654856592.jpg') }}"
+                                                                            href="wp-content/uploads/sites/129/2021/08/tropical-fish-e1628654856592.jpg"
                                                                             class="gallery-link"
                                                                             data-elementor-open-lightbox="yes"
                                                                             data-elementor-lightbox-slideshow="jkit_gallery_lightbox_jeg_module_20_43_675926d9d1de8"><span
@@ -2603,7 +2650,7 @@
                                                     <div class="gallery-item-wrap">
                                                         <div class="grid-item">
                                                             <div class="thumbnail-wrap"><img
-                                                                    src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/clown-fish-e1628655075684.jpg') }}">
+                                                                    src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/clown-fish-e1628655075684.jpg') }} ">
                                                             </div>
                                                             <div class="caption-wrap style-overlay overlay-overlay">
                                                                 <div class="item-hover-bg"></div>
@@ -2611,7 +2658,7 @@
                                                                     <h5 class="item-title"></h5>
                                                                     <div class="item-content"></div>
                                                                     <div class="item-buttons"><a
-                                                                            href="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/clown-fish-e1628655075684.jpg') }}"
+                                                                            href="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/clown-fish-e1628655075684.jpg') }} "
                                                                             class="gallery-link"
                                                                             data-elementor-open-lightbox="yes"
                                                                             data-elementor-lightbox-slideshow="jkit_gallery_lightbox_jeg_module_20_43_675926d9d1de8"><span
@@ -2631,7 +2678,7 @@
                                                     <div class="gallery-item-wrap">
                                                         <div class="grid-item">
                                                             <div class="thumbnail-wrap"><img
-                                                                    src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/majestic-blue-girdled-angel-e1628655086136.jpg') }}">
+                                                                    src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/majestic-blue-girdled-angel-e1628655086136.jpg') }} ">
                                                             </div>
                                                             <div class="caption-wrap style-overlay overlay-overlay">
                                                                 <div class="item-hover-bg"></div>
@@ -2639,7 +2686,7 @@
                                                                     <h5 class="item-title"></h5>
                                                                     <div class="item-content"></div>
                                                                     <div class="item-buttons"><a
-                                                                            href="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/majestic-blue-girdled-angel-e1628655086136.jpg') }}"
+                                                                            href="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/majestic-blue-girdled-angel-e1628655086136.jpg') }} "
                                                                             class="gallery-link"
                                                                             data-elementor-open-lightbox="yes"
                                                                             data-elementor-lightbox-slideshow="jkit_gallery_lightbox_jeg_module_20_43_675926d9d1de8"><span
@@ -2659,7 +2706,7 @@
                                                     <div class="gallery-item-wrap">
                                                         <div class="grid-item">
                                                             <div class="thumbnail-wrap"><img
-                                                                    src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/spotted-jellyfish-e1628655100406.jpg') }}">
+                                                                    src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/spotted-jellyfish-e1628655100406.jpg') }} ">
                                                             </div>
                                                             <div class="caption-wrap style-overlay overlay-overlay">
                                                                 <div class="item-hover-bg"></div>
@@ -2667,7 +2714,7 @@
                                                                     <h5 class="item-title"></h5>
                                                                     <div class="item-content"></div>
                                                                     <div class="item-buttons"><a
-                                                                            href="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/spotted-jellyfish-e1628655100406.jpg') }}"
+                                                                            href="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/spotted-jellyfish-e1628655100406.jpg') }} "
                                                                             class="gallery-link"
                                                                             data-elementor-open-lightbox="yes"
                                                                             data-elementor-lightbox-slideshow="jkit_gallery_lightbox_jeg_module_20_43_675926d9d1de8"><span
@@ -2687,7 +2734,7 @@
                                                     <div class="gallery-item-wrap">
                                                         <div class="grid-item">
                                                             <div class="thumbnail-wrap"><img
-                                                                    src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/common-newt-amhibian-in-freshwater-habitat-e1628655110206.jpg') }}">
+                                                                    src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/common-newt-amhibian-in-freshwater-habitat-e1628655110206.jpg') }} ">
                                                             </div>
                                                             <div class="caption-wrap style-overlay overlay-overlay">
                                                                 <div class="item-hover-bg"></div>
@@ -2695,7 +2742,7 @@
                                                                     <h5 class="item-title"></h5>
                                                                     <div class="item-content"></div>
                                                                     <div class="item-buttons"><a
-                                                                            href="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/common-newt-amhibian-in-freshwater-habitat-e1628655110206.jpg') }}"
+                                                                            href="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/common-newt-amhibian-in-freshwater-habitat-e1628655110206.jpg') }} "
                                                                             class="gallery-link"
                                                                             data-elementor-open-lightbox="yes"
                                                                             data-elementor-lightbox-slideshow="jkit_gallery_lightbox_jeg_module_20_43_675926d9d1de8"><span
@@ -2715,7 +2762,7 @@
                                                     <div class="gallery-item-wrap">
                                                         <div class="grid-item">
                                                             <div class="thumbnail-wrap"><img
-                                                                    src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/an-extra-ordinary-kind-of-fish-e1628655121470.jpg') }}">
+                                                                    src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/an-extra-ordinary-kind-of-fish-e1628655121470.jpg') }} ">
                                                             </div>
                                                             <div class="caption-wrap style-overlay overlay-overlay">
                                                                 <div class="item-hover-bg"></div>
@@ -2723,7 +2770,7 @@
                                                                     <h5 class="item-title"></h5>
                                                                     <div class="item-content"></div>
                                                                     <div class="item-buttons"><a
-                                                                            href="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/an-extra-ordinary-kind-of-fish-e1628655121470.jpg') }}"
+                                                                            href="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/an-extra-ordinary-kind-of-fish-e1628655121470.jpg') }} "
                                                                             class="gallery-link"
                                                                             data-elementor-open-lightbox="yes"
                                                                             data-elementor-lightbox-slideshow="jkit_gallery_lightbox_jeg_module_20_43_675926d9d1de8"><span
@@ -2784,6 +2831,7 @@
                                                                         <p class="icon-box-description">Legian Atkins
                                                                             West, DPS 11490, Bali</p>
                                                                     </div>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2811,6 +2859,7 @@
                                                                         <p class="icon-box-description">
                                                                             +62-202-555-0133</p>
                                                                     </div>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2838,6 +2887,7 @@
                                                                         <p class="icon-box-description">
                                                                             aquavist@support.com</p>
                                                                     </div>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2865,6 +2915,7 @@
                                                                         <p class="icon-box-description">Everyday 09:00
                                                                             AM - 18:00 PM</p>
                                                                     </div>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2895,7 +2946,7 @@
                                                         data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
                                                             <img width="1000" height="349"
-                                                                src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-e1628655153433.png') }}"
+                                                                src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-e1628655153433.png') }} "
                                                                 class="attachment-full wp-image-662 size-full"
                                                                 alt="" decoding="async" loading="lazy" />
                                                         </div>
@@ -2962,6 +3013,7 @@
                                                             <ul class="elementor-icon-list-items">
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
+
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -2972,6 +3024,7 @@
                                                                 </li>
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
+
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -2992,6 +3045,7 @@
                                                                 </li>
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
+
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -3002,6 +3056,7 @@
                                                                 </li>
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
+
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -3033,6 +3088,7 @@
                                                             <ul class="elementor-icon-list-items">
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
+
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -3043,6 +3099,7 @@
                                                                 </li>
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
+
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -3053,6 +3110,7 @@
                                                                 </li>
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
+
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -3063,6 +3121,7 @@
                                                                 </li>
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
+
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
@@ -3073,6 +3132,7 @@
                                                                 </li>
                                                                 <li class="elementor-icon-list-item">
                                                                     <a href="#">
+
                                                                         <span class="elementor-icon-list-icon">
                                                                             <i aria-hidden="true"
                                                                                 class="jki jki-minus-light"></i>
