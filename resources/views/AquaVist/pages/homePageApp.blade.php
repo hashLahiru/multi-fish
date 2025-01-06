@@ -1,6 +1,4 @@
-<!DOCTYPE html>
 <html lang="en-US">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
     <meta charset="UTF-8" />
@@ -22,7 +20,7 @@
                 "concatemoji": "https:\/\/templatekit.jegtheme.com\/aquavist\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1"
             }
         };
-        /*! This file is auto-generated */
+        // /*! This file is auto-generated */
         ! function(i, n) {
             var o, s, e;
 
@@ -166,7 +164,6 @@
             text-decoration: none
         }
     </style>
-
     <style id='global-styles-inline-css'>
         body {
             --wp--preset--color--black: #000000;
@@ -209,17 +206,6 @@
             --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
             --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
             --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
-        }
-
-
-        .elementor-section.elementor-top-section {
-            max-width: 100%;
-            /* Adjust this value as needed */
-            width: 100%;
-            /* Allows it to be responsive */
-
-            box-sizing: border-box;
-            /* Ensures padding doesn't overflow the width */
         }
 
         :where(.is-layout-flex) {
@@ -557,7 +543,7 @@
         href='{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min192d.css?ver=5.23.0') }}'
         media='all' />
     <link rel='stylesheet' id='elementor-frontend-css'
-        href='{{ asset('AquaVist/wp-content/plugins/elementor/assets/css/frontend.min8864.css?ver=3.17.') }}3'
+        href='{{ asset('AquaVist/wp-content/plugins/elementor/assets/css/frontend.min8864.css?ver=3.17.3') }}'
         media='all' />
     <link rel='stylesheet' id='swiper-css'
         href='{{ asset('AquaVist/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min48f5.css?ver=5.3.6') }}'
@@ -590,7 +576,7 @@
         href='{{ asset('AquaVist/wp-content/plugins/metform/public/assets/css/text-editor9e95.css?ver=3.8.0') }}'
         media='all' />
     <link rel='stylesheet' id='hello-elementor-css'
-        href='{{ asset('AquaVist/wp-content/themes/hello-elementor/style.minc141.css?ver=2.6.1') }}' media='all' />
+        href="{{ asset('AquaVist/wp-content/themes/hello-elementor/style.minc141.css?ver=2.6.1') }}" media='all' />
     <link rel='stylesheet' id='hello-elementor-theme-style-css'
         href='{{ asset('AquaVist/wp-content/themes/hello-elementor/theme.minc141.css?ver=2.6.1') }}' media='all' />
     <link rel='stylesheet' id='google-fonts-1-css'
@@ -633,180 +619,15 @@
         href="{{ asset('AquaVist/wp-json/oembed/1.0/embedff60?url=https%3A%2F%2Ftemplatekit.jegtheme.com%2Faquavist%2F&amp;format=xml') }}" />
     <meta name="generator"
         content="Elementor 3.17.3; features: e_dom_optimization, e_optimized_assets_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
-    <style>
-        .info {
-            position: absolute;
-        }
-    </style>
-
-    {{-- Flag Icons --}}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.2.3/css/flag-icons.min.css"
-        integrity="sha512-bZBu2H0+FGFz/stDN/L0k8J0G8qVsAL0ht1qg5kTwtAheiXwiRKyCq1frwfbSFSJN3jooR5kauE0YjtPzhZtJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    {{-- Custom CSS  --}}
-    {{-- <style>
-        @media (max-width: 768px) {
-            .margin-10 {
-                margin: 10px;
-            }
-
-            .margin-top-10 {
-                margin-top: 10px;
-            }
-
-            .margin-top-20pc {
-                margin-top: 20pc;
-            }
-        }
-    </style> --}}
 
 </head>
-
-
 
 <body
     class="home page-template page-template-elementor_header_footer page page-id-20 ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor jkit-color-scheme elementor-default elementor-template-full-width elementor-kit-4 elementor-page elementor-page-20">
     <main>
         @yield('content')
     </main>
-
-    {{-- Bubble Cursore JS File --}}
-    <script>
-        (function bubblesCursor() {
-            var width = window.innerWidth;
-            var height = window.innerHeight;
-            var cursor = {
-                x: width / 2,
-                y: height / 2
-            };
-            var lastCursor = {
-                x: width / 2,
-                y: height / 2
-            };
-            var particles = [];
-
-            function init() {
-                bindEvents();
-                loop();
-            }
-
-            // Bind events
-            function bindEvents() {
-                document.addEventListener("mousemove", onMouseMove);
-                window.addEventListener("resize", onWindowResize);
-            }
-
-            function onWindowResize() {
-                width = window.innerWidth;
-                height = window.innerHeight;
-            }
-
-            function onMouseMove(e) {
-                cursor.x = e.clientX + (window.scrollX || document.documentElement.scrollLeft);
-                cursor.y = e.clientY + (window.scrollY || document.documentElement.scrollTop);
-
-                if (lastCursor.x > cursor.x + 10 || lastCursor.x < cursor.x - 10) {
-                    lastCursor.x = e.clientX;
-                    lastCursor.y = e.clientY;
-                    addParticle(cursor.x, cursor.y);
-                }
-            }
-
-            function addParticle(x, y) {
-                var particle = new Particle();
-                particle.init(x, y);
-                particles.push(particle);
-            }
-
-            function updateParticles() {
-                for (var i = 0; i < particles.length; i++) {
-                    particles[i].update();
-                }
-
-                for (var i = particles.length - 1; i >= 0; i--) {
-                    if (particles[i].lifeSpan < 0) {
-                        particles[i].die();
-                        particles.splice(i, 1);
-                    }
-                }
-            }
-
-            function loop() {
-                requestAnimationFrame(loop);
-                updateParticles();
-            }
-
-            function Particle() {
-                this.lifeSpan = 300; // ms
-                this.initialStyles = {
-                    position: "absolute",
-                    display: "block",
-                    pointerEvents: "none",
-                    zIndex: "10000000",
-                    width: "80px", // Increased size
-                    height: "80px",
-                    willChange: "transform",
-                    borderRadius: "50%", // Circular
-                    background: "radial-gradient(circle, rgba(29, 203, 228,0) 0%, rgba(29, 203, 228, 0.5) 100%)",
-                    opacity: 0.7, // Transparent effect
-                };
-
-                this.init = function(x, y) {
-                    this.velocity = {
-                        x: (Math.random() < 0.5 ? -1 : 1) * (Math.random() / 10),
-                        y: -0.4 + Math.random() * -0.8,
-                    };
-
-                    this.position = {
-                        x: x - 40,
-                        y: y - 40
-                    }; // Centering the bubble
-
-                    this.element = document.createElement("span");
-                    applyProperties(this.element, this.initialStyles);
-                    this.update();
-
-                    document.body.appendChild(this.element);
-                };
-
-                this.update = function() {
-                    this.position.x += this.velocity.x;
-                    this.position.y += this.velocity.y;
-
-                    this.velocity.x += (Math.random() < 0.5 ? -1 : 1) * 2 / 75;
-                    this.velocity.y -= Math.random() / 600;
-                    this.lifeSpan--;
-
-                    this.element.style.transform =
-                        "translate3d(" +
-                        this.position.x +
-                        "px, " +
-                        this.position.y +
-                        "px, 0) scale(" +
-                        (0.5 + (300 - this.lifeSpan) / 300) +
-                        ")";
-                };
-
-                this.die = function() {
-                    if (this.element && this.element.parentNode) {
-                        this.element.parentNode.removeChild(this.element);
-                    }
-                };
-            }
-
-            /**
-             * Utility to apply CSS properties
-             */
-            function applyProperties(target, properties) {
-                for (var key in properties) {
-                    target.style[key] = properties[key];
-                }
-            }
-
-            init();
-        })();
-    </script>
-
+    {{-- <!-- #page --> --}}
     <link rel='stylesheet' id='jeg-dynamic-style-css'
         href='{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/lib/jeg-framework/assets/css/jeg-dynamic-styles6f3e.css?ver=1.3.0') }}'
         media='all' />
@@ -985,7 +806,7 @@
         src="{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/elements/post-pagination61da.js?ver=2.6.2') }}"
         id="jkit-element-pagination-js"></script>
     <script src="{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/elements/gallery61da.js?ver=2.6.2') }}"
-        id="jkit-{{ asset('AquaVist/element-gallery-js') }}"></script>
+        id="jkit-element-gallery-js"></script>
     <script src="{{ asset('AquaVist/wp-includes/js/imagesloaded.minbb93.js?ver=5.0.0') }}" id="imagesloaded-js"></script>
     <script
         src="{{ asset('AquaVist/wp-content/plugins/jeg-elementor-kit/assets/js/isotope/isotope.min7c45.js?ver=3.0.6') }}"

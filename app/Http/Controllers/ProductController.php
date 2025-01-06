@@ -165,6 +165,17 @@ class ProductController extends Controller
             ->where('isMalaysia', 1)
             ->get();
 
-        return view('AquaVist.pages.testProducts', compact('products'));
+        return view('AquaVist.pages.testMalaysian', compact('products'));
+    }
+
+    public function indonesia()
+    {
+        $products = Products::where('products.status', 'active')
+            ->join('product_categories', 'products.category_id', '=', 'product_categories.id')
+            ->select('products.*', 'product_categories.super_category_id')
+            ->where('isIndonesia', 1)
+            ->get();
+
+        return view('AquaVist.pages.testIndonesian', compact('products'));
     }
 }

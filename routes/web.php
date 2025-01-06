@@ -7,13 +7,16 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProductCategoryController;
 use App\Http\Controllers\testProductController;
 use App\Http\Controllers\BlogController;
-use App\Http\Controllers\NewProductCategoryController;
 // --------------------------------------------------------------------------------------------------------
 // -------------------------------------------- Public Routes ---------------------------------------------
 // --------------------------------------------------------------------------------------------------------
 
 Route::get('/', function () {
     return view('AquaVist.pages.testHome');
+});
+
+Route::get('/home2', function () {
+    return view('AquaVist.pages.homePage');
 });
 
 Route::get('/about', function () {
@@ -43,18 +46,12 @@ Route::get('/blogs/{blog_url}', [BlogController::class, 'show'])->name('blog.sho
 Route::get('/contactus', function () {
     return view('AquaVist.pages.testContact');
 });
-
-Route::get('/Malaysian', function () {
-    return view('AquaVist.pages.testMalaysian');
-});
-
-Route::get('/Malaysian', [ProductController::class, 'getProducts'])->name('product.get');
-
-Route::get('/Indonesian', function () {
-    return view('AquaVist.pages.testIndonesian');
-});
-
 Route::post('/Contact', [ContactController::class, 'store'])->name('contact.store');
+
+Route::get('/Malaysian', [ProductController::class, 'malaysia'])->name('malaysia.get');
+
+Route::get('/Indonesian', [ProductController::class, 'indonesia'])->name('indonesia.get');
+
 
 // --------------------------------------------------------------------------------------------------------
 // --------------------------------------------- Admin Routes ---------------------------------------------
@@ -64,7 +61,6 @@ Route::post('/Contact', [ContactController::class, 'store'])->name('contact.stor
 Route::get('/dashboard', function () {
     return view('admin.dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
-
 
 // Routes for Products
 Route::get('/product-list', function () {
@@ -78,16 +74,15 @@ Route::post('/product/delete/{id}', [ProductController::class, 'delete'])->name(
 Route::get('/product/edit/{id}', [ProductController::class, 'edit'])->name('product.edit');
 Route::put('/product/update/{id}', [ProductController::class, 'update'])->name('product.update');
 
-
 // Routes for Product Categories
 Route::get('/categories', [ProductCategoryController::class, 'index'])->name('categories.index');
 Route::get('/categories/create', [ProductCategoryController::class, 'create'])->name('categories.create');
+
 // Route::post('/categories/store', [NewProductCategoryController::class, 'store'])->name('categories.store');
 Route::post('/categories/save', [ProductCategoryController::class, 'save'])->name('categories.save');
 Route::post('/categories/delete/{id}', [ProductCategoryController::class, 'delete'])->name('categories.delete');
 Route::get('/categories/edit/{id}', [ProductCategoryController::class, 'edit'])->name('categories.edit');
 Route::post('/categories/update/{id}', [ProductCategoryController::class, 'update'])->name('categories.update');
-
 
 //testproductcontorller
 Route::get('/product-categories', [testProductController::class, 'index'])->name('product.index');
@@ -102,8 +97,6 @@ Route::post('blogs/delete/{id}', [BlogController::class, 'delete'])->name('blogs
 Route::get('blogs/edit/{id}', [BlogController::class, 'edit'])->name('blogs.edit');
 Route::put('blogs/update/{id}', [BlogController::class, 'update'])->name('blogs.update');
 Route::post('categories/store', [BlogController::class, 'storeCategory'])->name('categories.store');
-
-
 
 // Middlewares
 Route::middleware('auth')->group(function () {
