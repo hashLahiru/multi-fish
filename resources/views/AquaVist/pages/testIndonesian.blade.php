@@ -135,6 +135,53 @@
             margin-top: 20px;
             overflow: hidden;
         }
+
+        @media (max-width: 768px) {
+            .row {
+                margin-right: calc(0* var(--bs-gutter-x)) !important;
+            }
+
+            .top-filters {
+                margin-left: -1pc !important;
+            }
+
+            .search-bar-mobile {
+                margin-left: 2pc !important;
+            }
+
+            .search-bar-container-2 {
+                margin-right: 0% !important;
+                margin-top: 10px !important;
+            }
+
+            .product-card {
+                margin-left: 1px !important;
+            }
+
+            .side-bar-menu-items {
+                height: 0px !important;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .margin-left-5pc {
+                margin-left: 5pc;
+            }
+
+            .row-desktop {
+                --bs-gutter-x: 1.5rem;
+                --bs-gutter-y: 0;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: calc(-1* var(--bs-gutter-y));
+                margin-right: calc(-.5* var(--bs-gutter-x));
+                margin-left: calc(-.5* var(--bs-gutter-x));
+            }
+
+            .product-card {
+                padding-left: 6pc;
+            }
+        }
     </style>
 
     <div id="page" class="hfeed site">
@@ -246,30 +293,31 @@
                                                         class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
                                                         <li id="menu-item-22"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home">
-                                                            <a href="/">Home</a>
+                                                            <a class="side-bar-menu-items" href="/">Home</a>
                                                         </li>
                                                         <li id="menu-item-1430"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1430">
-                                                            <a href="/about">About</a>
+                                                            <a class="side-bar-menu-items" href="/about">About</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="/product">Products</a>
+                                                            <a class="side-bar-menu-items" href="/product">Products</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="/gallery">Gallery</a>
+                                                            <a class="side-bar-menu-items" href="/gallery">Gallery</a>
                                                         </li>
                                                         <li id="menu-item-1429"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="/news">Blog</a>
+                                                            <a class="side-bar-menu-items" href="/news">Blog</a>
                                                         </li>
                                                         <li id="menu-item-1426"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1426">
-                                                            <a href="/contactus" aria-current="page">Contact</a>
+                                                            <a class="side-bar-menu-items" href="/contactus"
+                                                                aria-current="page">Contact</a>
                                                         </li>
                                                         <li id="menu-item-malaysia" class="menu-item">
-                                                            <a href="/Malaysian">
+                                                            <a class="side-bar-menu-items" href="/Malaysian">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="32"
                                                                     height="32" viewBox="0 0 32 32">
                                                                     <rect x="1" y="4" width="30" height="24"
@@ -310,7 +358,7 @@
                                                         </li>
                                                         <li id="menu-item-indonesia"
                                                             class="menu-item menu-item-22 current-menu-item page_item page-item-1291 current_page_item">
-                                                            <a href="/Indonesian">
+                                                            <a class="side-bar-menu-items" href="/Indonesian">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="32"
                                                                     height="32" viewBox="0 0 32 32">
                                                                     <path
@@ -568,17 +616,16 @@
                         <div class="elementor-widget-container">
                             <div
                                 class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_1064_2_675928918e3c5">
-                                <div class="heading-container"
+                                <div class="row heading-container"
                                     style="display: flex; align-items: center; justify-content: space-between;">
-                                    <div class="heading-section-title display-inline-block" style="flex: 1;">
+                                    <div class="col-md-7 col-12 heading-section-title display-inline-block"
+                                        style="flex: 1;">
                                         <h2 class="heading-title"
-                                            style="color: black; font-size: 35px; margin-left: 15%;">Buy Aquarium
-                                            Fish
-                                            Online</h2>
+                                            style="color: black; font-size: 35px; margin-left: 15%;">Products</h2>
                                     </div>
-                                    <div class="search-bar-container"
+                                    <div class="col-md-5 col-12 search-bar-container search-bar-container-2"
                                         style="display: flex; align-items: center; gap: 10px; margin-right: 11%;">
-                                        <input type="text" class="search-bar"
+                                        <input type="text" class="search-bar search-bar-mobile"
                                             style="color: rgb(0, 0, 0); border: 1px solid #464646; border-radius: 8px; width: 300px; height: 30px; padding: 10px;"
                                             placeholder="  Search for fish..." onkeyup="searchProducts(this.value)" />
                                         <button class="all-button"
@@ -590,9 +637,10 @@
                         </div>
                     </div>
 
-                    <div class="product-grid">
+                    <div class="row product-grid product-card">
                         @foreach ($products as $product)
-                            <div class="filterDiv fresh" data-category-id="{{ $product->super_category_id }}">
+                            <div class="col-12 col-md-2 filterDiv fresh"
+                                data-category-id="{{ $product->super_category_id }}">
                                 <img src="{{ asset($product->img1_url) }}" alt="Product Image" class="product-image">
                                 <div class="product-name"> {{ $product->pro_name }} </div>
                                 <div class="product-price">

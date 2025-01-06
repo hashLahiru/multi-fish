@@ -12,12 +12,12 @@ use App\Http\Controllers\BlogController;
 // --------------------------------------------------------------------------------------------------------
 
 Route::get('/', function () {
-    return view('AquaVist.pages.testHome');
-});
-
-Route::get('/home2', function () {
     return view('AquaVist.pages.homePage');
 });
+
+// Route::get('/home2', function () {
+//     return view('AquaVist.pages.homePage');
+// });
 
 Route::get('/about', function () {
     return view('AquaVist.pages.testAboutUs');
@@ -30,7 +30,7 @@ Route::get('/about', function () {
 Route::get('/product', [testProductController::class, 'index'])->name('product.index');
 
 Route::get('/gallery', function () {
-    return view('AquaVist.pages.testGallery');
+    return view('AquaVist.pages.galleryPage');
 });
 
 // Route::get('/Blog', function () {

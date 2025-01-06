@@ -328,7 +328,7 @@
             {{-- secion 2-------------------------------- --}}
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-a141fb4 elementor-section-full_width elementor-reverse-tablet elementor-reverse-mobile elementor-section-height-default elementor-section-height-default"
-                data-id="a141fb4" data-element_type="section">
+                data-id="a141fb4" data-element_type="section" style="margin-top:0; ">
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3a7bb39 elementor-hidden-tablet elementor-hidden-phone"
                         data-id="3a7bb39" data-element_type="column" width="100px">
