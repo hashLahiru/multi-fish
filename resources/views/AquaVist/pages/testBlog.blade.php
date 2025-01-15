@@ -10,7 +10,7 @@
             }
         }
     </style>
-    <div id="page" class="hfeed site">
+    <div id="page" class="hfeed site info">
         <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
             <p class="main-title bhf-hidden" itemprop="headline"><a href="https://templatekit.jegtheme.com/aquavist"
                     title="Aquavist" rel="home">Aquavist</a></p>

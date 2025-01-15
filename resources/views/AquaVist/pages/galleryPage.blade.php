@@ -47,6 +47,46 @@
                                 <div class="elementor-element elementor-element-3a0d81f elementor-icon-list--layout-inline elementor-align-right elementor-tablet-align-right elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
                                     data-id="3a0d81f" data-element_type="widget" data-widget_type="icon-list.default">
                                     <div class="elementor-widget-container">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-6690580 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="6690580" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-06e5ad6"
+                            data-id="06e5ad6" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-df5b3d7 elementor-widget elementor-widget-image"
+                                    data-id="df5b3d7" data-element_type="widget" data-widget_type="image.default">
+                                    <div class="elementor-widget-container">
+                                        <img width="800" height="279"
+                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}"
+                                            class="attachment-large size-large wp-image-662" alt=""
+                                            decoding="async"
+                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  2048w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  1000w"
+                                            sizes="(max-width: 800px) 100vw, 800px" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-444baf3"
+                            data-id="444baf3" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-ed57b6e elementor-widget__width-auto elementor-widget elementor-widget-jkit_nav_menu"
+                                    data-id="ed57b6e" data-element_type="widget"
+                                    data-widget_type="jkit_nav_menu.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="jeg-elementor-kit jkit-nav-menu break-point-tablet submenu-click-title jeg_module_1129__67592896a197e"
+                                            data-item-indicator="&lt;i aria-hidden=&quot;true&quot; class=&quot;jki jki-angle-down-solid&quot;&gt;&lt;/i&gt;">
+                                            <button class="jkit-hamburger-menu"><i aria-hidden="true"
+                                                    class="jki jki-menu1-light"></i></button>
+                                            <div class="jkit-menu-wrapper">
+                                                <div class="jkit-menu-container">
                                         <ul id="menu-menu-1"
                                             class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
                                             <li id="menu-item-22"
@@ -132,106 +172,6 @@
                                                 </a>
                                             </li>
                                         </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-6690580 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                    data-id="6690580" data-element_type="section">
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-06e5ad6"
-                            data-id="06e5ad6" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-df5b3d7 elementor-widget elementor-widget-image"
-                                    data-id="df5b3d7" data-element_type="widget" data-widget_type="image.default">
-                                    <div class="elementor-widget-container">
-                                        <img width="800" height="279"
-                                            src="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}"
-                                            class="attachment-large size-large wp-image-662" alt=""
-                                            decoding="async"
-                                            srcset="{{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  1024w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  300w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  768w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }} 1536w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  2048w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  800w, {{ asset('AquaVist/wp-content/uploads/sites/129/2021/08/logo3-Q2SAW4M-1024x357.png') }}  1000w"
-                                            sizes="(max-width: 800px) 100vw, 800px" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-444baf3"
-                            data-id="444baf3" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-ed57b6e elementor-widget__width-auto elementor-widget elementor-widget-jkit_nav_menu"
-                                    data-id="ed57b6e" data-element_type="widget"
-                                    data-widget_type="jkit_nav_menu.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="jeg-elementor-kit jkit-nav-menu break-point-tablet submenu-click-title jeg_module_1129__67592896a197e"
-                                            data-item-indicator="&lt;i aria-hidden=&quot;true&quot; class=&quot;jki jki-angle-down-solid&quot;&gt;&lt;/i&gt;">
-                                            <button class="jkit-hamburger-menu"><i aria-hidden="true"
-                                                    class="jki jki-menu1-light"></i></button>
-                                            <div class="jkit-menu-wrapper">
-                                                <div class="jkit-menu-container">
-                                                    <ul id="menu-menu-1"
-                                                        class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
-                                                        <li id="menu-item-22"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-22">
-                                                            <a href="../index.html">Home</a>
-                                                        </li>
-                                                        <li id="menu-item-1430"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1430">
-                                                            <a href="../about/index.html">About</a>
-                                                        </li>
-                                                        <li id="menu-item-1429"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1429">
-                                                            <a href="../services/index.html">Services</a>
-                                                        </li>
-                                                        <li id="menu-item-8"
-                                                            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-8">
-                                                            <a href="#">Pages</a>
-                                                            <ul class="sub-menu">
-                                                                <li id="menu-item-1435"
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1435">
-                                                                    <a href="../pricing/index.html">Pricing</a>
-                                                                </li>
-                                                                <li id="menu-item-1434"
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1129 current_page_item menu-item-1434">
-                                                                    <a href="index.html" aria-current="page">Gallery</a>
-                                                                </li>
-                                                                <li id="menu-item-1433"
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1433">
-                                                                    <a href="../events/index.html">Events</a>
-                                                                </li>
-                                                                <li id="menu-item-1432"
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1432">
-                                                                    <a href="../faq/index.html">FAQ</a>
-                                                                </li>
-                                                                <li id="menu-item-1431"
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1431">
-                                                                    <a href="../404-page/index.html">404 Page</a>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                        <li id="menu-item-1427"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1427">
-                                                            <a href="../blog/index.html">Blog</a>
-                                                            <ul class="sub-menu">
-                                                                <li id="menu-item-1425"
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
-                                                                    <a href="../blog/index.html">Blog</a>
-                                                                </li>
-                                                                <li id="menu-item-1428"
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1428">
-                                                                    <a
-                                                                        href="../2021/08/07/different-aquariums-for-different-ideas/index.html">Single
-                                                                        Post</a>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                        <li id="menu-item-1426"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1426">
-                                                            <a href="../contact/index.html">Contact</a>
-                                                        </li>
-                                                    </ul>
                                                 </div>
                                                 <div class="jkit-nav-identity-panel">
                                                     <div class="jkit-nav-site-title"><a

@@ -180,7 +180,7 @@
         }
     </style>
 
-    <div id="page" class="hfeed site">
+    <div id="page" class="hfeed site info">
         <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
             <p class="main-title bhf-hidden" itemprop="headline"><a href="https://templatekit.jegtheme.com/aquavist"
                     title="Aquavist" rel="home">Aquavist</a></p>
@@ -288,7 +288,7 @@
                                                     <ul id="menu-menu-1"
                                                         class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
                                                         <li id="menu-item-22"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-22 current-menu-item page_item page-item-1291 current_page_item">
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-22">
                                                             <a class="side-bar-menu-items" href="/">Home</a>
                                                         </li>
                                                         <li id="menu-item-1430"
